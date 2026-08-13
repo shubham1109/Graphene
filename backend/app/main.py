@@ -1,7 +1,10 @@
 from contextlib import asynccontextmanager
+from pathlib import Path
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 
 from app import db as db_module
 from app.config import get_settings
@@ -56,3 +59,30 @@ async def health() -> dict:
         status = "degraded"
         detail = str(exc)
     return {"status": status, "database": detail or "connected", "version": app.version}
+
+
+# In production the built SPA is served from the same origin as the API: hashed
+# assets straight off disk, every other path falling back to index.html so
+# client-side routes survive a hard refresh.
+_static_dir = Path(settings.static_dir).resolve() if settings.static_dir else None
+if _static_dir and _static_dir.is_dir():
+    _index = _static_dir / "index.html"
+
+    if (_static_dir / "assets").is_dir():
+        app.mount("/assets", StaticFiles(directory=_static_dir / "assets"), name="assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    async def spa(full_path: str) -> FileResponse:
+        # Unmatched API paths are genuine 404s, not the SPA shell.
+        if full_path.startswith("api/"):
+            raise HTTPException(status_code=404, detail="Not found")
+        candidate = (_static_dir / full_path).resolve()
+        if (
+            full_path
+            and candidate.is_file()
+            and candidate.is_relative_to(_static_dir)
+        ):
+            return FileResponse(candidate)
+        if not _index.is_file():
+            raise HTTPException(status_code=404, detail="Not found")
+        return FileResponse(_index)

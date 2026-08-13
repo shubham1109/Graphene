@@ -72,6 +72,8 @@ class S3Storage(Storage):
             "s3",
             endpoint_url=settings.s3_endpoint_url or None,
             region_name=settings.s3_region,
+            aws_access_key_id=settings.aws_access_key_id or None,
+            aws_secret_access_key=settings.aws_secret_access_key or None,
         )
 
     def put(self, key: str, data: bytes) -> str:

@@ -18,9 +18,18 @@ class Settings(BaseSettings):
     s3_bucket: str = ""
     s3_endpoint_url: str = ""
     s3_region: str = "us-east-1"
+    # Read explicitly so credentials in .env work the same as real env vars;
+    # left blank, boto3 falls back to its own resolution chain (instance role,
+    # ~/.aws/credentials, AWS_* in the environment).
+    aws_access_key_id: str = ""
+    aws_secret_access_key: str = ""
 
     cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
     max_upload_bytes: int = 25 * 1024 * 1024
+
+    # Directory holding the built frontend. Empty (the dev default) means the API
+    # runs on its own and Vite serves the SPA.
+    static_dir: str = ""
 
     @property
     def cors_origin_list(self) -> list[str]:

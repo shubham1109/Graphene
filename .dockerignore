@@ -1,0 +1,12 @@
+**/node_modules
+**/dist
+**/__pycache__
+**/*.py[cod]
+backend/.venv
+backend/var
+backend/.pytest_cache
+**/.ruff_cache
+**/.env
+**/.env.local
+.git
+.claude
