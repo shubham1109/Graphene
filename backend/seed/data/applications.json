@@ -1,0 +1,87 @@
+[
+  {
+    "key": "electronics_photonics",
+    "name": "Electronics / photonics",
+    "description": "Transparent conductive films, RF transistors, photodetectors and optical modulators. Demands continuous, near-defect-free monolayer with high carrier mobility.",
+    "target_forms": ["monolayer", "bilayer"],
+    "criteria": {
+      "id_ig": {"max": 0.1, "label": "I(D)/I(G)", "weight": 1.5},
+      "co_ratio": {"min": 20.0, "label": "C/O ratio", "weight": 1.2},
+      "i2d_ig": {"min": 1.6, "label": "I(2D)/I(G)", "weight": 1.2},
+      "fwhm_2d_cm1": {"max": 45.0, "label": "FWHM(2D)", "weight": 1.0}
+    },
+    "notes": "BET is not meaningful for a supported continuous film. Sheet resistance and optical transmittance are the commercial acceptance criteria."
+  },
+  {
+    "key": "polymer_composites",
+    "name": "Polymer composites",
+    "description": "Mechanical reinforcement and barrier improvement in thermoplastics, thermosets and elastomers. Needs high aspect ratio, low defect density and good dispersibility.",
+    "target_forms": ["few_layer", "multilayer_gnp"],
+    "criteria": {
+      "id_ig": {"max": 0.5, "label": "I(D)/I(G)", "weight": 1.3},
+      "co_ratio": {"min": 15.0, "label": "C/O ratio", "weight": 1.0},
+      "bet_m2_g": {"min": 100.0, "max": 500.0, "label": "BET surface area", "weight": 1.0},
+      "flake_size_um": {"min": 2.0, "label": "Flake size", "weight": 0.8}
+    },
+    "notes": "Aspect ratio drives reinforcement; very high BET usually signals small flakes that reinforce poorly and raise viscosity."
+  },
+  {
+    "key": "coatings_anticorrosion",
+    "name": "Coatings / anti-corrosion",
+    "description": "Barrier coatings and anti-corrosion primers where platelets create a tortuous diffusion path for water and ions.",
+    "target_forms": ["multilayer_gnp", "reduced_graphene_oxide", "few_layer"],
+    "criteria": {
+      "id_ig": {"max": 0.8, "label": "I(D)/I(G)", "weight": 1.0},
+      "co_ratio": {"min": 10.0, "label": "C/O ratio", "weight": 1.0},
+      "bet_m2_g": {"min": 100.0, "max": 400.0, "label": "BET surface area", "weight": 1.0},
+      "flake_size_um": {"min": 3.0, "label": "Flake size", "weight": 1.1}
+    },
+    "notes": "Large lateral size matters more than perfect crystallinity. Electrically percolating graphene can accelerate galvanic corrosion on steel, so check the coating formulation."
+  },
+  {
+    "key": "batteries_supercapacitors",
+    "name": "Batteries (Li-ion, supercapacitor)",
+    "description": "Conductive additive and active-material scaffold in Li-ion electrodes and EDLC supercapacitors. Some defectivity and residual oxygen are beneficial for ion access and wetting.",
+    "target_forms": ["reduced_graphene_oxide", "few_layer"],
+    "criteria": {
+      "id_ig": {"min": 0.5, "max": 1.0, "label": "I(D)/I(G)", "weight": 1.2},
+      "co_ratio": {"min": 5.0, "max": 15.0, "label": "C/O ratio", "weight": 1.2},
+      "bet_m2_g": {"min": 300.0, "max": 800.0, "label": "BET surface area", "weight": 1.3}
+    },
+    "notes": "Unlike most applications, a pristine low-defect flake is not preferred: edge sites and mesoporosity carry the capacity."
+  },
+  {
+    "key": "concrete_cement",
+    "name": "Concrete / cement admixture",
+    "description": "Nucleation seeding and crack-bridging in cementitious systems at very low dose. Requires stable aqueous dispersion in a high-pH, high-ionic-strength environment.",
+    "target_forms": ["graphene_oxide", "turbostratic"],
+    "criteria": {
+      "id_ig": {"min": 0.5, "max": 1.5, "label": "I(D)/I(G)", "weight": 1.0},
+      "co_ratio": {"min": 1.5, "max": 5.0, "label": "C/O ratio (GO route)", "weight": 1.2}
+    },
+    "notes": "Two distinct routes qualify: oxidised GO (C/O 1.5-5) dispersing via surface charge, and flash/turbostratic graphene (C/O > 20) dispersing via surfactant. The C/O check applies to the GO route; turbostratic samples are matched on form instead."
+  },
+  {
+    "key": "printed_inks",
+    "name": "Printed / conductive inks",
+    "description": "Screen, inkjet and flexographic inks for printed electronics, RFID antennas and sensors. Flake size must respect the nozzle or mesh, and rheology must be stable.",
+    "target_forms": ["graphene_oxide", "multilayer_gnp", "few_layer", "reduced_graphene_oxide"],
+    "criteria": {
+      "id_ig": {"min": 0.3, "max": 1.0, "label": "I(D)/I(G)", "weight": 1.0},
+      "flake_size_um": {"max": 10.0, "label": "Flake size", "weight": 1.2}
+    },
+    "notes": "C/O is route-dependent: GO inks are reduced after printing, while GNP inks are used as-is. Flakes above roughly 10 um clog inkjet nozzles."
+  },
+  {
+    "key": "fire_retardants",
+    "name": "Fire retardants",
+    "description": "Char-forming and barrier additive in polymer flame-retardant packages, typically alongside intumescent systems.",
+    "target_forms": ["multilayer_gnp", "few_layer"],
+    "criteria": {
+      "id_ig": {"max": 0.5, "label": "I(D)/I(G)", "weight": 1.0},
+      "co_ratio": {"min": 15.0, "label": "C/O ratio", "weight": 1.0},
+      "bet_m2_g": {"min": 100.0, "max": 300.0, "label": "BET surface area", "weight": 1.0}
+    },
+    "notes": "Thermal stability of the flake matters: residual oxygen groups decompose exothermically well below the target service temperature."
+  }
+]

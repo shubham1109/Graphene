@@ -1,0 +1,151 @@
+# Graphene Benchmarker
+
+Upload a graphene sample's Raman, XPS and property data. The app fits the spectra,
+quantifies the surface chemistry, classifies the material form, benchmarks it against
+open reference datasets, recommends applications, and finds the closest commercial
+products from global producers.
+
+```
+backend/    FastAPI + numpy/scipy/lmfit analysis engines, MongoDB, JWT auth
+frontend/   React + TypeScript + Vite + Tailwind + Plotly dashboard
+```
+
+## Quick start
+
+### 1. Backend
+
+```bash
+cd backend
+python3 -m venv .venv && ./.venv/bin/pip install -r requirements.txt
+cp .env.example .env          # then set MONGODB_URI and JWT_SECRET
+./.venv/bin/python -m seed.seed          # load the reference library
+./.venv/bin/uvicorn app.main:app --reload --port 8100
+```
+
+`MONGODB_URI` accepts an Atlas SRV string or a local `mongod`. Generate a signing key
+with `python -c "import secrets;print(secrets.token_urlsafe(48))"`.
+
+A local MongoDB on macOS:
+
+```bash
+brew tap mongodb/brew && brew trust mongodb/brew
+brew install mongodb-community
+brew services start mongodb-community    # listens on localhost:27017
+```
+
+API docs are at `http://localhost:8100/docs`.
+
+> **Port note:** `8000` and `8010` are already taken on this machine by unrelated
+> services, which is why the commands above use `8100`. To find a free port:
+> `python -c "import socket;s=socket.socket();s.bind(('127.0.0.1',0));print(s.getsockname()[1])"`
+
+### 2. Frontend
+
+```bash
+cd frontend
+npm install
+VITE_API_TARGET=http://127.0.0.1:8100 npm run dev     # http://localhost:5173
+```
+
+The proxy defaults to `http://127.0.0.1:8000`, so pass `VITE_API_TARGET` whenever the
+backend is on a different port. Vite binds IPv6 `localhost` only — use
+`http://localhost:5173`, not `127.0.0.1`.
+
+### No MongoDB handy?
+
+A development server backed by an in-memory database, with a seeded demo account and a
+completed analysis:
+
+```bash
+cd backend
+./.venv/bin/python -m scripts.dev_mock_server --demo --port 8000
+# demo@example.com / demo-password-123
+```
+
+Nothing persists across restarts. Development only.
+
+## Tests
+
+```bash
+cd backend && ./.venv/bin/python -m pytest         # ~4 min; real curve fits
+```
+
+- `tests/test_parsers.py` — delimiter/encoding sniffing, vendor headers, VAMAS, spec sheets
+- `tests/test_analysis.py` — engines against synthetic spectra with known ground truth
+- `tests/test_api.py` — the full HTTP surface against an in-memory MongoDB
+
+```bash
+cd frontend && npm run build                      # typecheck + production build
+```
+
+## What the analysis actually does
+
+### Raman
+
+1. **Baseline** — arPLS (Baek et al., *Analyst* 140, 250), with the smoothing parameter
+   derived from the sampling interval so the result does not depend on how densely the
+   instrument sampled the spectrum.
+2. **Peak fitting** — pseudo-Voigt for D, G, D′, D3, 2D and D+D′. Optional bands are
+   admitted only when they lower AIC and clear the noise floor; a band fitted below
+   4σ is either rejected (2D, optional bands) or kept and flagged as an upper limit
+   (D, G), because a near-absent D band is the headline result for pristine material.
+3. **Metrics** — I(D)/I(G), I(2D)/I(G), FWHM(2D), crystallite size *L*ₐ and defect
+   density *n*_D via Cançado (*APL* 88, 163106 and *Nano Lett.* 11, 3190). Both scale as
+   λ⁴, so the excitation wavelength is read from the file header or set explicitly. The
+   defect metrics are suppressed above I(D)/I(G) ≈ 1, past the Tuinstra–Koenig maximum
+   where the relations become double-valued.
+4. **Layer count** — from 2D width and I(2D)/I(G), with band *shape* overriding width
+   for AB-stacked bilayers (a four-component 2D envelope is as wide as few-layer
+   material). A 2D band broader than 95 cm⁻¹ is the quenched remnant seen in GO/rGO and
+   yields no layer count at all. Single-Lorentzian 2D is detected by comparing residual
+   sums of squares against a four-component fit, which is robust to baseline error in a
+   way an R² or AIC comparison is not.
+
+### XPS
+
+1. **Charge referencing** — anchored to the *lowest*-binding-energy carbon maximum, not
+   the tallest peak: in heavily oxidised material the C–O component outgrows the
+   graphitic line and would drag the energy scale ~2 eV off.
+2. **Background** — iterative Shirley.
+3. **Deconvolution** — asymmetric sp² plus sp³, C–O, C=O, O–C=O and the π–π\* shake-up,
+   sharing one line width. The sp² asymmetry is held fixed at an HOPG-calibrated value;
+   letting it float makes the sp²/sp³ split arbitrary, since an unconstrained tail is
+   nearly degenerate with an sp³ component 0.7 eV away.
+4. **Quantification** — Scofield cross-sections with a KE^0.6 transmission correction.
+   Validated to ~2% on synthetic data. The sp²/sp³ split carries roughly ±10 percentage
+   points depending on the true lineshape, and the report says so.
+
+### Classification, Module A, Module B
+
+- Fuzzy rule scoring over the available Raman + XPS metrics, normalised by the evidence
+  actually present so a Raman-only sample stays comparable. Confidence folds in the
+  margin over the runner-up, so a near-tie never reads as certain.
+- Applications are scored per criterion with graded margins (a comfortable pass outranks
+  a marginal one), and the verdict comes from the criteria themselves rather than a
+  threshold on the score. Mismatches are stated in plain language.
+- Peer matching uses a weighted Gower-style distance, log-scaled for span-heavy features
+  and normalised by how much the catalogue actually varies in each, with a penalty for
+  a different physical form rather than a hard filter.
+
+## Reference library
+
+`backend/seed/data/` holds curated JSON: 11 Raman and 6 XPS reference points, 8 DFT and
+experimental property records, 7 applications, and 44 commercial products from 25
+producers. Every record carries source, DOI or URL, version and retrieval date, and the
+report cites what it used.
+
+Overlay traces are **synthesised from published peak parameters**, not raw dataset files —
+the published parameters are what the literature reports. The UI states this. Drop real
+dataset files in and extend the seed script to ingest them when you want true traces.
+
+Producer specs are **nominal grade values compiled from public datasheets, not batch
+certificates**. Values not quoted on a datasheet (usually I(D)/I(G) and C/O) are
+representative estimates for the product class. Confirm current-batch specs with the
+vendor.
+
+## Not built yet
+
+Phase 6 items: PDF export (WeasyPrint/ReportLab), and batch-comparison views across
+samples. Analysis history is implemented — each run is stored and selectable per sample.
+Instrument-native binary formats (Renishaw `.wdf`, Bruker `.opus`) are rejected with a
+message telling the user to export to CSV.

@@ -1,0 +1,376 @@
+[
+  {
+    "key": "raman_cvd_monolayer_sio2",
+    "technique": "raman",
+    "material_class": "monolayer",
+    "label": "CVD monolayer graphene on SiO2/Si",
+    "excitation_nm": 532.0,
+    "metrics": {"id_ig": 0.04, "i2d_ig": 2.6, "fwhm_2d_cm1": 30.0, "g_position_cm1": 1583.0},
+    "peaks": [
+      {"name": "D", "center_cm1": 1345.0, "fwhm_cm1": 22.0, "relative_height": 0.04},
+      {"name": "G", "center_cm1": 1583.0, "fwhm_cm1": 14.0, "relative_height": 1.0},
+      {"name": "2D", "center_cm1": 2679.0, "fwhm_cm1": 30.0, "relative_height": 2.6}
+    ],
+    "provenance": {
+      "source": "HORIBA / Renishaw published graphene reference peak positions, cross-checked against Ferrari et al., Phys. Rev. Lett. 97, 187401 (2006)",
+      "doi": "10.1103/PhysRevLett.97.187401",
+      "url": "https://www.horiba.com/int/scientific/technologies/raman-imaging-and-spectroscopy/graphene/",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "Curated peak parameters, not a raw dataset trace. The overlay curve is synthesised from these parameters."
+    }
+  },
+  {
+    "key": "raman_cvd_bilayer",
+    "technique": "raman",
+    "material_class": "bilayer",
+    "label": "AB-stacked bilayer graphene",
+    "excitation_nm": 532.0,
+    "metrics": {"id_ig": 0.06, "i2d_ig": 1.05, "fwhm_2d_cm1": 52.0, "g_position_cm1": 1582.0},
+    "peaks": [
+      {"name": "D", "center_cm1": 1346.0, "fwhm_cm1": 24.0, "relative_height": 0.06},
+      {"name": "G", "center_cm1": 1582.0, "fwhm_cm1": 16.0, "relative_height": 1.0},
+      {"name": "2D", "center_cm1": 2696.0, "fwhm_cm1": 52.0, "relative_height": 1.05}
+    ],
+    "provenance": {
+      "source": "Ferrari et al., Phys. Rev. Lett. 97, 187401 (2006); Malard et al., Phys. Rep. 473, 51 (2009)",
+      "doi": "10.1016/j.physrep.2009.02.003",
+      "url": "https://doi.org/10.1016/j.physrep.2009.02.003",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "The 2D band of AB bilayer graphene is a four-component envelope; the synthesised overlay approximates it with a single broadened band."
+    }
+  },
+  {
+    "key": "raman_few_layer_lpe",
+    "technique": "raman",
+    "material_class": "few_layer",
+    "label": "Liquid-phase exfoliated few-layer graphene",
+    "excitation_nm": 532.0,
+    "metrics": {"id_ig": 0.35, "i2d_ig": 0.55, "fwhm_2d_cm1": 65.0, "g_position_cm1": 1580.0},
+    "peaks": [
+      {"name": "D", "center_cm1": 1348.0, "fwhm_cm1": 45.0, "relative_height": 0.35},
+      {"name": "G", "center_cm1": 1580.0, "fwhm_cm1": 20.0, "relative_height": 1.0},
+      {"name": "D'", "center_cm1": 1620.0, "fwhm_cm1": 22.0, "relative_height": 0.1},
+      {"name": "2D", "center_cm1": 2705.0, "fwhm_cm1": 65.0, "relative_height": 0.55}
+    ],
+    "provenance": {
+      "source": "Hernandez et al., Nature Nanotech. 3, 563 (2008); Paton et al., Nature Mater. 13, 624 (2014)",
+      "doi": "10.1038/nnano.2008.215",
+      "url": "https://doi.org/10.1038/nnano.2008.215",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "Defects in LPE material are predominantly edge defects from flake fragmentation rather than basal-plane damage."
+    }
+  },
+  {
+    "key": "raman_gnp_commercial",
+    "technique": "raman",
+    "material_class": "multilayer_gnp",
+    "label": "Commercial graphene nanoplatelets (GNP)",
+    "excitation_nm": 532.0,
+    "metrics": {"id_ig": 0.25, "i2d_ig": 0.35, "fwhm_2d_cm1": 78.0, "g_position_cm1": 1578.0},
+    "peaks": [
+      {"name": "D", "center_cm1": 1350.0, "fwhm_cm1": 50.0, "relative_height": 0.25},
+      {"name": "G", "center_cm1": 1578.0, "fwhm_cm1": 22.0, "relative_height": 1.0},
+      {"name": "2D", "center_cm1": 2715.0, "fwhm_cm1": 78.0, "relative_height": 0.35}
+    ],
+    "provenance": {
+      "source": "Representative of mechanically/thermally exfoliated GNP grades across public producer datasheets",
+      "doi": null,
+      "url": "https://www.graphene-info.com/graphene-producers",
+      "version": "2026.1",
+      "licence": "Compiled representative values",
+      "retrieved": "2026-08-12",
+      "note": "Composite of published GNP spectra; individual grades vary widely in defect level."
+    }
+  },
+  {
+    "key": "raman_go_hummers",
+    "technique": "raman",
+    "material_class": "graphene_oxide",
+    "label": "Graphene oxide (modified Hummers)",
+    "excitation_nm": 532.0,
+    "metrics": {"id_ig": 0.95, "g_position_cm1": 1595.0},
+    "peaks": [
+      {"name": "D", "center_cm1": 1350.0, "fwhm_cm1": 150.0, "relative_height": 0.95},
+      {"name": "G", "center_cm1": 1595.0, "fwhm_cm1": 90.0, "relative_height": 1.0}
+    ],
+    "provenance": {
+      "source": "Mendeley Data, Raman spectra of graphene-family materials (j2psxvn4dd); Marcano et al., ACS Nano 4, 4806 (2010)",
+      "doi": "10.17632/j2psxvn4dd.1",
+      "url": "https://data.mendeley.com/datasets/j2psxvn4dd",
+      "version": "2026.1",
+      "licence": "See dataset licence at source",
+      "retrieved": "2026-08-12",
+      "note": "The 2D band is quenched in GO; its absence is diagnostic rather than a measurement failure."
+    }
+  },
+  {
+    "key": "raman_rgo_thermal",
+    "technique": "raman",
+    "material_class": "reduced_graphene_oxide",
+    "label": "Thermally reduced graphene oxide",
+    "excitation_nm": 532.0,
+    "metrics": {"id_ig": 1.15, "i2d_ig": 0.18, "fwhm_2d_cm1": 200.0, "g_position_cm1": 1590.0},
+    "peaks": [
+      {"name": "D", "center_cm1": 1345.0, "fwhm_cm1": 130.0, "relative_height": 1.15},
+      {"name": "G", "center_cm1": 1590.0, "fwhm_cm1": 85.0, "relative_height": 1.0},
+      {"name": "2D", "center_cm1": 2690.0, "fwhm_cm1": 200.0, "relative_height": 0.18}
+    ],
+    "provenance": {
+      "source": "Newcastle University rGO XPS/Raman mapping dataset (10281680); Stankovich et al., Carbon 45, 1558 (2007)",
+      "doi": "10.1016/j.carbon.2007.02.034",
+      "url": "https://data.ncl.ac.uk/",
+      "version": "2026.1",
+      "licence": "See dataset licence at source",
+      "retrieved": "2026-08-12",
+      "note": "I(D)/I(G) rises on reduction relative to GO because reduction creates many small sp2 domains rather than restoring large ones."
+    }
+  },
+  {
+    "key": "raman_rgo_chemical",
+    "technique": "raman",
+    "material_class": "reduced_graphene_oxide",
+    "label": "Chemically reduced graphene oxide (hydrazine route)",
+    "excitation_nm": 532.0,
+    "metrics": {"id_ig": 1.05, "g_position_cm1": 1592.0},
+    "peaks": [
+      {"name": "D", "center_cm1": 1348.0, "fwhm_cm1": 140.0, "relative_height": 1.05},
+      {"name": "G", "center_cm1": 1592.0, "fwhm_cm1": 88.0, "relative_height": 1.0}
+    ],
+    "provenance": {
+      "source": "Stankovich et al., Carbon 45, 1558 (2007)",
+      "doi": "10.1016/j.carbon.2007.02.034",
+      "url": "https://doi.org/10.1016/j.carbon.2007.02.034",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "Hydrazine reduction leaves residual nitrogen, which is invisible to Raman but shows in an XPS survey."
+    }
+  },
+  {
+    "key": "raman_flash_turbostratic",
+    "technique": "raman",
+    "material_class": "turbostratic",
+    "label": "Flash Joule-heating turbostratic graphene",
+    "excitation_nm": 532.0,
+    "metrics": {"id_ig": 0.15, "i2d_ig": 0.9, "fwhm_2d_cm1": 55.0, "g_position_cm1": 1582.0},
+    "peaks": [
+      {"name": "D", "center_cm1": 1345.0, "fwhm_cm1": 35.0, "relative_height": 0.15},
+      {"name": "G", "center_cm1": 1582.0, "fwhm_cm1": 20.0, "relative_height": 1.0},
+      {"name": "2D", "center_cm1": 2690.0, "fwhm_cm1": 55.0, "relative_height": 0.9}
+    ],
+    "provenance": {
+      "source": "Luong et al., Nature 577, 647 (2020) - flash graphene from carbon feedstocks",
+      "doi": "10.1038/s41586-020-1938-0",
+      "url": "https://doi.org/10.1038/s41586-020-1938-0",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "Turbostratic stacking gives a symmetric single-Lorentzian 2D band despite the material being many layers thick, plus characteristic TS1/TS2 modes below 500 cm-1."
+    }
+  },
+  {
+    "key": "raman_hopg",
+    "technique": "raman",
+    "material_class": "multilayer_gnp",
+    "label": "HOPG (highly oriented pyrolytic graphite)",
+    "excitation_nm": 532.0,
+    "metrics": {"id_ig": 0.02, "i2d_ig": 0.45, "fwhm_2d_cm1": 62.0, "g_position_cm1": 1580.0},
+    "peaks": [
+      {"name": "G", "center_cm1": 1580.0, "fwhm_cm1": 14.0, "relative_height": 1.0},
+      {"name": "2D", "center_cm1": 2725.0, "fwhm_cm1": 62.0, "relative_height": 0.45}
+    ],
+    "provenance": {
+      "source": "Tuinstra & Koenig, J. Chem. Phys. 53, 1126 (1970); Ferrari & Robertson, Phys. Rev. B 61, 14095 (2000)",
+      "doi": "10.1063/1.1674108",
+      "url": "https://doi.org/10.1063/1.1674108",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "Upper bound on crystalline quality; useful as the zero-defect anchor of the defect-density ranking."
+    }
+  },
+  {
+    "key": "raman_nanocrystalline_graphite",
+    "technique": "raman",
+    "material_class": "amorphous_carbon",
+    "label": "Nanocrystalline / disordered graphitic carbon",
+    "excitation_nm": 532.0,
+    "metrics": {"id_ig": 1.6, "g_position_cm1": 1600.0},
+    "peaks": [
+      {"name": "D", "center_cm1": 1350.0, "fwhm_cm1": 90.0, "relative_height": 1.6},
+      {"name": "G", "center_cm1": 1600.0, "fwhm_cm1": 70.0, "relative_height": 1.0}
+    ],
+    "provenance": {
+      "source": "Ferrari & Robertson, Phys. Rev. B 61, 14095 (2000) - amorphisation trajectory",
+      "doi": "10.1103/PhysRevB.61.14095",
+      "url": "https://doi.org/10.1103/PhysRevB.61.14095",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "Stage 2 of the amorphisation trajectory, where I(D)/I(G) falls again with increasing disorder and the Cancado relations no longer apply."
+    }
+  },
+  {
+    "key": "raman_lift_printed",
+    "technique": "raman",
+    "material_class": "reduced_graphene_oxide",
+    "label": "LIFT-printed graphene (Zenodo 3597385)",
+    "excitation_nm": 532.0,
+    "metrics": {"id_ig": 0.9, "g_position_cm1": 1588.0},
+    "peaks": [
+      {"name": "D", "center_cm1": 1349.0, "fwhm_cm1": 120.0, "relative_height": 0.9},
+      {"name": "G", "center_cm1": 1588.0, "fwhm_cm1": 80.0, "relative_height": 1.0},
+      {"name": "2D", "center_cm1": 2695.0, "fwhm_cm1": 180.0, "relative_height": 0.22}
+    ],
+    "provenance": {
+      "source": "Zenodo record 3597385 - Raman spectra of LIFT-printed graphene",
+      "doi": "10.5281/zenodo.3597385",
+      "url": "https://zenodo.org/records/3597385",
+      "version": "2026.1",
+      "licence": "See record licence on Zenodo",
+      "retrieved": "2026-08-12",
+      "note": "Representative metric summary. Replace with the raw dataset traces via scripts/ingest_zenodo.py when network access is available."
+    }
+  },
+  {
+    "key": "xps_cvd_graphene",
+    "technique": "xps",
+    "material_class": "monolayer",
+    "label": "CVD graphene, C 1s",
+    "metrics": {"co_ratio": 25.0, "sp2_fraction": 0.8},
+    "peaks": [
+      {"name": "sp2", "binding_energy_ev": 284.4, "fwhm_ev": 0.8, "fraction": 0.8},
+      {"name": "sp3", "binding_energy_ev": 285.2, "fwhm_ev": 1.1, "fraction": 0.06},
+      {"name": "C-O", "binding_energy_ev": 286.4, "fwhm_ev": 1.2, "fraction": 0.05},
+      {"name": "C=O", "binding_energy_ev": 287.8, "fwhm_ev": 1.2, "fraction": 0.02},
+      {"name": "O-C=O", "binding_energy_ev": 288.9, "fwhm_ev": 1.2, "fraction": 0.02},
+      {"name": "pi-pi*", "binding_energy_ev": 290.9, "fwhm_ev": 2.0, "fraction": 0.05}
+    ],
+    "provenance": {
+      "source": "NIST X-ray Photoelectron Spectroscopy Database, SRD 20; XPSLibrary graphene page",
+      "doi": "10.18434/T4T88K",
+      "url": "https://srdata.nist.gov/xps/",
+      "version": "2026.1",
+      "licence": "NIST SRD 20 terms of use",
+      "retrieved": "2026-08-12",
+      "note": "Residual oxygen on as-transferred CVD graphene is dominated by transfer-polymer residue rather than basal-plane oxidation."
+    }
+  },
+  {
+    "key": "xps_go_hummers",
+    "technique": "xps",
+    "material_class": "graphene_oxide",
+    "label": "Graphene oxide (Hummers), C 1s",
+    "metrics": {"co_ratio": 2.2, "sp2_fraction": 0.35},
+    "peaks": [
+      {"name": "sp2", "binding_energy_ev": 284.6, "fwhm_ev": 1.1, "fraction": 0.35},
+      {"name": "sp3", "binding_energy_ev": 285.3, "fwhm_ev": 1.3, "fraction": 0.05},
+      {"name": "C-O", "binding_energy_ev": 286.8, "fwhm_ev": 1.3, "fraction": 0.4},
+      {"name": "C=O", "binding_energy_ev": 287.9, "fwhm_ev": 1.3, "fraction": 0.12},
+      {"name": "O-C=O", "binding_energy_ev": 288.9, "fwhm_ev": 1.3, "fraction": 0.08}
+    ],
+    "provenance": {
+      "source": "Mendeley Data 6p7345t8xr (graphene oxide XPS); Marcano et al., ACS Nano 4, 4806 (2010)",
+      "doi": "10.17632/6p7345t8xr.1",
+      "url": "https://data.mendeley.com/datasets/6p7345t8xr",
+      "version": "2026.1",
+      "licence": "See dataset licence at source",
+      "retrieved": "2026-08-12",
+      "note": "The C-O component near 286.8 eV dominating the sp2 line is the defining signature of a fully oxidised GO."
+    }
+  },
+  {
+    "key": "xps_rgo_thermal",
+    "technique": "xps",
+    "material_class": "reduced_graphene_oxide",
+    "label": "Thermally reduced GO, C 1s",
+    "metrics": {"co_ratio": 9.5, "sp2_fraction": 0.7},
+    "peaks": [
+      {"name": "sp2", "binding_energy_ev": 284.5, "fwhm_ev": 1.0, "fraction": 0.7},
+      {"name": "sp3", "binding_energy_ev": 285.2, "fwhm_ev": 1.2, "fraction": 0.1},
+      {"name": "C-O", "binding_energy_ev": 286.6, "fwhm_ev": 1.2, "fraction": 0.12},
+      {"name": "C=O", "binding_energy_ev": 287.8, "fwhm_ev": 1.2, "fraction": 0.05},
+      {"name": "O-C=O", "binding_energy_ev": 288.9, "fwhm_ev": 1.2, "fraction": 0.03}
+    ],
+    "provenance": {
+      "source": "Newcastle University rGO XPS mapping dataset (10281680); La Trobe University XPS database",
+      "doi": null,
+      "url": "https://data.ncl.ac.uk/",
+      "version": "2026.1",
+      "licence": "See dataset licence at source",
+      "retrieved": "2026-08-12",
+      "note": "C/O between roughly 5 and 15 is the practical definition of rGO; above 15 the material behaves as few-layer graphene."
+    }
+  },
+  {
+    "key": "xps_rgo_chemical",
+    "technique": "xps",
+    "material_class": "reduced_graphene_oxide",
+    "label": "Chemically reduced GO (hydrazine), C 1s",
+    "metrics": {"co_ratio": 8.0, "sp2_fraction": 0.65},
+    "peaks": [
+      {"name": "sp2", "binding_energy_ev": 284.5, "fwhm_ev": 1.0, "fraction": 0.65},
+      {"name": "sp3", "binding_energy_ev": 285.3, "fwhm_ev": 1.2, "fraction": 0.12},
+      {"name": "C-O", "binding_energy_ev": 286.5, "fwhm_ev": 1.2, "fraction": 0.14},
+      {"name": "C=O", "binding_energy_ev": 287.8, "fwhm_ev": 1.2, "fraction": 0.05},
+      {"name": "O-C=O", "binding_energy_ev": 288.9, "fwhm_ev": 1.2, "fraction": 0.04}
+    ],
+    "provenance": {
+      "source": "Stankovich et al., Carbon 45, 1558 (2007); La Trobe University XPS database",
+      "doi": "10.1016/j.carbon.2007.02.034",
+      "url": "https://www.latrobe.edu.au/school-molecular-sciences/facilities/x-ray-photoelectron-spectroscopy",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "Expect a residual N 1s signal near 400 eV from the hydrazine reductant; check the survey scan."
+    }
+  },
+  {
+    "key": "xps_hopg",
+    "technique": "xps",
+    "material_class": "multilayer_gnp",
+    "label": "HOPG, C 1s",
+    "metrics": {"co_ratio": 60.0, "sp2_fraction": 0.92},
+    "peaks": [
+      {"name": "sp2", "binding_energy_ev": 284.4, "fwhm_ev": 0.7, "fraction": 0.92},
+      {"name": "pi-pi*", "binding_energy_ev": 290.7, "fwhm_ev": 2.2, "fraction": 0.08}
+    ],
+    "provenance": {
+      "source": "NIST SRD 20; XPSLibrary carbon reference page",
+      "doi": "10.18434/T4T88K",
+      "url": "https://srdata.nist.gov/xps/",
+      "version": "2026.1",
+      "licence": "NIST SRD 20 terms of use",
+      "retrieved": "2026-08-12",
+      "note": "The cleanest available sp2 reference lineshape; the asymmetry of this line sets the model used in the C 1s fit."
+    }
+  },
+  {
+    "key": "xps_flash_graphene",
+    "technique": "xps",
+    "material_class": "turbostratic",
+    "label": "Flash / turbostratic graphene, C 1s",
+    "metrics": {"co_ratio": 25.0, "sp2_fraction": 0.85},
+    "peaks": [
+      {"name": "sp2", "binding_energy_ev": 284.4, "fwhm_ev": 0.9, "fraction": 0.85},
+      {"name": "sp3", "binding_energy_ev": 285.2, "fwhm_ev": 1.1, "fraction": 0.05},
+      {"name": "C-O", "binding_energy_ev": 286.5, "fwhm_ev": 1.2, "fraction": 0.04},
+      {"name": "pi-pi*", "binding_energy_ev": 290.8, "fwhm_ev": 2.0, "fraction": 0.06}
+    ],
+    "provenance": {
+      "source": "Luong et al., Nature 577, 647 (2020)",
+      "doi": "10.1038/s41586-020-1938-0",
+      "url": "https://doi.org/10.1038/s41586-020-1938-0",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "Flash graphene is solvent-free and carries little oxygen despite being produced from waste carbon feedstocks."
+    }
+  }
+]

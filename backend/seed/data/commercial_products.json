@@ -1,0 +1,442 @@
+[
+  {
+    "key": "first_graphene_puregraph_5",
+    "producer": "First Graphene",
+    "product_name": "PureGRAPH 5",
+    "form": "gnp_few_layer",
+    "region": "AU",
+    "datasheet_url": "https://firstgraphene.net/products/puregraph/",
+    "specs": {"flake_size_um": 5.0, "thickness_nm": 2.0, "bet_m2_g": 60.0, "carbon_purity_pct": 99.5, "id_ig": 0.25, "co_ratio": 25.0, "layers": 5.0},
+    "spec_notes": {"flake_size_um": "D50 lateral dimension", "id_ig": "Typical value; not always quoted on the datasheet"}
+  },
+  {
+    "key": "first_graphene_puregraph_10",
+    "producer": "First Graphene",
+    "product_name": "PureGRAPH 10",
+    "form": "gnp_few_layer",
+    "region": "AU",
+    "datasheet_url": "https://firstgraphene.net/products/puregraph/",
+    "specs": {"flake_size_um": 10.0, "thickness_nm": 2.5, "bet_m2_g": 40.0, "carbon_purity_pct": 99.5, "id_ig": 0.22, "co_ratio": 27.0, "layers": 6.0},
+    "spec_notes": {"flake_size_um": "D50 lateral dimension"}
+  },
+  {
+    "key": "first_graphene_puregraph_20",
+    "producer": "First Graphene",
+    "product_name": "PureGRAPH 20",
+    "form": "gnp_few_layer",
+    "region": "AU",
+    "datasheet_url": "https://firstgraphene.net/products/puregraph/",
+    "specs": {"flake_size_um": 20.0, "thickness_nm": 3.0, "bet_m2_g": 25.0, "carbon_purity_pct": 99.5, "id_ig": 0.2, "co_ratio": 30.0, "layers": 8.0},
+    "spec_notes": {"flake_size_um": "D50 lateral dimension"}
+  },
+  {
+    "key": "nanoxplore_grapheneblack_3x",
+    "producer": "NanoXplore",
+    "product_name": "GrapheneBlack 3X",
+    "form": "gnp_few_layer",
+    "region": "CA",
+    "datasheet_url": "https://nanoxplore.ca/graphene-products/",
+    "specs": {"flake_size_um": 3.0, "thickness_nm": 5.0, "bet_m2_g": 120.0, "carbon_purity_pct": 98.0, "id_ig": 0.35, "co_ratio": 20.0, "layers": 12.0},
+    "spec_notes": {"carbon_purity_pct": "Graphite-derived; ash content varies by grade"}
+  },
+  {
+    "key": "nanoxplore_grapheneblack_1x",
+    "producer": "NanoXplore",
+    "product_name": "GrapheneBlack 1X",
+    "form": "gnp_few_layer",
+    "region": "CA",
+    "datasheet_url": "https://nanoxplore.ca/graphene-products/",
+    "specs": {"flake_size_um": 7.0, "thickness_nm": 8.0, "bet_m2_g": 70.0, "carbon_purity_pct": 97.0, "id_ig": 0.3, "co_ratio": 18.0, "layers": 20.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "nanoxplore_rgo",
+    "producer": "NanoXplore",
+    "product_name": "Reduced graphene oxide grade",
+    "form": "rgo",
+    "region": "CA",
+    "datasheet_url": "https://nanoxplore.ca/graphene-products/",
+    "specs": {"flake_size_um": 2.0, "bet_m2_g": 400.0, "id_ig": 1.1, "co_ratio": 9.0, "layers": 3.0},
+    "spec_notes": {"co_ratio": "Reduction level is adjustable to order"}
+  },
+  {
+    "key": "xg_sciences_xgnp_c300",
+    "producer": "XG Sciences",
+    "product_name": "xGnP C-300",
+    "form": "gnp_few_layer",
+    "region": "US",
+    "datasheet_url": "https://xgsciences.com/materials/",
+    "specs": {"flake_size_um": 1.5, "thickness_nm": 2.0, "bet_m2_g": 300.0, "carbon_purity_pct": 99.0, "id_ig": 0.45, "co_ratio": 18.0, "layers": 5.0},
+    "spec_notes": {"bet_m2_g": "The C-grade numeric suffix is the nominal BET surface area"}
+  },
+  {
+    "key": "xg_sciences_xgnp_c500",
+    "producer": "XG Sciences",
+    "product_name": "xGnP C-500",
+    "form": "gnp_few_layer",
+    "region": "US",
+    "datasheet_url": "https://xgsciences.com/materials/",
+    "specs": {"flake_size_um": 1.0, "thickness_nm": 1.5, "bet_m2_g": 500.0, "carbon_purity_pct": 99.0, "id_ig": 0.55, "co_ratio": 16.0, "layers": 4.0},
+    "spec_notes": {"bet_m2_g": "The C-grade numeric suffix is the nominal BET surface area"}
+  },
+  {
+    "key": "xg_sciences_xgnp_c750",
+    "producer": "XG Sciences",
+    "product_name": "xGnP C-750",
+    "form": "gnp_few_layer",
+    "region": "US",
+    "datasheet_url": "https://xgsciences.com/materials/",
+    "specs": {"flake_size_um": 0.8, "thickness_nm": 1.2, "bet_m2_g": 750.0, "carbon_purity_pct": 99.0, "id_ig": 0.65, "co_ratio": 14.0, "layers": 3.0},
+    "spec_notes": {"bet_m2_g": "The C-grade numeric suffix is the nominal BET surface area"}
+  },
+  {
+    "key": "xg_sciences_xgnp_m25",
+    "producer": "XG Sciences",
+    "product_name": "xGnP M-25",
+    "form": "gnp_few_layer",
+    "region": "US",
+    "datasheet_url": "https://xgsciences.com/materials/",
+    "specs": {"flake_size_um": 25.0, "thickness_nm": 7.0, "bet_m2_g": 130.0, "carbon_purity_pct": 99.5, "id_ig": 0.18, "co_ratio": 28.0, "layers": 20.0},
+    "spec_notes": {"flake_size_um": "The M-grade numeric suffix is the nominal lateral size in microns"}
+  },
+  {
+    "key": "directa_plus_g_plus_pure",
+    "producer": "Directa Plus",
+    "product_name": "Pure G+",
+    "form": "gnp_few_layer",
+    "region": "IT",
+    "datasheet_url": "https://www.directa-plus.com/g-products/",
+    "specs": {"flake_size_um": 8.0, "thickness_nm": 3.0, "bet_m2_g": 100.0, "carbon_purity_pct": 99.0, "id_ig": 0.3, "co_ratio": 22.0, "layers": 8.0},
+    "spec_notes": {"co_ratio": "Produced by a plasma super-expansion route, so oxygen is low without chemical reduction"}
+  },
+  {
+    "key": "directa_plus_g_plus_ultra",
+    "producer": "Directa Plus",
+    "product_name": "Ultra G+ dispersion",
+    "form": "ink_dispersion",
+    "region": "IT",
+    "datasheet_url": "https://www.directa-plus.com/g-products/",
+    "specs": {"flake_size_um": 3.0, "thickness_nm": 2.0, "bet_m2_g": 150.0, "id_ig": 0.4, "co_ratio": 18.0, "layers": 6.0},
+    "spec_notes": {"flake_size_um": "Milled for dispersion stability"}
+  },
+  {
+    "key": "haydale_hdplas_gnp",
+    "producer": "Haydale",
+    "product_name": "HDPlas functionalised GNP",
+    "form": "gnp_few_layer",
+    "region": "UK",
+    "datasheet_url": "https://haydale.com/products/",
+    "specs": {"flake_size_um": 5.0, "thickness_nm": 4.0, "bet_m2_g": 150.0, "carbon_purity_pct": 97.0, "id_ig": 0.5, "co_ratio": 12.0, "layers": 10.0},
+    "spec_notes": {"co_ratio": "Deliberately functionalised by plasma treatment; oxygen content is a feature, not a contaminant", "id_ig": "Plasma functionalisation raises the D band"}
+  },
+  {
+    "key": "thomas_swan_elicarb_agm",
+    "producer": "Thomas Swan",
+    "product_name": "Elicarb Graphene Powder AGM",
+    "form": "gnp_few_layer",
+    "region": "UK",
+    "datasheet_url": "https://www.thomas-swan.co.uk/advanced-materials/elicarb-graphene",
+    "specs": {"flake_size_um": 2.0, "thickness_nm": 2.0, "bet_m2_g": 250.0, "carbon_purity_pct": 98.0, "id_ig": 0.35, "co_ratio": 20.0, "layers": 5.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "applied_graphene_materials_genable",
+    "producer": "Applied Graphene Materials",
+    "product_name": "Genable dispersion",
+    "form": "ink_dispersion",
+    "region": "UK",
+    "datasheet_url": "https://www.appliedgraphenematerials.com/products/",
+    "specs": {"flake_size_um": 2.0, "thickness_nm": 3.0, "bet_m2_g": 200.0, "id_ig": 0.45, "co_ratio": 17.0, "layers": 8.0},
+    "spec_notes": {"form": "Supplied as a resin-compatible dispersion rather than dry powder"}
+  },
+  {
+    "key": "sixth_element_gnp",
+    "producer": "Sixth Element",
+    "product_name": "SE series graphene powder",
+    "form": "gnp_few_layer",
+    "region": "CN",
+    "datasheet_url": "http://www.c6graphene.com/en/",
+    "specs": {"flake_size_um": 5.0, "thickness_nm": 3.0, "bet_m2_g": 180.0, "carbon_purity_pct": 98.0, "id_ig": 0.4, "co_ratio": 15.0, "layers": 8.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "sixth_element_go",
+    "producer": "Sixth Element",
+    "product_name": "SE1132 graphene oxide",
+    "form": "graphene_oxide",
+    "region": "CN",
+    "datasheet_url": "http://www.c6graphene.com/en/",
+    "specs": {"flake_size_um": 5.0, "thickness_nm": 1.0, "id_ig": 0.95, "co_ratio": 2.1, "layers": 1.0},
+    "spec_notes": {"co_ratio": "Single-layer GO from a modified Hummers route"}
+  },
+  {
+    "key": "graphenea_monolayer_cvd",
+    "producer": "Graphenea",
+    "product_name": "Easy Transfer monolayer CVD graphene",
+    "form": "cvd_monolayer_film",
+    "region": "ES",
+    "datasheet_url": "https://www.graphenea.com/collections/graphene-films",
+    "specs": {"id_ig": 0.06, "i2d_ig": 2.0, "co_ratio": 25.0, "layers": 1.0, "sheet_resistance_ohm_sq": 450.0, "carbon_purity_pct": 99.0},
+    "spec_notes": {"sheet_resistance_ohm_sq": "As transferred, undoped", "layers": "Monolayer coverage typically quoted above 95%"}
+  },
+  {
+    "key": "graphenea_go_dispersion",
+    "producer": "Graphenea",
+    "product_name": "Graphene oxide 4 mg/mL dispersion",
+    "form": "graphene_oxide",
+    "region": "ES",
+    "datasheet_url": "https://www.graphenea.com/collections/graphene-oxide",
+    "specs": {"flake_size_um": 10.0, "thickness_nm": 1.1, "id_ig": 0.9, "co_ratio": 2.0, "layers": 1.0},
+    "spec_notes": {"co_ratio": "Roughly 41-50 at% oxygen on the datasheet, corresponding to C/O near 2"}
+  },
+  {
+    "key": "graphenea_ink",
+    "producer": "Graphenea",
+    "product_name": "Graphenea conductive ink",
+    "form": "ink_dispersion",
+    "region": "ES",
+    "datasheet_url": "https://www.graphenea.com/",
+    "specs": {"flake_size_um": 2.0, "id_ig": 0.6, "co_ratio": 8.0, "layers": 3.0},
+    "spec_notes": {"flake_size_um": "Sized for screen printing"}
+  },
+  {
+    "key": "general_graphene_cvd_film",
+    "producer": "General Graphene",
+    "product_name": "Roll-to-roll CVD graphene film",
+    "form": "cvd_monolayer_film",
+    "region": "US",
+    "datasheet_url": "https://www.generalgraphene.com/",
+    "specs": {"id_ig": 0.12, "i2d_ig": 1.8, "co_ratio": 20.0, "layers": 1.0, "sheet_resistance_ohm_sq": 600.0},
+    "spec_notes": {"sheet_resistance_ohm_sq": "Roll-to-roll process trades some uniformity for area and cost"}
+  },
+  {
+    "key": "grolltex_cvd_film",
+    "producer": "Grolltex",
+    "product_name": "Monolayer CVD graphene on wafer",
+    "form": "cvd_monolayer_film",
+    "region": "US",
+    "datasheet_url": "https://www.grolltex.com/",
+    "specs": {"id_ig": 0.05, "i2d_ig": 2.2, "co_ratio": 28.0, "layers": 1.0, "sheet_resistance_ohm_sq": 400.0},
+    "spec_notes": {"layers": "Supplied on 200 mm silicon wafers for semiconductor process lines"}
+  },
+  {
+    "key": "graphene_square_cvd",
+    "producer": "Graphene Square",
+    "product_name": "CVD graphene film",
+    "form": "cvd_monolayer_film",
+    "region": "KR",
+    "datasheet_url": "https://www.graphenesq.com/",
+    "specs": {"id_ig": 0.08, "i2d_ig": 2.0, "co_ratio": 24.0, "layers": 1.0, "sheet_resistance_ohm_sq": 500.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "acs_material_cvd_monolayer",
+    "producer": "ACS Material",
+    "product_name": "Monolayer graphene film on Cu",
+    "form": "cvd_monolayer_film",
+    "region": "US",
+    "datasheet_url": "https://www.acsmaterial.com/graphene-film.html",
+    "specs": {"id_ig": 0.1, "i2d_ig": 1.9, "co_ratio": 22.0, "layers": 1.0, "sheet_resistance_ohm_sq": 550.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "hydrograph_fga1",
+    "producer": "HydroGraph",
+    "product_name": "Fractal Graphene FGA-1",
+    "form": "flash_turbostratic",
+    "region": "CA",
+    "datasheet_url": "https://hydrograph.com/products/",
+    "specs": {"flake_size_um": 1.0, "bet_m2_g": 300.0, "carbon_purity_pct": 99.8, "id_ig": 0.2, "co_ratio": 30.0, "layers": 5.0},
+    "spec_notes": {"carbon_purity_pct": "Detonation synthesis from acetylene, so no metal catalyst or solvent residue", "id_ig": "Turbostratic stacking with a symmetric single-Lorentzian 2D band"}
+  },
+  {
+    "key": "universal_matter_flash",
+    "producer": "Universal Matter",
+    "product_name": "Flash graphene",
+    "form": "flash_turbostratic",
+    "region": "CA",
+    "datasheet_url": "https://universalmatter.com/",
+    "specs": {"flake_size_um": 2.0, "bet_m2_g": 250.0, "carbon_purity_pct": 98.0, "id_ig": 0.15, "co_ratio": 25.0, "layers": 6.0},
+    "spec_notes": {"co_ratio": "Flash Joule heating of waste carbon feedstocks; oxygen content depends on the feedstock"}
+  },
+  {
+    "key": "carbon_rivers_graphene",
+    "producer": "Carbon Rivers",
+    "product_name": "Recovered graphene",
+    "form": "flash_turbostratic",
+    "region": "US",
+    "datasheet_url": "https://carbonrivers.com/",
+    "specs": {"flake_size_um": 2.0, "bet_m2_g": 200.0, "carbon_purity_pct": 96.0, "id_ig": 0.35, "co_ratio": 18.0, "layers": 8.0},
+    "spec_notes": {"carbon_purity_pct": "Derived from end-of-life wind-turbine glass fibre composite; residual inorganics are expected"}
+  },
+  {
+    "key": "global_graphene_group_rgo",
+    "producer": "Global Graphene Group",
+    "product_name": "Reduced graphene oxide powder",
+    "form": "rgo",
+    "region": "US",
+    "datasheet_url": "https://theglobalgraphenegroup.com/",
+    "specs": {"flake_size_um": 3.0, "bet_m2_g": 500.0, "carbon_purity_pct": 97.0, "id_ig": 1.05, "co_ratio": 10.0, "layers": 3.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "abalonyx_go",
+    "producer": "Abalonyx",
+    "product_name": "Graphene oxide powder",
+    "form": "graphene_oxide",
+    "region": "NO",
+    "datasheet_url": "https://www.abalonyx.no/",
+    "specs": {"flake_size_um": 5.0, "thickness_nm": 1.0, "id_ig": 1.0, "co_ratio": 2.3, "layers": 1.0},
+    "spec_notes": {"co_ratio": "Bulk GO manufactured at tonne scale for construction and water treatment"}
+  },
+  {
+    "key": "tirupati_go",
+    "producer": "Tirupati Graphene",
+    "product_name": "Graphene oxide",
+    "form": "graphene_oxide",
+    "region": "IN",
+    "datasheet_url": "https://tirupatigraphene.co.uk/",
+    "specs": {"flake_size_um": 4.0, "thickness_nm": 1.2, "id_ig": 0.95, "co_ratio": 2.5, "layers": 1.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "xfnano_gnp",
+    "producer": "XFNANO",
+    "product_name": "Few-layer graphene powder",
+    "form": "gnp_few_layer",
+    "region": "CN",
+    "datasheet_url": "https://www.xfnano.com/",
+    "specs": {"flake_size_um": 5.0, "thickness_nm": 4.0, "bet_m2_g": 150.0, "carbon_purity_pct": 97.0, "id_ig": 0.45, "co_ratio": 14.0, "layers": 10.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "knano_gnp",
+    "producer": "Xiamen Knano",
+    "product_name": "KNG series graphene nanoplatelets",
+    "form": "gnp_few_layer",
+    "region": "CN",
+    "datasheet_url": "http://www.knano.com.cn/en/",
+    "specs": {"flake_size_um": 10.0, "thickness_nm": 6.0, "bet_m2_g": 100.0, "carbon_purity_pct": 98.0, "id_ig": 0.3, "co_ratio": 20.0, "layers": 15.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "adnano_gnp",
+    "producer": "Ad-Nano Technologies",
+    "product_name": "AD-GNP graphene nanoplatelets",
+    "form": "gnp_few_layer",
+    "region": "IN",
+    "datasheet_url": "https://www.ad-nanotech.com/",
+    "specs": {"flake_size_um": 5.0, "thickness_nm": 5.0, "bet_m2_g": 120.0, "carbon_purity_pct": 96.0, "id_ig": 0.5, "co_ratio": 12.0, "layers": 12.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "jcnano_gnp",
+    "producer": "JCNANO",
+    "product_name": "Graphene nanoplatelets",
+    "form": "gnp_few_layer",
+    "region": "CN",
+    "datasheet_url": "http://www.jcnano.com/",
+    "specs": {"flake_size_um": 8.0, "thickness_nm": 5.0, "bet_m2_g": 110.0, "carbon_purity_pct": 97.0, "id_ig": 0.4, "co_ratio": 16.0, "layers": 12.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "2d_carbon_changzhou",
+    "producer": "2D Carbon (Changzhou) Tech",
+    "product_name": "CVD graphene film",
+    "form": "cvd_monolayer_film",
+    "region": "CN",
+    "datasheet_url": "http://www.2dcarbon.com/",
+    "specs": {"id_ig": 0.15, "i2d_ig": 1.7, "co_ratio": 20.0, "layers": 1.0, "sheet_resistance_ohm_sq": 700.0},
+    "spec_notes": {"sheet_resistance_ohm_sq": "Touch-panel grade film"}
+  },
+  {
+    "key": "hongwu_gnp",
+    "producer": "Guangzhou Hongwu",
+    "product_name": "Graphene nanoplatelets",
+    "form": "gnp_few_layer",
+    "region": "CN",
+    "datasheet_url": "http://www.hwnanomaterial.com/",
+    "specs": {"flake_size_um": 5.0, "thickness_nm": 6.0, "bet_m2_g": 90.0, "carbon_purity_pct": 95.0, "id_ig": 0.55, "co_ratio": 11.0, "layers": 15.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "reinste_gnp",
+    "producer": "Reinste Nano Ventures",
+    "product_name": "Graphene nanoplatelets",
+    "form": "gnp_few_layer",
+    "region": "IN",
+    "datasheet_url": "https://www.reinste.com/",
+    "specs": {"flake_size_um": 6.0, "thickness_nm": 8.0, "bet_m2_g": 80.0, "carbon_purity_pct": 95.0, "id_ig": 0.5, "co_ratio": 12.0, "layers": 20.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "techinstro_gnp",
+    "producer": "Techinstro",
+    "product_name": "Graphene nanoplatelets",
+    "form": "gnp_few_layer",
+    "region": "IN",
+    "datasheet_url": "https://www.techinstro.com/",
+    "specs": {"flake_size_um": 5.0, "thickness_nm": 7.0, "bet_m2_g": 85.0, "carbon_purity_pct": 95.0, "id_ig": 0.55, "co_ratio": 11.0, "layers": 18.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "carborundum_universal_gnp",
+    "producer": "Carborundum Universal (CUMI)",
+    "product_name": "Graphene nanoplatelets",
+    "form": "gnp_few_layer",
+    "region": "IN",
+    "datasheet_url": "https://www.cumi-murugappa.com/",
+    "specs": {"flake_size_um": 8.0, "thickness_nm": 6.0, "bet_m2_g": 95.0, "carbon_purity_pct": 96.0, "id_ig": 0.42, "co_ratio": 15.0, "layers": 15.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "otto_chemie_gnp",
+    "producer": "Otto Chemie",
+    "product_name": "Graphene nanopowder",
+    "form": "gnp_few_layer",
+    "region": "IN",
+    "datasheet_url": "https://ottokemi.com/",
+    "specs": {"flake_size_um": 4.0, "thickness_nm": 8.0, "bet_m2_g": 75.0, "carbon_purity_pct": 94.0, "id_ig": 0.6, "co_ratio": 10.0, "layers": 20.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "first_graphene_rgo",
+    "producer": "First Graphene",
+    "product_name": "PureGRAPH reduced graphene oxide",
+    "form": "rgo",
+    "region": "AU",
+    "datasheet_url": "https://firstgraphene.net/products/",
+    "specs": {"flake_size_um": 3.0, "bet_m2_g": 350.0, "carbon_purity_pct": 97.0, "id_ig": 1.0, "co_ratio": 11.0, "layers": 4.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "haydale_ink",
+    "producer": "Haydale",
+    "product_name": "Functionalised graphene ink",
+    "form": "ink_dispersion",
+    "region": "UK",
+    "datasheet_url": "https://haydale.com/products/",
+    "specs": {"flake_size_um": 2.0, "id_ig": 0.65, "co_ratio": 10.0, "layers": 6.0},
+    "spec_notes": {"flake_size_um": "Screen-printable biosensor ink"}
+  },
+  {
+    "key": "first_graphene_ink",
+    "producer": "First Graphene",
+    "product_name": "PureGRAPH aqueous dispersion",
+    "form": "ink_dispersion",
+    "region": "AU",
+    "datasheet_url": "https://firstgraphene.net/products/",
+    "specs": {"flake_size_um": 5.0, "id_ig": 0.25, "co_ratio": 24.0, "layers": 6.0},
+    "spec_notes": {}
+  },
+  {
+    "key": "bt_corp_graphene",
+    "producer": "BT Corp",
+    "product_name": "Graphene nanoplatelets",
+    "form": "gnp_few_layer",
+    "region": "IN",
+    "datasheet_url": "https://www.btcorp.in/",
+    "specs": {"flake_size_um": 5.0, "thickness_nm": 7.0, "bet_m2_g": 90.0, "carbon_purity_pct": 95.0, "id_ig": 0.5, "co_ratio": 12.0, "layers": 18.0},
+    "spec_notes": {}
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "key": "dft_graphene_jarvis",
+    "material": "graphene_monolayer",
+    "label": "Graphene monolayer - JARVIS-DFT (JVASP-667)",
+    "properties": {
+      "band_gap_ev": 0.0,
+      "youngs_modulus_gpa": 1050.0,
+      "bulk_density_g_cm3": 2.267,
+      "thickness_nm": 0.335
+    },
+    "provenance": {
+      "source": "JARVIS-DFT, NIST - OptB88vdW functional",
+      "doi": "10.1038/s41524-020-00440-1",
+      "url": "https://jarvis.nist.gov/jarvisdft/",
+      "version": "2026.1",
+      "licence": "NIST public data",
+      "retrieved": "2026-08-12",
+      "note": "Semi-local DFT correctly returns a zero gap for pristine graphene. The in-plane modulus is quoted as an effective 3D value using the 0.335 nm interlayer spacing; the primary 2D quantity is a stiffness near 340 N/m."
+    }
+  },
+  {
+    "key": "dft_graphene_c2db",
+    "material": "graphene_monolayer",
+    "label": "Graphene monolayer - C2DB",
+    "properties": {
+      "band_gap_ev": 0.0,
+      "youngs_modulus_gpa": 1020.0,
+      "thickness_nm": 0.335
+    },
+    "provenance": {
+      "source": "Computational 2D Materials Database (C2DB), Technical University of Denmark",
+      "doi": "10.1088/2053-1583/aacfc1",
+      "url": "https://cmr.fysik.dtu.dk/c2db/c2db.html",
+      "version": "2026.1",
+      "licence": "See C2DB terms",
+      "retrieved": "2026-08-12",
+      "note": "C2DB also reports a HSE06 gap of zero, confirming the semimetallic band structure is not a functional artefact."
+    }
+  },
+  {
+    "key": "dft_graphene_2dmatpedia",
+    "material": "graphene_monolayer",
+    "label": "Graphene monolayer - 2DMatPedia",
+    "properties": {
+      "band_gap_ev": 0.0,
+      "bulk_density_g_cm3": 2.26
+    },
+    "provenance": {
+      "source": "2DMatPedia",
+      "doi": "10.1038/s41597-019-0097-3",
+      "url": "http://www.2dmatpedia.org/",
+      "version": "2026.1",
+      "licence": "CC BY 4.0",
+      "retrieved": "2026-08-12",
+      "note": "Derived from a high-throughput screen of layered bulk structures."
+    }
+  },
+  {
+    "key": "exp_graphene_mechanical",
+    "material": "graphene_monolayer",
+    "label": "Graphene monolayer - experimental mechanical benchmark",
+    "properties": {
+      "youngs_modulus_gpa": 1000.0
+    },
+    "provenance": {
+      "source": "Lee, Wei, Kysar & Hone, Science 321, 385 (2008) - nanoindentation of suspended monolayer graphene",
+      "doi": "10.1126/science.1157996",
+      "url": "https://doi.org/10.1126/science.1157996",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "E = 1.0 +/- 0.1 TPa with an intrinsic strength of 130 GPa. This is the defect-free upper bound; real flakes fall well below it."
+    }
+  },
+  {
+    "key": "exp_graphene_transport_suspended",
+    "material": "graphene_monolayer",
+    "label": "Graphene - carrier mobility, suspended",
+    "properties": {
+      "carrier_mobility_cm2_vs": 200000.0
+    },
+    "provenance": {
+      "source": "Bolotin et al., Solid State Commun. 146, 351 (2008)",
+      "doi": "10.1016/j.ssc.2008.02.024",
+      "url": "https://doi.org/10.1016/j.ssc.2008.02.024",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "Suspended and current-annealed. Substrate-supported devices are one to two orders of magnitude lower."
+    }
+  },
+  {
+    "key": "exp_graphene_transport_sio2",
+    "material": "graphene_monolayer",
+    "label": "Graphene on SiO2 - carrier mobility",
+    "properties": {
+      "carrier_mobility_cm2_vs": 12000.0,
+      "sheet_resistance_ohm_sq": 350.0
+    },
+    "provenance": {
+      "source": "Chen et al., Nature Nanotech. 3, 206 (2008); typical CVD-on-SiO2 device data",
+      "doi": "10.1038/nnano.2008.58",
+      "url": "https://doi.org/10.1038/nnano.2008.58",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "Charged-impurity scattering from the oxide dominates. This is the realistic target for transferred CVD film, not the suspended value."
+    }
+  },
+  {
+    "key": "dft_graphene_oxide",
+    "material": "graphene_oxide",
+    "label": "Graphene oxide - computed band gap range",
+    "properties": {
+      "band_gap_ev": 2.2,
+      "youngs_modulus_gpa": 208.0
+    },
+    "provenance": {
+      "source": "Boukhvalov & Katsnelson, JACS 130, 10697 (2008); Suk et al., ACS Nano 4, 6557 (2010)",
+      "doi": "10.1021/ja8021686",
+      "url": "https://doi.org/10.1021/ja8021686",
+      "version": "2026.1",
+      "licence": "Literature values, cited for comparison",
+      "retrieved": "2026-08-12",
+      "note": "The gap of GO is a strong function of oxidation degree and ranges from roughly 1.7 to 3.5 eV; 2.2 eV is a mid-range value. Oxidation cuts the modulus by about a factor of five relative to pristine graphene."
+    }
+  },
+  {
+    "key": "dft_graphene_kaggle5",
+    "material": "graphene_monolayer",
+    "label": "Graphene property set - Kaggle \"5 Graphene\"",
+    "properties": {
+      "band_gap_ev": 0.0,
+      "carrier_mobility_cm2_vs": 15000.0
+    },
+    "provenance": {
+      "source": "Kaggle \"5 Graphene\" dataset",
+      "doi": null,
+      "url": "https://www.kaggle.com/datasets",
+      "version": "2026.1",
+      "licence": "See dataset licence on Kaggle",
+      "retrieved": "2026-08-12",
+      "note": "Community-contributed aggregation without formal peer review. Included for completeness and weighted below JARVIS/C2DB in comparisons."
+    }
+  }
+]

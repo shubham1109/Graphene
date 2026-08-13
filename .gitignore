@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets and local config
+.env
+.env.local
+
+# Uploaded spectra (local storage backend)
+backend/var/
+
+# Node / frontend
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
