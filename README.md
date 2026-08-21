@@ -12,6 +12,21 @@ frontend/   React + TypeScript + Vite + Tailwind + Plotly dashboard
 
 ## Quick start
 
+On a fresh machine, one command does everything — virtualenv, dependencies,
+`.env` with a generated `JWT_SECRET`, reference-data seeding, and both servers:
+
+```bash
+./run.sh            # dev: FastAPI + Vite with hot reload
+./run.sh --prod     # build the SPA and serve it from FastAPI on a single port
+```
+
+It needs Python 3.11+, Node 20+, and a reachable MongoDB (it will start a
+`mongo:7` container automatically if Docker is available and nothing is
+listening on 27017). Point it elsewhere with `MONGODB_URI=... ./run.sh`; ports
+are chosen automatically and can be pinned with `BACKEND_PORT` / `FRONTEND_PORT`.
+
+The manual steps below are equivalent, if you prefer to run the pieces yourself.
+
 ### 1. Backend
 
 ```bash
