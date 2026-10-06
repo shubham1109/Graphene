@@ -25,7 +25,7 @@ class Settings(BaseSettings):
     aws_secret_access_key: str = ""
 
     cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
-    max_upload_bytes: int = 25 * 1024 * 1024
+    max_upload_bytes: int = 100 * 1024 * 1024
 
     # Directory holding the built frontend. Empty (the dev default) means the API
     # runs on its own and Vite serves the SPA.

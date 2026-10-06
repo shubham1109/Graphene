@@ -1,11 +1,18 @@
 import type {
   AnalysisReport,
+  ApplicationProduct,
+  ApplicationProfile,
   CommercialProduct,
   ReferenceSpectrum,
   Sample,
   SampleProperties,
   Spectrum,
   TokenResponse,
+  TdsMatchRecord,
+  TdsMatchReport,
+  TdsParameter,
+  TdsSpecInput,
+  TdsTemplate,
   Technique,
   User,
   XPSRegion,
@@ -195,4 +202,46 @@ export const api = {
     const query = form ? `?form=${form}` : ''
     return request<CommercialProduct[]>(`/api/reference/products${query}`)
   },
+
+  // TDS application finder
+  tdsParameters() {
+    return request<TdsParameter[]>('/api/tds/parameters')
+  },
+
+  tdsApplications() {
+    return request<ApplicationProfile[]>('/api/tds/applications')
+  },
+
+  tdsProducts(application?: string) {
+    const query = application ? `?application=${encodeURIComponent(application)}` : ''
+    return request<ApplicationProduct[]>(`/api/tds/products${query}`)
+  },
+
+  tdsTemplate() {
+    return request<TdsTemplate>('/api/tds/template')
+  },
+
+  tdsPreview(body: TdsSpecInput, signal?: AbortSignal) {
+    return request<TdsMatchReport>('/api/tds/preview', {
+      method: 'POST',
+      body: JSON.stringify(body),
+      signal,
+    })
+  },
+
+  tdsMatch(body: TdsSpecInput) {
+    return request<TdsMatchRecord>('/api/tds/match', { method: 'POST', body: JSON.stringify(body) })
+  },
+
+  tdsMatches() {
+    return request<TdsMatchRecord[]>('/api/tds/matches')
+  },
+
+  deleteTdsMatch(id: string) {
+    return request<void>(`/api/tds/matches/${id}`, { method: 'DELETE' })
+  },
+}
+
+export function datasheetUrl(file: string): string {
+  return `/api/tds/datasheets/${encodeURIComponent(file)}`
 }

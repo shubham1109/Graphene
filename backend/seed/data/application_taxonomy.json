@@ -1,0 +1,220 @@
+[
+  {
+    "key": "conductive_inks",
+    "name": "Conductive inks & printed electronics",
+    "description": "Screen, flexographic and inkjet inks for printed heaters, RFID antennas, sensors and EMI layers. Wants small, thin, highly conductive flakes that fit the mesh or nozzle and disperse in the ink vehicle.",
+    "keywords": ["conductive ink", "inks", "ink", "screen printing", "printed", "dispersions and inks", "highly conductive"],
+    "parameter_weights": {
+      "lateral_size_um": 1.3,
+      "layers": 1.2,
+      "electrical_conductivity_s_m": 1.5,
+      "carbon_purity_pct": 0.8,
+      "oxygen_pct": 0.6,
+      "bet_m2_g": 0.6,
+      "id_ig": 0.6,
+      "sheet_resistance_ohm_sq": 0.8
+    },
+    "preferred_forms": ["dispersion", "paste", "powder"]
+  },
+  {
+    "key": "polymer_composites",
+    "name": "Polymer composites & thermoplastics",
+    "description": "Reinforcing and multifunctional filler for thermoplastics, thermosets, resins and masterbatches. Aspect ratio, purity and melt-compounding compatibility matter most; very high surface area raises viscosity.",
+    "keywords": ["composite", "composites", "thermoplastic", "thermoplastics", "thermoset", "thermosets", "plastic", "plastics", "polymer", "polyethylene", "polypropylene", "polyamide", "acetal", "resin", "resins", "masterbatch", "nanocomposite", "automobile"],
+    "parameter_weights": {
+      "lateral_size_um": 1.3,
+      "layers": 1.0,
+      "bet_m2_g": 1.0,
+      "carbon_purity_pct": 1.0,
+      "oxygen_pct": 0.7,
+      "bulk_density_g_cm3": 0.5,
+      "id_ig": 0.6,
+      "electrical_conductivity_s_m": 0.5
+    },
+    "preferred_forms": ["powder", "pellet", "paste"]
+  },
+  {
+    "key": "elastomers_rubber_tyre",
+    "name": "Rubber, elastomers & tyres",
+    "description": "Wear, tear and rolling-resistance improvement in natural and synthetic rubber compounds. Tolerates multilayer platelets; bulk handling and dispersion in the mixer are the practical constraints.",
+    "keywords": ["rubber", "ruber", "tyre", "tire", "elastomer", "elastomers", "eva"],
+    "parameter_weights": {
+      "lateral_size_um": 1.0,
+      "layers": 0.9,
+      "bet_m2_g": 0.9,
+      "carbon_purity_pct": 0.8,
+      "bulk_density_g_cm3": 0.6,
+      "oxygen_pct": 0.5
+    },
+    "preferred_forms": ["powder", "pellet", "paste"]
+  },
+  {
+    "key": "coatings_paints",
+    "name": "Paints & functional coatings",
+    "description": "General coating additive for mechanical durability, gloss retention, UV and abrasion resistance and mild conductivity. Broad tolerance on flake geometry; dispersibility in the resin system decides success.",
+    "keywords": ["coating", "coatings", "paint", "paints", "gloss retention", "aqueous coatings", "heat dissipation paint", "latex"],
+    "parameter_weights": {
+      "lateral_size_um": 1.1,
+      "layers": 0.9,
+      "bet_m2_g": 0.9,
+      "carbon_purity_pct": 0.8,
+      "oxygen_pct": 0.8,
+      "bulk_density_g_cm3": 0.4,
+      "id_ig": 0.5
+    },
+    "preferred_forms": ["powder", "paste", "dispersion"]
+  },
+  {
+    "key": "anticorrosion",
+    "name": "Anti-corrosion & barrier coatings",
+    "description": "Zinc-rich primers, epoxy barrier coats and chromium-free systems where platelets create a tortuous path for water and ions. Larger, thinner platelets with high purity give the best barrier; surface functionality helps adhesion.",
+    "keywords": ["anti-corrosion", "anticorrosion", "corrosion", "barrier", "zinc rich", "dacromet", "marine", "protective"],
+    "parameter_weights": {
+      "lateral_size_um": 1.4,
+      "layers": 1.1,
+      "bet_m2_g": 0.9,
+      "carbon_purity_pct": 0.9,
+      "oxygen_pct": 0.7,
+      "bulk_density_g_cm3": 0.4
+    },
+    "preferred_forms": ["powder", "paste", "dispersion"]
+  },
+  {
+    "key": "concrete_cement",
+    "name": "Concrete & cement admixtures",
+    "description": "Nucleation seeding and crack bridging at dosages around 0.01-0.1 wt% of binder. Needs a stable aqueous dispersion at high pH; small aggregates and functionalised or surfactant-stabilised material both qualify.",
+    "keywords": ["concrete", "cement", "cementitious", "construction", "mortar"],
+    "parameter_weights": {
+      "lateral_size_um": 1.0,
+      "layers": 0.9,
+      "bet_m2_g": 1.0,
+      "carbon_purity_pct": 0.6,
+      "oxygen_pct": 0.8,
+      "id_ig": 0.5,
+      "bulk_density_g_cm3": 0.4
+    },
+    "preferred_forms": ["dispersion", "paste", "powder"]
+  },
+  {
+    "key": "batteries",
+    "name": "Battery conductive additives & electrodes",
+    "description": "Conductive network in Li-ion, Na-ion, Zn-ion and lead-acid electrodes, or silicon-anode buffer. High surface area, thin flakes, high purity and dispersibility in NMP or water are the selling points.",
+    "keywords": ["battery", "batteries", "li-ion", "lithium", "sodium-ion", "zinc-ion", "lead acid", "fuel cell", "fuel cells", "energy storage", "electrode"],
+    "parameter_weights": {
+      "bet_m2_g": 1.4,
+      "layers": 1.2,
+      "carbon_purity_pct": 1.2,
+      "electrical_conductivity_s_m": 1.1,
+      "lateral_size_um": 0.9,
+      "oxygen_pct": 0.7,
+      "impurities_pct": 0.8,
+      "id_ig": 0.5
+    },
+    "preferred_forms": ["powder", "dispersion", "paste"]
+  },
+  {
+    "key": "supercapacitors",
+    "name": "Supercapacitor electrodes",
+    "description": "Electric double-layer capacitor active material. Capacitance scales with accessible surface area and mesoporosity; a few percent oxygen and some edge defects improve wetting and pseudocapacitance.",
+    "keywords": ["supercapacitor", "supercapacitors", "capacitance", "edlc", "ultracapacitor"],
+    "parameter_weights": {
+      "bet_m2_g": 1.6,
+      "layers": 1.1,
+      "electrical_conductivity_s_m": 1.0,
+      "carbon_purity_pct": 0.8,
+      "oxygen_pct": 0.7,
+      "lateral_size_um": 0.6
+    },
+    "preferred_forms": ["powder"]
+  },
+  {
+    "key": "thermal_management",
+    "name": "Thermal management & heat dissipation",
+    "description": "Thermal interface materials, thermally conductive adhesives, LED heat-spreading paints and films. Large, thick, highly crystalline platelets with high in-plane thermal conductivity win.",
+    "keywords": ["thermal", "heat dissipation", "led", "thermal interface", "thermal adhesive", "thermal conductive", "thermally conductive", "thermal regulation"],
+    "parameter_weights": {
+      "thermal_conductivity_w_mk": 1.5,
+      "lateral_size_um": 1.3,
+      "layers": 1.0,
+      "carbon_purity_pct": 1.0,
+      "electrical_conductivity_s_m": 0.8,
+      "id_ig": 0.7,
+      "bet_m2_g": 0.5
+    },
+    "preferred_forms": ["powder", "paste"]
+  },
+  {
+    "key": "emi_shielding",
+    "name": "EMI shielding & conductive composites",
+    "description": "Electromagnetic interference shielding, electronic enclosures, static dissipation and antistatic parts. Electrical percolation at low loading is the target, so conductivity and aspect ratio dominate.",
+    "keywords": ["emi", "shielding", "electromagnetic", "electronic enclosures", "antistatic", "electrical conductivity", "conductive applications", "electrically conductive", "electronics", "electrical"],
+    "parameter_weights": {
+      "electrical_conductivity_s_m": 1.5,
+      "lateral_size_um": 1.2,
+      "layers": 1.0,
+      "carbon_purity_pct": 0.9,
+      "oxygen_pct": 0.6,
+      "bet_m2_g": 0.5
+    },
+    "preferred_forms": ["powder", "paste", "dispersion"]
+  },
+  {
+    "key": "lubricants",
+    "name": "Lubricants & tribology",
+    "description": "Friction and wear reduction in oils, greases and solid lubricant coatings. Multilayer platelets shear easily; small lateral size keeps them suspended.",
+    "keywords": ["lubricant", "lubricants", "lubricity", "tribology", "grease", "wear"],
+    "parameter_weights": {
+      "layers": 1.2,
+      "lateral_size_um": 1.1,
+      "carbon_purity_pct": 0.8,
+      "oxygen_pct": 0.6,
+      "bet_m2_g": 0.6
+    },
+    "preferred_forms": ["powder", "dispersion"]
+  },
+  {
+    "key": "textiles",
+    "name": "Smart & functional textiles",
+    "description": "Printed heating, thermal regulation, antistatic and sensing layers on fabric. Needs ink-compatible flakes with good conductivity and low bulk density for high-loading pastes.",
+    "keywords": ["textile", "textiles", "fabric", "wearable", "garment"],
+    "parameter_weights": {
+      "electrical_conductivity_s_m": 1.2,
+      "lateral_size_um": 1.1,
+      "layers": 1.0,
+      "bet_m2_g": 0.8,
+      "carbon_purity_pct": 0.7,
+      "bulk_density_g_cm3": 0.5
+    },
+    "preferred_forms": ["powder", "dispersion", "paste"]
+  },
+  {
+    "key": "sensors_electronics",
+    "name": "Sensors & electronic devices",
+    "description": "Gas, strain and biosensors plus general electronic and electrical components. Thin, high-purity, high-surface-area flakes with strong conductivity.",
+    "keywords": ["sensor", "sensors", "electronics and electrical", "solar", "photovoltaic", "catalysis"],
+    "parameter_weights": {
+      "layers": 1.3,
+      "electrical_conductivity_s_m": 1.2,
+      "bet_m2_g": 1.0,
+      "carbon_purity_pct": 1.0,
+      "lateral_size_um": 0.8,
+      "oxygen_pct": 0.6
+    },
+    "preferred_forms": ["powder", "dispersion"]
+  },
+  {
+    "key": "aqueous_dispersions",
+    "name": "Water-based systems (latex, emulsions, admixtures)",
+    "description": "Pre-dispersed use in water-borne paints, latex, polymer emulsions and admixtures. Surface charge or functional groups must keep the material suspended without heavy surfactant.",
+    "keywords": ["water-based", "aqueous", "latex", "emulsion", "emulsions", "water based", "dispersion"],
+    "parameter_weights": {
+      "oxygen_pct": 1.0,
+      "lateral_size_um": 1.0,
+      "layers": 0.9,
+      "bet_m2_g": 0.8,
+      "bulk_density_g_cm3": 0.5,
+      "carbon_purity_pct": 0.5
+    },
+    "preferred_forms": ["dispersion", "paste"]
+  }
+]

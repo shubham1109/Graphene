@@ -1,0 +1,33 @@
+{
+  "name": "Faraday Earth 8X1 Graphene Powder",
+  "company": "Faraday Earth Inc.",
+  "product_id": "8X1",
+  "source_file": "FE-8X1 TDS SDS Sept 17 2026.pdf",
+  "form": "powder",
+  "synthesis": "Plasma (carbon-bearing gas: methane / CNG)",
+  "surface_chemistry": "None (non-functionalized, XPS/CHNS-O/FTIR)",
+  "orientation": "Turbostratic (Raman, XRD)",
+  "crystallinity": "Crystalline (XRD)",
+  "solubility": "Hydrophobic",
+  "thermal_stability_c": "550-600",
+  "lateral_size_um": "0.13-0.17",
+  "layers": "7-10",
+  "bet_m2_g": "190-200",
+  "carbon_purity_pct": "99.4",
+  "hydrogen_pct": "0.5",
+  "oxygen_pct": "<0.1",
+  "impurities_pct": "<0.1",
+  "id_ig": "<0.5",
+  "methods": {
+    "lateral_size_um": "TEM (130-170 nm)",
+    "layers": "TEM",
+    "bet_m2_g": "BET",
+    "carbon_purity_pct": "CHNS (%wt)",
+    "hydrogen_pct": "CHNS (%wt)",
+    "oxygen_pct": "CHNS/O, not detected",
+    "impurities_pct": "XPS, CHNS/O, non-detectable",
+    "id_ig": "Raman",
+    "thermal_stability_c": "TGA, in air"
+  },
+  "notes": "Values transcribed from the Sept 17 2026 TDS. Oxygen and impurities are below the detection limit and are entered as <0.1 %. Edit this file (or the form) when the sheet changes."
+}

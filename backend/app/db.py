@@ -69,3 +69,8 @@ async def ensure_indexes(db: AsyncIOMotorDatabase) -> None:
     await db.reference_properties.create_index("material")
     await db.commercial_products.create_index([("form", 1), ("producer", 1)])
     await db.applications.create_index("key", unique=True)
+    await db.application_taxonomy.create_index("key", unique=True)
+    await db.application_products.create_index("key", unique=True)
+    await db.application_products.create_index("application_tags")
+    await db.market_reference.create_index("key", unique=True)
+    await db.tds_matches.create_index([("user_id", 1), ("created_at", -1)])

@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
-import { Navigate, Route, Routes } from 'react-router-dom'
+import { NavLink, Navigate, Route, Routes } from 'react-router-dom'
 import { useAuth } from './lib/auth'
 import { Login } from './pages/Login'
 import { SampleDetail } from './pages/SampleDetail'
 import { Samples } from './pages/Samples'
+import { ApplicationFinder } from './pages/ApplicationFinder'
 import { Button, Spinner } from './components/ui'
 
 type Theme = 'light' | 'dark' | 'system'
@@ -42,9 +43,32 @@ export default function App() {
     <div className="min-h-screen">
       <header className="border-b border-[color:var(--border)] bg-surface">
         <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-4 px-5 py-3">
-          <div className="flex items-baseline gap-2">
-            <span className="text-[15px] font-semibold text-ink">Graphene Benchmarker</span>
-            <span className="text-[12px] text-ink-muted">Raman · XPS · DFT</span>
+          <div className="flex items-center gap-5">
+            <div className="flex items-baseline gap-2">
+              <span className="text-[15px] font-semibold text-ink">Graphene Benchmarker</span>
+              <span className="hidden text-[12px] text-ink-muted md:inline">Raman · XPS · DFT</span>
+            </div>
+            <nav className="flex items-center gap-1 text-[13px]">
+              {[
+                { to: '/', label: 'Samples' },
+                { to: '/applications', label: 'Application finder' },
+              ].map((item) => (
+                <NavLink
+                  key={item.to}
+                  to={item.to}
+                  end={item.to === '/'}
+                  className={({ isActive }) =>
+                    `rounded-md px-2.5 py-1 transition-colors ${
+                      isActive
+                        ? 'bg-[color:var(--page)] font-medium text-ink'
+                        : 'text-ink-secondary hover:text-ink'
+                    }`
+                  }
+                >
+                  {item.label}
+                </NavLink>
+              ))}
+            </nav>
           </div>
           <div className="flex items-center gap-3">
             <label className="sr-only" htmlFor="theme">
@@ -72,6 +96,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Samples />} />
           <Route path="/samples/:sampleId" element={<SampleDetail />} />
+          <Route path="/applications" element={<ApplicationFinder />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

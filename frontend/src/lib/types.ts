@@ -320,3 +320,186 @@ export interface CommercialProduct {
   spec_notes: Record<string, string>
   provenance: Provenance
 }
+
+// --------------------------------------------------------------------------- //
+// TDS application finder
+// --------------------------------------------------------------------------- //
+export type MaterialFormKind = 'powder' | 'dispersion' | 'paste' | 'pellet' | 'unknown'
+export type Confidence = 'high' | 'medium' | 'low'
+
+export const MATERIAL_FORMS: { value: MaterialFormKind; label: string }[] = [
+  { value: 'unknown', label: 'Not specified' },
+  { value: 'powder', label: 'Powder' },
+  { value: 'dispersion', label: 'Dispersion / ink' },
+  { value: 'paste', label: 'Paste' },
+  { value: 'pellet', label: 'Pellet / masterbatch' },
+]
+
+export const TDS_SPEC_KEYS = [
+  'lateral_size_um',
+  'layers',
+  'thickness_nm',
+  'bet_m2_g',
+  'carbon_purity_pct',
+  'oxygen_pct',
+  'impurities_pct',
+  'bulk_density_g_cm3',
+  'electrical_conductivity_s_m',
+  'thermal_conductivity_w_mk',
+  'id_ig',
+  'loading_wt_pct',
+  'density_g_ml',
+  'viscosity_cps',
+  'sheet_resistance_ohm_sq',
+  'hydrogen_pct',
+  'thermal_stability_c',
+] as const
+export type TdsSpecKey = (typeof TDS_SPEC_KEYS)[number]
+
+export type TdsSpecInput = {
+  name?: string | null
+  form: MaterialFormKind
+  synthesis?: string | null
+  surface_chemistry?: string | null
+  solvent?: string | null
+  orientation?: string | null
+  crystallinity?: string | null
+  solubility?: string | null
+  notes?: string | null
+} & Partial<Record<TdsSpecKey, string | number | null>>
+
+/** The user's own TDS as transcribed on the server (seed/data/my_tds.json). */
+export type TdsTemplate = TdsSpecInput & {
+  company?: string
+  product_id?: string
+  source_file?: string
+  methods?: Partial<Record<TdsSpecKey, string>>
+}
+
+export interface TdsParameter {
+  key: TdsSpecKey
+  label: string
+  unit: string
+  hint: string
+  log_scale: boolean
+}
+
+export interface SpecInterval {
+  low: number | null
+  high: number | null
+  text: string
+}
+
+export interface ParameterCheck {
+  parameter: string
+  label: string
+  unit: string
+  entered: string
+  market_range: string
+  typical: number | null
+  n_products: number
+  weight: number
+  score: number
+  verdict: Verdict
+  comment: string
+}
+
+export interface ProductDelta {
+  parameter: string
+  label: string
+  unit: string
+  yours: string
+  theirs: string
+  relation: 'within' | 'higher' | 'lower'
+}
+
+export interface ProductSimilarity {
+  key: string
+  company: string
+  product: string
+  form: string
+  similarity_pct: number
+  shared_parameters: string[]
+  deltas: ProductDelta[]
+  application_tags: string[]
+  applications_text: string | null
+  datasheet_url: string | null
+  datasheet_file: string | null
+  summary: string
+}
+
+export interface ApplicationFit {
+  key: string
+  name: string
+  description: string
+  score: number
+  verdict: Verdict
+  confidence: Confidence
+  evidence_count: number
+  coverage: number
+  form_match: boolean
+  checks: ParameterCheck[]
+  closest_products: ProductSimilarity[]
+  strengths: string[]
+  gaps: string[]
+  rationale: string
+}
+
+export interface MarketPercentile {
+  parameter: string
+  label: string
+  unit: string
+  value: number
+  percentile: number
+  n_products: number
+  comment: string
+}
+
+export interface TdsMatchReport {
+  name: string | null
+  form: MaterialFormKind
+  entered: Record<string, SpecInterval>
+  applications: ApplicationFit[]
+  closest_products: ProductSimilarity[]
+  market_context: MarketPercentile[]
+  warnings: string[]
+  database_size: number
+  market_size: number
+}
+
+export interface TdsMatchRecord {
+  id: string
+  user_id: string
+  created_at: string
+  input: TdsSpecInput
+  report: TdsMatchReport
+}
+
+export interface ApplicationProfile {
+  key: string
+  name: string
+  description: string
+  evidence_count: number
+  companies: string[]
+  products: string[]
+  parameter_weights: Record<string, number>
+  envelopes: Record<string, { low: number | null; high: number | null; typical: number | null; n: number; text: string }>
+}
+
+export interface ApplicationProduct {
+  key: string
+  company: string
+  product: string
+  form: string
+  synthesis: string | null
+  applications_text: string | null
+  application_tags: string[]
+  specs: Record<string, SpecInterval>
+  surface_chemistry?: string
+  solvent?: string
+  additives?: string
+  notes?: string
+  datasheet_url: string | null
+  datasheet_file: string | null
+  corrections: { field: string; value: string | null; reason: string }[]
+}

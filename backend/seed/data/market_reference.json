@@ -1,0 +1,3777 @@
+[
+ {
+  "key": "market__001__graphenea",
+  "company": "Graphenea",
+  "product": "Graphene",
+  "url": "https://www.graphenea.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 438.0,
+    "high": 498.0,
+    "text": "438-498 m2/g"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 1000.0,
+    "high": 1500.0,
+    "text": "10-15 S/cm (2"
+   },
+   "carbon_purity_pct": {
+    "low": 80.0,
+    "high": 87.0,
+    "text": "80-87%"
+   },
+   "oxygen_pct": {
+    "low": 14.0,
+    "high": 19.0,
+    "text": "14-19%"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.2,
+    "high": 0.3,
+    "text": "0.2-0.3 g/mL"
+   }
+  }
+ },
+ {
+  "key": "market__002__graphenea",
+  "company": "Graphenea",
+  "product": "Graphene Oxide",
+  "url": "https://www.graphenea.com/",
+  "form": "powder",
+  "synthesis": "Chemical oxidation",
+  "country": "USA",
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 49.0,
+    "high": 56.0,
+    "text": "49-56%"
+   },
+   "oxygen_pct": {
+    "low": 41.0,
+    "high": 50.0,
+    "text": "41-50%"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.2,
+    "high": 0.4,
+    "text": "0.2-0.4 g/mL"
+   }
+  }
+ },
+ {
+  "key": "market__005__graphenea",
+  "company": "Graphenea",
+  "product": "ized GO Functional",
+  "url": "https://www.graphenea.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 69.0,
+    "high": 74.0,
+    "text": "69-74"
+   },
+   "oxygen_pct": {
+    "low": 12.0,
+    "high": 17.0,
+    "text": "12 to 17"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.07,
+    "high": 0.1,
+    "text": "0.07 -0.10 g/mL"
+   }
+  }
+ },
+ {
+  "key": "market__007__graphenea",
+  "company": "Graphenea",
+  "product": "Graphene Oxide",
+  "url": "https://www.graphenea.com/",
+  "form": "powder",
+  "synthesis": "Chemical oxidation",
+  "country": "USA",
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   }
+  }
+ },
+ {
+  "key": "market__008__graphenea",
+  "company": "Graphenea",
+  "product": "Graphene Oxide",
+  "url": "https://www.graphenea.com/",
+  "form": "powder",
+  "synthesis": "Chemical oxidation",
+  "country": "USA",
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "thickness_nm": {
+    "low": 0.345,
+    "high": 0.345,
+    "text": "0.345nm"
+   }
+  }
+ },
+ {
+  "key": "market__009__graphenea",
+  "company": "Graphenea",
+  "product": "Graphene Oxide",
+  "url": "https://www.graphenea.com/",
+  "form": "powder",
+  "synthesis": "Chemical oxidation",
+  "country": "USA",
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "id_ig": {
+    "low": null,
+    "high": 0.1,
+    "text": "<0.1"
+   }
+  }
+ },
+ {
+  "key": "market__010__graphenea",
+  "company": "Graphenea",
+  "product": "Graphene Oxide",
+  "url": "https://www.graphenea.com/",
+  "form": "powder",
+  "synthesis": "Chemical oxidation",
+  "country": "USA",
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "thickness_nm": {
+    "low": 0.345,
+    "high": 0.345,
+    "text": "0.345nm"
+   }
+  }
+ },
+ {
+  "key": "market__020__nanoxplore",
+  "company": ": Nanoxplore",
+  "product": "Few Layer Graphene",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 6.0,
+    "high": 10.0,
+    "text": "6 to 10"
+   },
+   "carbon_purity_pct": {
+    "low": 97.0,
+    "high": null,
+    "text": ">97 wt%"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 1.0,
+    "text": "< 1 wt%"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.2,
+    "high": 0.3,
+    "text": "g/cm3 0.2-0.3"
+   }
+  }
+ },
+ {
+  "key": "market__021__nanoxplore",
+  "company": ": Nanoxplore",
+  "product": "Few Layer Graphene",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 7.0,
+    "high": 10.0,
+    "text": "7 to 10"
+   },
+   "carbon_purity_pct": {
+    "low": 96.0,
+    "high": null,
+    "text": ">96 wt%"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 1.0,
+    "text": "< 1 wt%"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.2,
+    "high": 0.3,
+    "text": "g/cm4 0.2-0.3"
+   }
+  }
+ },
+ {
+  "key": "market__022__gmg_graphene",
+  "company": "GMG Graphene",
+  "product": "Graphene",
+  "url": "https://graphenemg.com/",
+  "form": "powder",
+  "synthesis": "Plasma Technology (Gas Decomposition)",
+  "country": "Australia",
+  "specs": {
+   "bet_m2_g": {
+    "low": 300.0,
+    "high": 300.0,
+    "text": "300m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__030__https_hydro_hydrograph",
+  "company": "https://hydro Hydrograph",
+  "product": "Graphene",
+  "url": "https://hydro",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 3.0,
+    "high": 9.0,
+    "text": "3 to 9"
+   },
+   "thickness_nm": {
+    "low": 2.0,
+    "high": 3.0,
+    "text": "2-3 nm"
+   },
+   "bet_m2_g": {
+    "low": 200.0,
+    "high": 200.0,
+    "text": "200m2/g"
+   },
+   "id_ig": {
+    "low": 0.98,
+    "high": 0.98,
+    "text": "0.98"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 100.0,
+    "high": 500.0,
+    "text": "S/m 100-500"
+   }
+  }
+ },
+ {
+  "key": "market__031__https_hydro_hydrograph",
+  "company": "https://hydro Hydrograph",
+  "product": "ized Functional",
+  "url": "https://hydro",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 3.0,
+    "high": 9.0,
+    "text": "3 to 9"
+   },
+   "thickness_nm": {
+    "low": 2.0,
+    "high": 3.0,
+    "text": "2-3 nm"
+   },
+   "bet_m2_g": {
+    "low": 200.0,
+    "high": 200.0,
+    "text": "200m2/g"
+   },
+   "id_ig": {
+    "low": 0.98,
+    "high": 0.98,
+    "text": "0.98"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 100.0,
+    "high": 500.0,
+    "text": "S/m 100-500"
+   }
+  }
+ },
+ {
+  "key": "market__032__gnanomat",
+  "company": "Gnanomat",
+  "product": "Graphene Oxide",
+  "url": "https://gnanomat.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 260.0,
+    "high": 260.0,
+    "text": "260 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__033__gnanomat",
+  "company": "Gnanomat",
+  "product": "Graphene Oxide",
+  "url": "https://gnanomat.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 365.0,
+    "high": 365.0,
+    "text": "365 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__034__gnanomat",
+  "company": "Gnanomat",
+  "product": "Graphene Oxide",
+  "url": "https://gnanomat.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 333.0,
+    "high": 333.0,
+    "text": "333 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__035__gnanomat",
+  "company": "Gnanomat",
+  "product": "Graphene Oxide",
+  "url": "https://gnanomat.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 377.0,
+    "high": 377.0,
+    "text": "377 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__036__gnanomat",
+  "company": "Gnanomat",
+  "product": "Graphene Oxide",
+  "url": "https://gnanomat.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 402.0,
+    "high": 402.0,
+    "text": "402 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__037__agp_advanced_graphene_material_https_advancedgrapheneproducts_com_en",
+  "company": "AGP (Advanced Graphene Material)https://advancedgrapheneproducts.com/en/",
+  "product": "Graphene Oxide",
+  "url": "https://advancedgrapheneproducts.com/en/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 3.0,
+    "text": "1 to 3"
+   }
+  }
+ },
+ {
+  "key": "market__038__agp_advanced_graphene_material_https_advancedgrapheneproducts_com_en",
+  "company": "AGP (Advanced Graphene Material)https://advancedgrapheneproducts.com/en/",
+  "product": "Graphene Oxide",
+  "url": "https://advancedgrapheneproducts.com/en/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 2.0,
+    "high": 3.0,
+    "text": "2 to 3"
+   }
+  }
+ },
+ {
+  "key": "market__039__agp_advanced_graphene_material_https_advancedgrapheneproducts_com_en",
+  "company": "AGP (Advanced Graphene Material)https://advancedgrapheneproducts.com/en/",
+  "product": "Graphene Oxide",
+  "url": "https://advancedgrapheneproducts.com/en/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 3.0,
+    "high": 3.0,
+    "text": "3 to 3"
+   }
+  }
+ },
+ {
+  "key": "market__058__acs_materials",
+  "company": "ACS Materials",
+  "product": "Graphene",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": "dispersion",
+  "synthesis": "Electrochemical Cleavage Method",
+  "country": "USA",
+  "specs": {
+   "thickness_nm": {
+    "low": 3.2,
+    "high": 4.2,
+    "text": "3.2-4.2"
+   },
+   "bet_m2_g": {
+    "low": 894.0,
+    "high": 894.0,
+    "text": "894 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__059__acs_materials",
+  "company": "ACS Materials",
+  "product": "alized Function",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 53.0,
+    "high": 53.0,
+    "text": "53"
+   }
+  }
+ },
+ {
+  "key": "market__060__acs_materials",
+  "company": "ACS Materials",
+  "product": "Graphene Oxide",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": "powder",
+  "synthesis": "Reduced",
+  "country": "USA",
+  "specs": {
+   "thickness_nm": {
+    "low": 2.0,
+    "high": 10.0,
+    "text": "2-10 nm"
+   },
+   "bet_m2_g": {
+    "low": 20.0,
+    "high": 40.0,
+    "text": "20-40 m2/g"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 80000.0,
+    "high": 80000.0,
+    "text": "S/m 80000"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.09,
+    "high": 0.09,
+    "text": "0.09 0.06-"
+   }
+  }
+ },
+ {
+  "key": "market__062__acs_materials",
+  "company": "ACS Materials",
+  "product": "ed Fluorinat",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 36.0,
+    "high": 42.0,
+    "text": "36-42"
+   }
+  }
+ },
+ {
+  "key": "market__063__acs_materials",
+  "company": "ACS Materials",
+  "product": "d Undefine",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 650.0,
+    "high": 750.0,
+    "text": "650-750"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 500.0,
+    "high": 700.0,
+    "text": "500-700"
+   },
+   "oxygen_pct": {
+    "low": 7.0,
+    "high": 7.5,
+    "text": "7-7.5"
+   }
+  }
+ },
+ {
+  "key": "market__064__acs_materials",
+  "company": "ACS Materials",
+  "product": "d Undefine",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 3.0,
+    "high": 5.0,
+    "text": "3-5 nm"
+   },
+   "bet_m2_g": {
+    "low": 650.0,
+    "high": 750.0,
+    "text": "650-750"
+   },
+   "carbon_purity_pct": {
+    "low": 97.0,
+    "high": 97.0,
+    "text": "97"
+   },
+   "oxygen_pct": {
+    "low": 2.0,
+    "high": 2.0,
+    "text": "2"
+   }
+  }
+ },
+ {
+  "key": "market__065__acs_materials",
+  "company": "ACS Materials",
+  "product": "d Undefine",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 3.0,
+    "high": 5.0,
+    "text": "3-5 nm"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.09,
+    "high": 0.09,
+    "text": "0.09 0.06-"
+   }
+  }
+ },
+ {
+  "key": "market__067__acs_materials",
+  "company": "ACS Materials",
+  "product": "Graphen Reduced",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 390.0,
+    "high": 390.0,
+    "text": "390 m2/g"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 15630.0,
+    "high": 15630.0,
+    "text": "S/m 15630"
+   }
+  }
+ },
+ {
+  "key": "market__068__acs_materials",
+  "company": "ACS Materials",
+  "product": "alized Function",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 0.8,
+    "high": 1.2,
+    "text": "0.8-1.2"
+   }
+  }
+ },
+ {
+  "key": "market__069__acs_materials",
+  "company": "ACS Materials",
+  "product": "Graphen Reduced",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1 nm"
+   },
+   "bet_m2_g": {
+    "low": 180.0,
+    "high": 180.0,
+    "text": "180 m2/g"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 500.0,
+    "high": 500.0,
+    "text": "500 S/m"
+   }
+  }
+ },
+ {
+  "key": "market__070__acs_materials",
+  "company": "ACS Materials",
+  "product": "Graphene Oxide",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": "powder",
+  "synthesis": "Reduced",
+  "country": "USA",
+  "specs": {
+   "thickness_nm": {
+    "low": 0.8,
+    "high": 1.2,
+    "text": "0.8-1.2"
+   }
+  }
+ },
+ {
+  "key": "market__071__acs_materials",
+  "company": "ACS Materials",
+  "product": "Graphene Oxide",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": "powder",
+  "synthesis": "Reduced",
+  "country": "USA",
+  "specs": {
+   "bet_m2_g": {
+    "low": 5.0,
+    "high": 10.0,
+    "text": "5-10 m2/g"
+   },
+   "oxygen_pct": {
+    "low": 35.0,
+    "high": 35.0,
+    "text": "35"
+   }
+  }
+ },
+ {
+  "key": "market__072__acs_materials",
+  "company": "ACS Materials",
+  "product": "Graphene Oxide",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": "powder",
+  "synthesis": "Reduced",
+  "country": "USA",
+  "specs": {
+   "thickness_nm": {
+    "low": 0.55,
+    "high": 0.55,
+    "text": "0.55 -"
+   }
+  }
+ },
+ {
+  "key": "market__073__acs_materials",
+  "company": "ACS Materials",
+  "product": "Graphene Oxide",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": "powder",
+  "synthesis": "Reduced",
+  "country": "USA",
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1 nm"
+   },
+   "bet_m2_g": {
+    "low": 207.0,
+    "high": 207.0,
+    "text": "207"
+   },
+   "carbon_purity_pct": {
+    "low": 42.0,
+    "high": 42.0,
+    "text": "42"
+   },
+   "oxygen_pct": {
+    "low": 54.0,
+    "high": 54.0,
+    "text": "54"
+   }
+  }
+ },
+ {
+  "key": "market__075__acs_materials",
+  "company": "ACS Materials",
+  "product": "Doped Graphene",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": 799.0,
+    "text": "500-799"
+   }
+  }
+ },
+ {
+  "key": "market__092__acs_materials",
+  "company": "ACS Materials",
+  "product": "Graphene Oxide",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": "powder",
+  "synthesis": "Reduced",
+  "country": "USA",
+  "specs": {
+   "thickness_nm": {
+    "low": 0.6,
+    "high": 1.2,
+    "text": "0.6-1.2"
+   },
+   "bet_m2_g": {
+    "low": 400.0,
+    "high": 1000.0,
+    "text": "400 ~1000"
+   }
+  }
+ },
+ {
+  "key": "market__096__acs_materials",
+  "company": "ACS Materials",
+  "product": "Graphene Oxide",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": "powder",
+  "synthesis": "Reduced",
+  "country": "USA",
+  "specs": {
+   "thickness_nm": {
+    "low": 0.8,
+    "high": 1.2,
+    "text": "0.8 -1.2"
+   }
+  }
+ },
+ {
+  "key": "market__097__acs_materials",
+  "company": "ACS Materials",
+  "product": "Graphene Oxide",
+  "url": "https://www.acsmaterial.com/materials/graphene-series.html",
+  "form": "powder",
+  "synthesis": "Reduced",
+  "country": "USA",
+  "specs": {
+   "thickness_nm": {
+    "low": 0.8,
+    "high": 1.2,
+    "text": "0.8 -1.2"
+   }
+  }
+ },
+ {
+  "key": "market__100__adnano_technologies_pvt_ltd",
+  "company": "Adnano Technologies pvt Ltd",
+  "product": "Reduced Graphene Oxide",
+  "url": "https://ad-nanotech.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 5.0,
+    "high": 10.0,
+    "text": "5-10 nm"
+   },
+   "bet_m2_g": {
+    "low": 60.0,
+    "high": 200.0,
+    "text": "60-200 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__102__adnano_technologies_pvt_ltd",
+  "company": "Adnano Technologies pvt Ltd",
+  "product": "Graphene Oxide",
+  "url": "https://ad-nanotech.com/",
+  "form": "dispersion",
+  "synthesis": "Modified Hummers Method",
+  "country": "India",
+  "specs": {
+   "bet_m2_g": {
+    "low": 60.0,
+    "high": 110.0,
+    "text": "60-110 m2/gram"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.166,
+    "high": 0.166,
+    "text": "g/cm3 0.166"
+   }
+  }
+ },
+ {
+  "key": "market__103__adnano_technologies_pvt_ltd",
+  "company": "Adnano Technologies pvt Ltd",
+  "product": "alized Function",
+  "url": "https://ad-nanotech.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 5.0,
+    "high": 10.0,
+    "text": "5-10 n m"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.45,
+    "high": 0.45,
+    "text": "0.45 g/cm3"
+   }
+  }
+ },
+ {
+  "key": "market__109__adnano_technologies_pvt_ltd",
+  "company": "Adnano Technologies pvt Ltd",
+  "product": "d Undefine",
+  "url": "https://ad-nanotech.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 5.0,
+    "high": 10.0,
+    "text": "5-10 nm"
+   }
+  }
+ },
+ {
+  "key": "market__110__adnano_technologies_pvt_ltd",
+  "company": "Adnano Technologies pvt Ltd",
+  "product": "d Undefine",
+  "url": "https://ad-nanotech.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 0.8,
+    "high": 1.6,
+    "text": "0.8-1.6"
+   },
+   "bet_m2_g": {
+    "low": 400.0,
+    "high": 600.0,
+    "text": "400-600 m2/g"
+   },
+   "lateral_size_um": {
+    "low": null,
+    "high": 1.0,
+    "text": "<1um"
+   }
+  }
+ },
+ {
+  "key": "market__111__adnano_technologies_pvt_ltd",
+  "company": "Adnano Technologies pvt Ltd",
+  "product": "d Undefine",
+  "url": "https://ad-nanotech.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 5.0,
+    "text": "1-5 nm"
+   },
+   "bet_m2_g": {
+    "low": 300.0,
+    "high": 300.0,
+    "text": "300 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__112__adnano_technologies_pvt_ltd",
+  "company": "Adnano Technologies pvt Ltd",
+  "product": "Few Layer Graphene",
+  "url": "https://ad-nanotech.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 5.0,
+    "high": 10.0,
+    "text": "5-10 nm"
+   },
+   "bet_m2_g": {
+    "low": 70.0,
+    "high": 120.0,
+    "text": "70-120 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__113__adnano_technologies_pvt_ltd",
+  "company": "Adnano Technologies pvt Ltd",
+  "product": "Graphene Oxide",
+  "url": "https://ad-nanotech.com/",
+  "form": "dispersion",
+  "synthesis": "Modified Hummers Method",
+  "country": "India",
+  "specs": {
+   "thickness_nm": {
+    "low": 5.0,
+    "high": 10.0,
+    "text": "5-10 nm"
+   },
+   "bet_m2_g": {
+    "low": 110.0,
+    "high": 110.0,
+    "text": "110 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__114__adnano_technologies_pvt_ltd",
+  "company": "Adnano Technologies pvt Ltd",
+  "product": "Graphene Oxide",
+  "url": "https://ad-nanotech.com/",
+  "form": "dispersion",
+  "synthesis": "Modified Hummers Method",
+  "country": "India",
+  "specs": {
+   "thickness_nm": {
+    "low": 0.8,
+    "high": 2.0,
+    "text": "0.8-2 nm"
+   },
+   "bet_m2_g": {
+    "low": 110.0,
+    "high": 250.0,
+    "text": "110-250 m2/g"
+   },
+   "oxygen_pct": {
+    "low": 15.0,
+    "high": 32.0,
+    "text": "15-32%"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.121,
+    "high": 0.121,
+    "text": "g/cm3 0.121"
+   }
+  }
+ },
+ {
+  "key": "market__121__adnano_technologies_pvt_ltd",
+  "company": "Adnano Technologies pvt Ltd",
+  "product": "Graphen Reduced",
+  "url": "https://ad-nanotech.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 0.8,
+    "high": 2.0,
+    "text": "0.8-2 nm"
+   },
+   "bet_m2_g": {
+    "low": 200.0,
+    "high": 700.0,
+    "text": "200-700 m2/g"
+   },
+   "oxygen_pct": {
+    "low": 5.0,
+    "high": 10.0,
+    "text": "5-10%"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.121,
+    "high": 0.121,
+    "text": "g/cm4 0.121"
+   }
+  }
+ },
+ {
+  "key": "market__122__re_avanza",
+  "company": "RE AVANZA",
+  "product": "Graphene Oxide",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 2.0,
+    "text": "1 to 2"
+   },
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 2.0,
+    "text": "1-2 nm"
+   },
+   "bet_m2_g": {
+    "low": 400.0,
+    "high": 400.0,
+    "text": "400 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__123__re_avanza",
+  "company": "RE AVANZA",
+  "product": "Graphene Oxide",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 2.0,
+    "text": "1 to 2"
+   },
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 2.0,
+    "text": "1-2 nm"
+   },
+   "bet_m2_g": {
+    "low": 400.0,
+    "high": 400.0,
+    "text": "400 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__124__re_avanza",
+  "company": "RE AVANZA",
+  "product": "Graphen Reduced",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": 260.0,
+    "high": 260.0,
+    "text": "260 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__125__re_avanza",
+  "company": "RE AVANZA",
+  "product": "Graphen Reduced",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": 280.0,
+    "high": 280.0,
+    "text": "280 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__126__re_avanza",
+  "company": "RE AVANZA",
+  "product": "Graphen Reduced",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": null,
+    "high": 220.0,
+    "text": "<220 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__127__re_avanza",
+  "company": "RE AVANZA",
+  "product": "Graphen Reduced",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": null,
+    "high": 200.0,
+    "text": "<200 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__128__re_avanza",
+  "company": "RE AVANZA",
+  "product": "Graphen Reduced",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": null,
+    "high": 3.0,
+    "text": "<3"
+   },
+   "bet_m2_g": {
+    "low": 416.0,
+    "high": 416.0,
+    "text": "416"
+   }
+  }
+ },
+ {
+  "key": "market__129__re_avanza",
+  "company": "RE AVANZA",
+  "product": "Graphen Reduced",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": null,
+    "high": 3.0,
+    "text": "<3"
+   },
+   "bet_m2_g": {
+    "low": 480.0,
+    "high": 480.0,
+    "text": "480"
+   }
+  }
+ },
+ {
+  "key": "market__130__re_avanza",
+  "company": "RE AVANZA",
+  "product": "Graphen Reduced",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": 230.0,
+    "high": 230.0,
+    "text": "230"
+   }
+  }
+ },
+ {
+  "key": "market__131__re_avanza",
+  "company": "RE AVANZA",
+  "product": "Graphen Reduced",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": 225.0,
+    "high": 225.0,
+    "text": "225"
+   }
+  }
+ },
+ {
+  "key": "market__142__grapheneht_bee",
+  "company": "Grapheneht Bee",
+  "product": "Reduced Graphene Oxide",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 5.0,
+    "text": "1 to 5"
+   }
+  }
+ },
+ {
+  "key": "market__146__charmgraphene",
+  "company": "Charmgraphene:",
+  "product": "Graphene Oxide",
+  "url": "http://charmgraphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 10.0,
+    "text": "1 to 10"
+   }
+  }
+ },
+ {
+  "key": "market__147__charmgraphene",
+  "company": "Charmgraphene:",
+  "product": "Graphene Oxide",
+  "url": "http://charmgraphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 10.0,
+    "text": "1 to 10"
+   }
+  }
+ },
+ {
+  "key": "market__148__charmgraphene",
+  "company": "Charmgraphene:",
+  "product": "Graphene Oxide",
+  "url": "http://charmgraphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 65.0,
+    "high": 65.0,
+    "text": "65"
+   },
+   "oxygen_pct": {
+    "low": 34.0,
+    "high": 34.0,
+    "text": "34"
+   }
+  }
+ },
+ {
+  "key": "market__149__charmgraphene",
+  "company": "Charmgraphene:",
+  "product": "Graphen Reduced",
+  "url": "http://charmgraphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 85.0,
+    "high": 90.0,
+    "text": "85-90"
+   },
+   "oxygen_pct": {
+    "low": 8.0,
+    "high": 8.0,
+    "text": "8"
+   }
+  }
+ },
+ {
+  "key": "market__150__layerone",
+  "company": "LayerOne",
+  "product": "Graphen Reduced",
+  "url": "https://www.layeronematerials.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 0.34,
+    "high": 0.34,
+    "text": "0.34 nm"
+   },
+   "bet_m2_g": {
+    "low": 200.0,
+    "high": 500.0,
+    "text": "200-500 m2/g"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 120.0,
+    "high": 120.0,
+    "text": "1.2 S/cm"
+   }
+  }
+ },
+ {
+  "key": "market__151__layerone",
+  "company": "LayerOne",
+  "product": "Graphen Reduced",
+  "url": "https://www.layeronematerials.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 6.0,
+    "high": 6.0,
+    "text": "6"
+   },
+   "thickness_nm": {
+    "low": 0.3,
+    "high": 0.4,
+    "text": "0.3-0.4"
+   },
+   "bet_m2_g": {
+    "low": 250.0,
+    "high": 250.0,
+    "text": "250 m2/g"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.013,
+    "high": 0.013,
+    "text": "0.013 0.007-"
+   }
+  }
+ },
+ {
+  "key": "market__152__layerone",
+  "company": "LayerOne",
+  "product": "Graphene Oxide",
+  "url": "https://www.layeronematerials.com/",
+  "form": "paste",
+  "synthesis": "Modified Hummer’s Method",
+  "country": "Norwa y",
+  "specs": {
+   "bulk_density_g_cm3": {
+    "low": 1.2,
+    "high": 1.2,
+    "text": "1.2 g/cm3"
+   }
+  }
+ },
+ {
+  "key": "market__153__layerone",
+  "company": "LayerOne",
+  "product": "Graphene Oxide",
+  "url": "https://www.layeronematerials.com/",
+  "form": "paste",
+  "synthesis": "Modified Hummer’s Method",
+  "country": "Norwa y",
+  "specs": {
+   "layers": {
+    "low": 3.0,
+    "high": 5.0,
+    "text": "3 to 5"
+   },
+   "bulk_density_g_cm3": {
+    "low": 1.3,
+    "high": 1.3,
+    "text": "1.3"
+   }
+  }
+ },
+ {
+  "key": "market__154__layerone",
+  "company": "LayerOne",
+  "product": "Graphene Oxide",
+  "url": "https://www.layeronematerials.com/",
+  "form": "paste",
+  "synthesis": "Modified Hummer’s Method",
+  "country": "Norwa y",
+  "specs": {
+   "bulk_density_g_cm3": {
+    "low": 1.1,
+    "high": 1.1,
+    "text": "1.1"
+   }
+  }
+ },
+ {
+  "key": "market__155__layerone",
+  "company": "LayerOne",
+  "product": "Graphene Oxide",
+  "url": "https://www.layeronematerials.com/",
+  "form": "paste",
+  "synthesis": "Modified Hummer’s Method",
+  "country": "Norwa y",
+  "specs": {
+   "bulk_density_g_cm3": {
+    "low": 1.1,
+    "high": 1.1,
+    "text": "1.1"
+   }
+  }
+ },
+ {
+  "key": "market__156__layerone",
+  "company": "LayerOne",
+  "product": "Graphene Oxide",
+  "url": "https://www.layeronematerials.com/",
+  "form": "paste",
+  "synthesis": "Modified Hummer’s Method",
+  "country": "Norwa y",
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 64.0,
+    "high": 65.0,
+    "text": "64-65"
+   },
+   "oxygen_pct": {
+    "low": 33.0,
+    "high": 34.0,
+    "text": "33-34"
+   }
+  }
+ },
+ {
+  "key": "market__157__layerone",
+  "company": "LayerOne",
+  "product": "Graphene Oxide",
+  "url": "https://www.layeronematerials.com/",
+  "form": "paste",
+  "synthesis": "Modified Hummer’s Method",
+  "country": "Norwa y",
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 64.0,
+    "high": 65.0,
+    "text": "64-65"
+   },
+   "oxygen_pct": {
+    "low": 33.0,
+    "high": 34.0,
+    "text": "33-34"
+   }
+  }
+ },
+ {
+  "key": "market__158__layerone",
+  "company": "LayerOne",
+  "product": "Graphene Oxide",
+  "url": "https://www.layeronematerials.com/",
+  "form": "paste",
+  "synthesis": "Modified Hummer’s Method",
+  "country": "Norwa y",
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 64.0,
+    "high": 65.0,
+    "text": "64-65"
+   },
+   "oxygen_pct": {
+    "low": 33.0,
+    "high": 34.0,
+    "text": "33-34"
+   }
+  }
+ },
+ {
+  "key": "market__159__cheap_tubes",
+  "company": "Cheap Tubes",
+  "product": "Few Layer Graphene",
+  "url": "https://www.cheaptubes.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 0.345,
+    "high": 0.345,
+    "text": "0.345 nm"
+   }
+  }
+ },
+ {
+  "key": "market__161__cheap_tubes",
+  "company": "Cheap Tubes",
+  "product": "Graphene Oxide",
+  "url": "https://www.cheaptubes.com/",
+  "form": null,
+  "synthesis": "Hofman",
+  "country": "USA",
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 35.0,
+    "high": 42.0,
+    "text": "35-42"
+   },
+   "oxygen_pct": {
+    "low": 45.0,
+    "high": 55.0,
+    "text": "45-55"
+   }
+  }
+ },
+ {
+  "key": "market__167__cheap_tubes",
+  "company": "Cheap Tubes",
+  "product": "Graphene Oxide",
+  "url": "https://www.cheaptubes.com/",
+  "form": null,
+  "synthesis": "Hofman",
+  "country": "USA",
+  "specs": {
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": 700.0,
+    "text": "500-700"
+   }
+  }
+ },
+ {
+  "key": "market__173__general_graphene",
+  "company": "General Graphene",
+  "product": "Reduced Graphene Oxide",
+  "url": "https://generalgraphenecorp",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 3.45,
+    "high": 3.45,
+    "text": "3.45 A"
+   },
+   "id_ig": {
+    "low": null,
+    "high": 0.005,
+    "text": "<0.005"
+   }
+  }
+ },
+ {
+  "key": "market__177__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "alized Function",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 3.0,
+    "text": "1-3"
+   },
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": null,
+    "text": ">500"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 20.0,
+    "text": "0.5-20"
+   }
+  }
+ },
+ {
+  "key": "market__178__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Doped Graphene",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 5.0,
+    "text": "1-5"
+   },
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": null,
+    "text": ">500"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "carbon_purity_pct": {
+    "low": 80.0,
+    "high": 90.0,
+    "text": "C: 80-90 at%"
+   }
+  }
+ },
+ {
+  "key": "market__179__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Doped Graphene",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 5.0,
+    "text": "1-5"
+   },
+   "bet_m2_g": {
+    "low": 501.0,
+    "high": null,
+    "text": ">501"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "carbon_purity_pct": {
+    "low": 85.0,
+    "high": 95.0,
+    "text": "C: 85-95at%"
+   }
+  }
+ },
+ {
+  "key": "market__180__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Graphene Oxide",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 3.0,
+    "high": 5.0,
+    "text": "3-5"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 1100.0,
+    "high": 1100.0,
+    "text": "S/m 1100"
+   },
+   "carbon_purity_pct": {
+    "low": 90.0,
+    "high": 90.0,
+    "text": "C: 90%"
+   }
+  }
+ },
+ {
+  "key": "market__181__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Graphene Oxide",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 5.0,
+    "text": "<5 nm"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "carbon_purity_pct": {
+    "low": 90.0,
+    "high": 90.0,
+    "text": "C: 90%"
+   }
+  }
+ },
+ {
+  "key": "market__182__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Graphene Oxide",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "carbon_purity_pct": {
+    "low": 55.0,
+    "high": 65.0,
+    "text": "C: 55-65%"
+   }
+  }
+ },
+ {
+  "key": "market__183__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Graphene Oxide",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "carbon_purity_pct": {
+    "low": 55.0,
+    "high": 65.0,
+    "text": "C: 55-65%"
+   }
+  }
+ },
+ {
+  "key": "market__184__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Graphene Oxide",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 3.0,
+    "text": "1-3"
+   },
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": null,
+    "text": ">500"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 20.0,
+    "text": "0.5-20"
+   }
+  }
+ },
+ {
+  "key": "market__185__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Graphene Oxide",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 5.0,
+    "text": "1-5 a"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "carbon_purity_pct": {
+    "low": 80.0,
+    "high": 90.0,
+    "text": "C: 80-90%"
+   }
+  }
+ },
+ {
+  "key": "market__186__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Graphene Oxide",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 3.0,
+    "text": "1-3"
+   },
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": 500.0,
+    "text": "500"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 10000.0,
+    "high": null,
+    "text": "S/m >10000"
+   }
+  }
+ },
+ {
+  "key": "market__187__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Graphene Oxide",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "carbon_purity_pct": {
+    "low": 75.0,
+    "high": 75.0,
+    "text": "C: 75%"
+   }
+  }
+ },
+ {
+  "key": "market__188__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Doped Graphene",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 5.0,
+    "text": "1-5"
+   },
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": null,
+    "text": ">500"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "carbon_purity_pct": {
+    "low": 80.0,
+    "high": 90.0,
+    "text": "C: 80-90%"
+   }
+  }
+ },
+ {
+  "key": "market__189__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Doped Graphene",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 5.0,
+    "text": "1-5"
+   },
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": null,
+    "text": ">500"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "carbon_purity_pct": {
+    "low": 80.0,
+    "high": 90.0,
+    "text": "C: 80-90%"
+   }
+  }
+ },
+ {
+  "key": "market__190__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Doped Graphene",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 5.0,
+    "text": "1-5"
+   },
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": null,
+    "text": ">500"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "carbon_purity_pct": {
+    "low": 80.0,
+    "high": 90.0,
+    "text": "C: 80-90%"
+   }
+  }
+ },
+ {
+  "key": "market__192__https_ww_graphitene",
+  "company": "https://ww Graphitene:",
+  "product": "Graphen Reduced",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 3.0,
+    "text": "<3 layers"
+   },
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": null,
+    "text": ">500"
+   },
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 um"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 103.0,
+    "high": null,
+    "text": ">103S/m"
+   },
+   "carbon_purity_pct": {
+    "low": 95.0,
+    "high": null,
+    "text": ">95%"
+   }
+  }
+ },
+ {
+  "key": "market__197__knvs",
+  "company": "KNVs",
+  "product": "Reduced Graphene Oxide",
+  "url": "https://www.k",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 2.0,
+    "high": 15.0,
+    "text": "2 - 15 nm"
+   },
+   "bet_m2_g": {
+    "low": 110.0,
+    "high": 800.0,
+    "text": "110 - 800"
+   }
+  }
+ },
+ {
+  "key": "market__198__knvs",
+  "company": "KNVs",
+  "product": "Graphene Oxide",
+  "url": "https://www.k",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 0.8,
+    "high": 2.0,
+    "text": "0.8-2 nm"
+   },
+   "bet_m2_g": {
+    "low": 120.0,
+    "high": null,
+    "text": ">120"
+   },
+   "carbon_purity_pct": {
+    "low": 73.0,
+    "high": 73.0,
+    "text": "73"
+   },
+   "oxygen_pct": {
+    "low": 21.0,
+    "high": 21.0,
+    "text": "21"
+   }
+  }
+ },
+ {
+  "key": "market__200__mst_nano",
+  "company": "MST-NANO",
+  "product": "Graphene Oxide",
+  "url": "https://mstnano.com/",
+  "form": "powder",
+  "synthesis": "physical exfoliation",
+  "country": "Russia",
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 1.0,
+    "text": "<1nm"
+   }
+  }
+ },
+ {
+  "key": "market__226__platonic_nanotech_private_limited",
+  "company": "Platonic Nanotech Private limited",
+  "product": "Graphene Oxide",
+  "url": "https://platonicnanotech.com/",
+  "form": "powder",
+  "synthesis": "Undisclosed",
+  "country": "India",
+  "specs": {
+   "layers": {
+    "low": 4.0,
+    "high": 8.0,
+    "text": "4 to 8"
+   },
+   "thickness_nm": {
+    "low": 0.5,
+    "high": 5.0,
+    "text": "0.5-5 nm"
+   },
+   "bet_m2_g": {
+    "low": 230.0,
+    "high": 230.0,
+    "text": "230 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__227__platonic_nanotech_private_limited",
+  "company": "Platonic Nanotech Private limited",
+  "product": "alized Function",
+  "url": "https://platonicnanotech.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 4.0,
+    "high": 8.0,
+    "text": "4 to 8"
+   }
+  }
+ },
+ {
+  "key": "market__228__platonic_nanotech_private_limited",
+  "company": "Platonic Nanotech Private limited",
+  "product": "Graphene Oxide",
+  "url": "https://platonicnanotech.com/",
+  "form": "powder",
+  "synthesis": "Undisclosed",
+  "country": "India",
+  "specs": {
+   "layers": {
+    "low": 4.0,
+    "high": 8.0,
+    "text": "4 to 8"
+   },
+   "thickness_nm": {
+    "low": 5.0,
+    "high": 10.0,
+    "text": "5 - 10"
+   },
+   "bet_m2_g": {
+    "low": 210.0,
+    "high": 210.0,
+    "text": "210 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__229__platonic_nanotech_private_limited",
+  "company": "Platonic Nanotech Private limited",
+  "product": "Graphne Reduced",
+  "url": "https://platonicnanotech.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 4.0,
+    "high": 8.0,
+    "text": "4 to 8"
+   },
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 10.0,
+    "text": "1 -10 nm"
+   },
+   "bet_m2_g": {
+    "low": 230.0,
+    "high": 230.0,
+    "text": "230 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__232__rusgraphene",
+  "company": "RUSGRAPHENE ;",
+  "product": "Reduced Graphene Oxide",
+  "url": "https://rusgraphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   }
+  }
+ },
+ {
+  "key": "market__233__rusgraphene",
+  "company": "RUSGRAPHENE ;",
+  "product": "Graphene Oxide",
+  "url": "https://rusgraphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "oxygen_pct": {
+    "low": 9.0,
+    "high": 9.0,
+    "text": "9%"
+   }
+  }
+ },
+ {
+  "key": "market__234__rusgraphene",
+  "company": "RUSGRAPHENE ;",
+  "product": "Graphen Reduced",
+  "url": "https://rusgraphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 700.0,
+    "high": 700.0,
+    "text": "700m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__235__sixonia",
+  "company": "Sixonia",
+  "product": "Few Layer Graphene",
+  "url": "https://ww",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 5.0,
+    "text": "1 to 5"
+   },
+   "id_ig": {
+    "low": 0.1,
+    "high": 0.2,
+    "text": "0.1 - 0.2"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 40000.0,
+    "high": null,
+    "text": ">400 S/cm"
+   }
+  }
+ },
+ {
+  "key": "market__236__standard_graphene",
+  "company": "Standard Graphene",
+  "product": "Graphene Oxide",
+  "url": "https://standardgraphene.com/",
+  "form": "dispersion",
+  "synthesis": "Chemical Oxidation",
+  "country": "South Korea",
+  "specs": {
+   "electrical_conductivity_s_m": {
+    "low": 200000.0,
+    "high": 400000.0,
+    "text": "µ2000-4000 S/cm"
+   }
+  }
+ },
+ {
+  "key": "market__240__standard_graphene",
+  "company": "Standard Graphene",
+  "product": "Graphen Reduced",
+  "url": "https://standardgraphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 40.0,
+    "high": 50.0,
+    "text": "40-50%"
+   },
+   "oxygen_pct": {
+    "low": 40.0,
+    "high": 50.0,
+    "text": "40-50%"
+   }
+  }
+ },
+ {
+  "key": "market__245__the_sixth_element_changzhou_materials",
+  "company": "The Sixth Element (Changzhou) Materials",
+  "product": "Graphene Oxide",
+  "url": "https://www.c6th.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 45.0,
+    "high": 55.0,
+    "text": "45-55"
+   }
+  }
+ },
+ {
+  "key": "market__248__cgt_graphene",
+  "company": "CGT Graphene",
+  "product": "Graphene Oxide",
+  "url": "https://ceylongraphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 65.6,
+    "high": 68.98,
+    "text": "65.6- 68.98%"
+   },
+   "oxygen_pct": {
+    "low": 28.64,
+    "high": 34.04,
+    "text": "28.64- 34.04%"
+   }
+  }
+ },
+ {
+  "key": "market__250__cgt_graphene",
+  "company": "CGT Graphene",
+  "product": "Graphen Reduced",
+  "url": "https://ceylongraphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 450.0,
+    "high": 550.0,
+    "text": "500 m2/g+-50"
+   },
+   "carbon_purity_pct": {
+    "low": 94.0,
+    "high": 95.0,
+    "text": "94.0- 95.0%"
+   },
+   "oxygen_pct": {
+    "low": 4.5,
+    "high": 5.0,
+    "text": "4.5-5%"
+   }
+  }
+ },
+ {
+  "key": "market__251__grafen",
+  "company": "Grafen",
+  "product": "Graphene Oxide",
+  "url": null,
+  "form": "powder",
+  "synthesis": "Chemical Oxidation",
+  "country": "Turkey",
+  "specs": {
+   "layers": {
+    "low": 2.0,
+    "high": 5.0,
+    "text": "2 to 5"
+   },
+   "thickness_nm": {
+    "low": 5.0,
+    "high": 5.0,
+    "text": "5 nm"
+   },
+   "bet_m2_g": {
+    "low": 420.0,
+    "high": 420.0,
+    "text": "420 m2/g"
+   },
+   "carbon_purity_pct": {
+    "low": 69.0,
+    "high": 69.0,
+    "text": "69"
+   },
+   "oxygen_pct": {
+    "low": 31.0,
+    "high": 31.0,
+    "text": "31"
+   }
+  }
+ },
+ {
+  "key": "market__252__grafen",
+  "company": "Grafen",
+  "product": "Graphene Oxide",
+  "url": null,
+  "form": "powder",
+  "synthesis": "Chemical Oxidation",
+  "country": "Turkey",
+  "specs": {
+   "layers": {
+    "low": 3.0,
+    "high": 6.0,
+    "text": "3 to 6"
+   },
+   "bet_m2_g": {
+    "low": 450.0,
+    "high": 650.0,
+    "text": "450-650 m2/g"
+   }
+  }
+ },
+ {
+  "key": "market__262__knano_graphene_technology",
+  "company": "Knano Graphene Technology:",
+  "product": "Graphene",
+  "url": "http://en.knano.com.cn/product/27.html",
+  "form": "powder",
+  "synthesis": "Mechanical exfoliation",
+  "country": "China",
+  "specs": {
+   "bulk_density_g_cm3": {
+    "low": 0.01,
+    "high": 0.02,
+    "text": "0.01-0.02 g/ml"
+   }
+  }
+ },
+ {
+  "key": "market__266__leadernano",
+  "company": "Leadernano:",
+  "product": "Graphene Oxide",
+  "url": "http://www.leadernano.com/",
+  "form": "powder",
+  "synthesis": "Undisclosed",
+  "country": "China",
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 5.0,
+    "text": "1-5 nm"
+   },
+   "bet_m2_g": {
+    "low": 300.0,
+    "high": 600.0,
+    "text": "300-600 m2/g"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 400.0,
+    "high": null,
+    "text": ">400S/m"
+   }
+  }
+ },
+ {
+  "key": "market__269__leadernano",
+  "company": "Leadernano:",
+  "product": "Graphene Oxide",
+  "url": "http://www.leadernano.com/",
+  "form": "powder",
+  "synthesis": "Undisclosed",
+  "country": "China",
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 50.0,
+    "text": "<50"
+   },
+   "bet_m2_g": {
+    "low": 20.0,
+    "high": 20.0,
+    "text": "20 m2/g"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 2000.0,
+    "high": 2000.0,
+    "text": "S/m 2000"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98"
+   }
+  }
+ },
+ {
+  "key": "market__273__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 1.0,
+    "text": "<1"
+   },
+   "bet_m2_g": {
+    "low": 650.0,
+    "high": null,
+    "text": ">650"
+   },
+   "carbon_purity_pct": {
+    "low": 99.0,
+    "high": null,
+    "text": ">99.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 0.8,
+    "text": "<0.8"
+   }
+  }
+ },
+ {
+  "key": "market__274__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": 650.0,
+    "text": "500-650"
+   },
+   "carbon_purity_pct": {
+    "low": 99.0,
+    "high": null,
+    "text": ">99.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 0.8,
+    "text": "<0.8"
+   }
+  }
+ },
+ {
+  "key": "market__275__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": 350.0,
+    "high": 500.0,
+    "text": "350-500"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 1.2,
+    "text": "<1.2"
+   }
+  }
+ },
+ {
+  "key": "market__276__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": 200.0,
+    "high": 350.0,
+    "text": "200-350"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 1.2,
+    "text": "<1.2"
+   }
+  }
+ },
+ {
+  "key": "market__277__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 50.0,
+    "text": "<50"
+   },
+   "bet_m2_g": {
+    "low": 50.0,
+    "high": 200.0,
+    "text": "50-200"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 1.5,
+    "text": "<1.5"
+   }
+  }
+ },
+ {
+  "key": "market__278__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 100.0,
+    "high": null,
+    "text": ">100"
+   },
+   "bet_m2_g": {
+    "low": null,
+    "high": 50.0,
+    "text": "<50"
+   },
+   "carbon_purity_pct": {
+    "low": 97.0,
+    "high": null,
+    "text": ">97.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 1.5,
+    "text": "<1.5"
+   }
+  }
+ },
+ {
+  "key": "market__279__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 650.0,
+    "high": null,
+    "text": ">650"
+   },
+   "carbon_purity_pct": {
+    "low": 90.0,
+    "high": null,
+    "text": ">90.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   }
+  }
+ },
+ {
+  "key": "market__280__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": 650.0,
+    "text": "500-650"
+   },
+   "carbon_purity_pct": {
+    "low": 90.0,
+    "high": null,
+    "text": ">90.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   }
+  }
+ },
+ {
+  "key": "market__281__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 350.0,
+    "high": 500.0,
+    "text": "350-500"
+   },
+   "carbon_purity_pct": {
+    "low": 90.0,
+    "high": null,
+    "text": ">90.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   }
+  }
+ },
+ {
+  "key": "market__282__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 200.0,
+    "high": 350.0,
+    "text": "200-350"
+   },
+   "carbon_purity_pct": {
+    "low": 90.0,
+    "high": null,
+    "text": ">90.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   }
+  }
+ },
+ {
+  "key": "market__283__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 50.0,
+    "high": 200.0,
+    "text": "50-200"
+   },
+   "carbon_purity_pct": {
+    "low": 70.0,
+    "high": null,
+    "text": ">70.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 30.0,
+    "text": "<30"
+   }
+  }
+ },
+ {
+  "key": "market__284__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": null,
+    "high": 50.0,
+    "text": "<50"
+   },
+   "carbon_purity_pct": {
+    "low": 70.0,
+    "high": null,
+    "text": ">70.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 30.0,
+    "text": "<30"
+   }
+  }
+ },
+ {
+  "key": "market__285__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": 650.0,
+    "text": "500-650"
+   },
+   "carbon_purity_pct": {
+    "low": 99.0,
+    "high": null,
+    "text": ">99.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 0.8,
+    "text": "<0.8"
+   }
+  }
+ },
+ {
+  "key": "market__286__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": 350.0,
+    "high": 500.0,
+    "text": "350-500"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 1.2,
+    "text": "<1.2"
+   }
+  }
+ },
+ {
+  "key": "market__287__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": 200.0,
+    "high": 350.0,
+    "text": "200-350"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 1.2,
+    "text": "<1.2"
+   }
+  }
+ },
+ {
+  "key": "market__288__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 50.0,
+    "text": "<50"
+   },
+   "bet_m2_g": {
+    "low": 50.0,
+    "high": 200.0,
+    "text": "50-200"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 1.5,
+    "text": "<1.5"
+   }
+  }
+ },
+ {
+  "key": "market__289__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 100.0,
+    "high": null,
+    "text": ">100"
+   },
+   "bet_m2_g": {
+    "low": null,
+    "high": 50.0,
+    "text": "<50"
+   },
+   "carbon_purity_pct": {
+    "low": 97.0,
+    "high": null,
+    "text": ">97.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 1.5,
+    "text": "<1.5"
+   }
+  }
+ },
+ {
+  "key": "market__290__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 650.0,
+    "high": null,
+    "text": ">650"
+   },
+   "carbon_purity_pct": {
+    "low": 90.0,
+    "high": null,
+    "text": ">90.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   }
+  }
+ },
+ {
+  "key": "market__291__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 500.0,
+    "high": 650.0,
+    "text": "500-650"
+   },
+   "carbon_purity_pct": {
+    "low": 90.0,
+    "high": null,
+    "text": ">90.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   }
+  }
+ },
+ {
+  "key": "market__292__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 350.0,
+    "high": 500.0,
+    "text": "350-500"
+   },
+   "carbon_purity_pct": {
+    "low": 90.0,
+    "high": null,
+    "text": ">90.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   }
+  }
+ },
+ {
+  "key": "market__293__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 200.0,
+    "high": 350.0,
+    "text": "200-350"
+   },
+   "carbon_purity_pct": {
+    "low": 90.0,
+    "high": null,
+    "text": ">90.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   }
+  }
+ },
+ {
+  "key": "market__294__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 50.0,
+    "high": 200.0,
+    "text": "50-200"
+   },
+   "carbon_purity_pct": {
+    "low": 70.0,
+    "high": null,
+    "text": ">70.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 30.0,
+    "text": "<30"
+   }
+  }
+ },
+ {
+  "key": "market__295__aztrong",
+  "company": "AzTrong",
+  "product": "Graphene Oxide",
+  "url": "https://www.aztrong.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": null,
+    "high": 50.0,
+    "text": "<50"
+   },
+   "carbon_purity_pct": {
+    "low": 70.0,
+    "high": null,
+    "text": ">70.00"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 30.0,
+    "text": "<30"
+   }
+  }
+ },
+ {
+  "key": "market__296__bestgraphene",
+  "company": "Bestgraphene :",
+  "product": "Graphene",
+  "url": "http://www.best-graphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 2.0,
+    "high": 3.0,
+    "text": "2-3 nm"
+   },
+   "bet_m2_g": {
+    "low": 400.0,
+    "high": 600.0,
+    "text": "400-600"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 2.0,
+    "text": "<2"
+   }
+  }
+ },
+ {
+  "key": "market__297__bestgraphene",
+  "company": "Bestgraphene :",
+  "product": "Graphene Oxide",
+  "url": "http://www.best-graphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 20.0,
+    "high": 50.0,
+    "text": "20-50"
+   },
+   "bet_m2_g": {
+    "low": 15.0,
+    "high": 20.0,
+    "text": "15-20"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 2.0,
+    "text": "<2"
+   }
+  }
+ },
+ {
+  "key": "market__298__bestgraphene",
+  "company": "Bestgraphene :",
+  "product": "Graphene Oxide",
+  "url": "http://www.best-graphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 5.0,
+    "text": "<5 nm"
+   },
+   "bet_m2_g": {
+    "low": 250.0,
+    "high": 350.0,
+    "text": "250-350"
+   }
+  }
+ },
+ {
+  "key": "market__300__black_swan_graphene",
+  "company": "Black Swan Graphene",
+  "product": "Graphene",
+  "url": "https://blackswangraphene.co",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bulk_density_g_cm3": {
+    "low": 0.14,
+    "high": 0.23,
+    "text": "0.14-0.23 g/cm3"
+   }
+  }
+ },
+ {
+  "key": "market__302__boomatech",
+  "company": "Boomatech",
+  "product": "Graphene Oxide",
+  "url": "https://boomatech.com.br/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 58.0,
+    "high": 66.0,
+    "text": "58-66%"
+   },
+   "oxygen_pct": {
+    "low": 27.9,
+    "high": 40.7,
+    "text": "40.7- 27.9%"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.52,
+    "high": 0.52,
+    "text": "0.52 0.28-"
+   }
+  }
+ },
+ {
+  "key": "market__304__boomatech",
+  "company": "Boomatech",
+  "product": "Graphene Oxide",
+  "url": "https://boomatech.com.br/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "electrical_conductivity_s_m": {
+    "low": 100.0,
+    "high": 100.0,
+    "text": "100S/m"
+   }
+  }
+ },
+ {
+  "key": "market__307__boomatech",
+  "company": "Boomatech",
+  "product": "Graphen Reduced",
+  "url": "https://boomatech.com.br/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1 nm"
+   },
+   "bet_m2_g": {
+    "low": 305.0,
+    "high": 305.0,
+    "text": "305 m2/g"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 500.0,
+    "high": 500.0,
+    "text": "500 S/m"
+   },
+   "carbon_purity_pct": {
+    "low": 83.0,
+    "high": 88.0,
+    "text": "83-88%"
+   }
+  }
+ },
+ {
+  "key": "market__334__jmc",
+  "company": "JMC",
+  "product": "Graphene Oxide",
+  "url": "https://www.jmcfinech",
+  "form": "powder",
+  "synthesis": "Control of exothermic reaction",
+  "country": "South Korea",
+  "specs": {
+   "bet_m2_g": {
+    "low": 300.0,
+    "high": null,
+    "text": ">300 m2/g"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 100000.0,
+    "high": null,
+    "text": ">1000 S/cm"
+   }
+  }
+ },
+ {
+  "key": "market__336__graphite_central",
+  "company": "Graphite Central",
+  "product": "Graphene Oxide",
+  "url": "https://graphitecentral.com/",
+  "form": "undisclosed",
+  "synthesis": "Undisclosed",
+  "country": "USA",
+  "specs": {
+   "lateral_size_um": {
+    "low": 1.0,
+    "high": 2.0,
+    "text": "1-2 um"
+   },
+   "id_ig": {
+    "low": 1.01,
+    "high": 1.1,
+    "text": "1.01-1.10"
+   },
+   "carbon_purity_pct": {
+    "low": 61.89,
+    "high": 61.89,
+    "text": "C= 61.89%"
+   }
+  }
+ },
+ {
+  "key": "market__337__graphite_central",
+  "company": "Graphite Central",
+  "product": "Graphene Oxide",
+  "url": "https://graphitecentral.com/",
+  "form": "undisclosed",
+  "synthesis": "Undisclosed",
+  "country": "USA",
+  "specs": {
+   "id_ig": {
+    "low": 1.072,
+    "high": 1.072,
+    "text": "1.072"
+   },
+   "carbon_purity_pct": {
+    "low": 71.68,
+    "high": 71.68,
+    "text": "C=71.68%"
+   }
+  }
+ },
+ {
+  "key": "market__340__graphite_central",
+  "company": "Graphite Central",
+  "product": "Graphene Oxide",
+  "url": "https://graphitecentral.com/",
+  "form": "undisclosed",
+  "synthesis": "Undisclosed",
+  "country": "USA",
+  "specs": {
+   "layers": {
+    "low": null,
+    "high": 5.0,
+    "text": "<5"
+   },
+   "id_ig": {
+    "low": 0.9,
+    "high": 1.1,
+    "text": "0.9-1.1"
+   }
+  }
+ },
+ {
+  "key": "market__349__best_graphene",
+  "company": "Best Graphene :",
+  "product": "ized Functional",
+  "url": "http://www.best-graphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "thickness_nm": {
+    "low": null,
+    "high": 2.0,
+    "text": "<2 nm"
+   },
+   "carbon_purity_pct": {
+    "low": 80.0,
+    "high": null,
+    "text": ">80"
+   }
+  }
+ },
+ {
+  "key": "market__351__best_graphene",
+  "company": "Best Graphene :",
+  "product": "Graphen Reduced",
+  "url": "http://www.best-graphene.com/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "thickness_nm": {
+    "low": null,
+    "high": 5.0,
+    "text": "<5 nm"
+   },
+   "bet_m2_g": {
+    "low": 400.0,
+    "high": 600.0,
+    "text": "400-600"
+   },
+   "carbon_purity_pct": {
+    "low": 95.0,
+    "high": null,
+    "text": ">95"
+   }
+  }
+ },
+ {
+  "key": "market__361__gaoxi_technology",
+  "company": "Gaoxi Technology",
+  "product": "Graphene",
+  "url": "https://www.gaoxitech.com/en/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1 nm"
+   },
+   "lateral_size_um": {
+    "low": 3.0,
+    "high": 5.0,
+    "text": "3-5 um"
+   }
+  }
+ },
+ {
+  "key": "market__362__gaoxi_technology",
+  "company": "Gaoxi Technology",
+  "product": "Reduced Graphene Oxide",
+  "url": "https://www.gaoxitech.com/en/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1 nm"
+   },
+   "lateral_size_um": {
+    "low": 20.0,
+    "high": 30.0,
+    "text": "20-30 um"
+   }
+  }
+ },
+ {
+  "key": "market__363__gaoxi_technology",
+  "company": "Gaoxi Technology",
+  "product": "Reduced Graphene Oxide",
+  "url": "https://www.gaoxitech.com/en/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1 nm"
+   },
+   "lateral_size_um": {
+    "low": 40.0,
+    "high": 50.0,
+    "text": "40-50 um"
+   }
+  }
+ },
+ {
+  "key": "market__364__gaoxi_technology",
+  "company": "Gaoxi Technology",
+  "product": "Graphene Oxide",
+  "url": "https://www.gaoxitech.com/en/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1 nm"
+   },
+   "lateral_size_um": {
+    "low": 3.0,
+    "high": 5.0,
+    "text": "3-5 um"
+   }
+  }
+ },
+ {
+  "key": "market__365__gaoxi_technology",
+  "company": "Gaoxi Technology",
+  "product": "Graphene Oxide",
+  "url": "https://www.gaoxitech.com/en/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1 nm"
+   },
+   "lateral_size_um": {
+    "low": 20.0,
+    "high": 30.0,
+    "text": "20-30 um"
+   }
+  }
+ },
+ {
+  "key": "market__366__gaoxi_technology",
+  "company": "Gaoxi Technology",
+  "product": "Graphene Oxide",
+  "url": "https://www.gaoxitech.com/en/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "thickness_nm": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1 nm"
+   },
+   "lateral_size_um": {
+    "low": 40.0,
+    "high": 50.0,
+    "text": "40-50 um"
+   }
+  }
+ },
+ {
+  "key": "market__367__gaoxi_technology",
+  "company": "Gaoxi Technology",
+  "product": "Graphene Oxide",
+  "url": "https://www.gaoxitech.com/en/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "bet_m2_g": {
+    "low": 10.0,
+    "high": 300.0,
+    "text": "10-300 m2/g"
+   },
+   "lateral_size_um": {
+    "low": 3.0,
+    "high": 5.0,
+    "text": "3-5 um"
+   }
+  }
+ },
+ {
+  "key": "market__368__gaoxi_technology",
+  "company": "Gaoxi Technology",
+  "product": "Graphene Oxide",
+  "url": "https://www.gaoxitech.com/en/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "bet_m2_g": {
+    "low": 10.0,
+    "high": 300.0,
+    "text": "10-300 m2/g"
+   },
+   "lateral_size_um": {
+    "low": 20.0,
+    "high": 30.0,
+    "text": "20-30 um"
+   }
+  }
+ },
+ {
+  "key": "market__369__gaoxi_technology",
+  "company": "Gaoxi Technology",
+  "product": "Graphene Oxide",
+  "url": "https://www.gaoxitech.com/en/",
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "layers": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "bet_m2_g": {
+    "low": 10.0,
+    "high": 300.0,
+    "text": "10-300 m2/g"
+   },
+   "lateral_size_um": {
+    "low": 40.0,
+    "high": 50.0,
+    "text": "40-50 um"
+   }
+  }
+ },
+ {
+  "key": "market__371__group_global_graphene",
+  "company": "group : Global graphene",
+  "product": "Graphene Oxide",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 400.0,
+    "high": null,
+    "text": ">400 m2/g"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98"
+   }
+  }
+ },
+ {
+  "key": "market__372__group_global_graphene",
+  "company": "group : Global graphene",
+  "product": "Graphene Oxide",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "bet_m2_g": {
+    "low": 400.0,
+    "high": 800.0,
+    "text": "400-800 m2/g"
+   },
+   "carbon_purity_pct": {
+    "low": 60.0,
+    "high": 80.0,
+    "text": "60-80%"
+   }
+  }
+ },
+ {
+  "key": "market__373__group_global_graphene",
+  "company": "group : Global graphene",
+  "product": "Graphene Oxide",
+  "url": null,
+  "form": null,
+  "synthesis": null,
+  "country": null,
+  "specs": {
+   "carbon_purity_pct": {
+    "low": 37.0,
+    "high": null,
+    "text": ">37"
+   }
+  }
+ }
+]

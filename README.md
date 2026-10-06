@@ -79,6 +79,84 @@ cd backend
 
 Nothing persists across restarts. Development only.
 
+## Application finder (TDS matching)
+
+Type the numbers off your own carbon's technical data sheet, exactly as the sheet
+quotes them (`20-50`, `<10`, `>99.5`, `~300`), and the finder ranks the applications
+the market sells material like yours into. It lives at **Application finder** in the
+header and at `POST /api/tds/match`.
+
+The evidence is the *application database*: 39 commercial grades from 15 producers
+(Hydrograph, First Graphene, NanoXplore, AdNano, Levidian, GTechPlasma, Matexcel,
+The Sixth Element, ...), each with the applications its vendor sells it into and the
+specs its datasheet quotes, plus a 160-grade market survey (MDPI *Carbon* 2026,
+Tables S1/S2) used for percentile context.
+
+```
+backend/seed/data/source/            the survey workbook and the literature tables
+backend/seed/data/tds_pdfs/          vendor TDS PDFs, served at /api/tds/datasheets/{file}
+backend/seed/data/application_taxonomy.json   14 applications: keywords, description,
+                                              parameter weights, preferred forms
+backend/seed/data/application_products.json   generated: one record per grade
+backend/seed/data/market_reference.json       generated: survey specs as intervals
+backend/scripts/build_application_database.py the generator
+backend/app/analysis/specvalue.py             "20-50" / "<10" / ">99" -> intervals
+backend/app/analysis/tds_match.py             the matching engine
+```
+
+### How a match is scored
+
+Every spec, yours and the vendors', is an interval. For each application:
+
+1. **Evidence set** — the grades tagged with that application (vendor text mapped to
+   the taxonomy by keyword; a few tags were read off the datasheets by hand).
+2. **Market check per parameter** — how many of those grades quote a range that
+   overlaps yours. Overlapping any grade passes, graded by the fraction that overlap;
+   landing in a gap between grades is borderline; falling outside the market hull is
+   borderline within one tolerance (0.3 decades for log-scale parameters such as
+   size, layers, BET and conductivity; a fixed amount for purity, oxygen, I(D)/I(G))
+   and a fail beyond it. An open vendor bound such as `>3500 S/m` is treated as that
+   figure plus a tolerance, not as infinity, so it cannot match everything.
+3. **Weighting** — parameters are weighted per application (BET dominates
+   supercapacitors, lateral size dominates barrier coatings, conductivity dominates
+   inks and EMI). Weights live in the taxonomy file and are the one hand-tuned input.
+4. **Closest grade** — a weighted spec distance to each grade in the evidence set,
+   normalised by how much the whole database varies in each parameter.
+5. **Score** = 100 × (0.65 × market fit + 0.35 × closest-grade similarity), trimmed
+   10 % when your form (powder / dispersion / paste / pellet) is not one the
+   application ships in, and damped when fewer than four grades back the application.
+   **Confidence** reports evidence count and how many weighted parameters you supplied.
+
+The response carries the per-parameter checks, the strengths and gaps in plain
+English, the three closest grades sold for each use with links to their TDS, the five
+closest grades overall, and where your values sit as percentiles of the wider market.
+Matches are saved per user (`GET /api/tds/matches`).
+
+**Your own TDS is the form.** `backend/seed/data/my_tds.json` holds the Faraday Earth 8X1
+sheet as transcribed (values, test methods, descriptive rows); `GET /api/tds/template`
+serves it and the finder opens prefilled with it. Edit any value in the portal and the
+ranking re-computes as you type through `POST /api/tds/preview` (no save); each
+application shows the change in score and rank against the sheet as filed, so you can
+see which parameters move which applications. Press **Save this match** to keep a
+snapshot. When the sheet is reissued, update `my_tds.json`.
+
+### Updating the database
+
+Edit the workbook in `backend/seed/data/source/`, drop new PDFs into `tds_pdfs/`, then:
+
+```bash
+cd backend
+./.venv/bin/python -m scripts.build_application_database   # regenerate the JSON
+./.venv/bin/python -m seed.seed                              # upsert into Mongo
+```
+
+The generator recovers ranges that Excel turned into dates (`2-3` layers stored as
+2026-02-03), and applies the overrides in its `CORRECTIONS` table where a datasheet
+contradicted the sheet (for example RGA-COOH-1's lateral size is 20-50 **nm**, not
+µm). Every override is stored on the product record under `corrections` with its
+reason. Unit conventions: lateral size µm, BET m²/g, conductivity S/m, bulk density
+g/cm³, oxygen and purity in %.
+
 ## Tests
 
 ```bash

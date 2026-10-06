@@ -1,0 +1,2047 @@
+[
+ {
+  "key": "techinstro__grap_ink_ti",
+  "company": "Techinstro",
+  "product": "GRAP-INK-TI",
+  "form": "dispersion",
+  "synthesis": null,
+  "applications_text": "Conductive Ink",
+  "application_tags": [
+   "conductive_inks"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 5.0,
+    "high": 5.0,
+    "text": "5"
+   },
+   "layers": {
+    "low": 2.0,
+    "high": 3.0,
+    "text": "2-3"
+   },
+   "carbon_purity_pct": {
+    "low": 99.95,
+    "high": 99.95,
+    "text": "99.95"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 1380.0,
+    "high": 1380.0,
+    "text": "1380"
+   },
+   "loading_wt_pct": {
+    "low": 40.0,
+    "high": 40.0,
+    "text": "40"
+   },
+   "viscosity_cps": {
+    "low": 23500.0,
+    "high": 23500.0,
+    "text": "23500"
+   },
+   "density_g_ml": {
+    "low": 1.3,
+    "high": 1.3,
+    "text": "1.3"
+   }
+  },
+  "solvent": "Non Aqueous Solvent",
+  "additives": "Epoxy Binder",
+  "datasheet_url": "https://www.techinstro.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 3
+ },
+ {
+  "key": "shipent__se_graph_ink",
+  "company": "Shipent",
+  "product": "SE-Graph-Ink",
+  "form": "dispersion",
+  "synthesis": null,
+  "applications_text": "Conductive Ink",
+  "application_tags": [
+   "conductive_inks"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 5.0,
+    "high": 5.0,
+    "text": "5"
+   },
+   "layers": {
+    "low": 2.0,
+    "high": 3.0,
+    "text": "2-3"
+   },
+   "carbon_purity_pct": {
+    "low": 99.95,
+    "high": 99.95,
+    "text": "99.95"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 1380.0,
+    "high": 1380.0,
+    "text": "1380"
+   },
+   "loading_wt_pct": {
+    "low": 40.0,
+    "high": 40.0,
+    "text": "40"
+   },
+   "viscosity_cps": {
+    "low": 23500.0,
+    "high": 23500.0,
+    "text": "23500"
+   },
+   "density_g_ml": {
+    "low": 1.3,
+    "high": 1.3,
+    "text": "1.3"
+   }
+  },
+  "solvent": "Non Aqueous Solvent",
+  "additives": "Epoxy Binder",
+  "datasheet_url": "https://www.shilpent.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 4
+ },
+ {
+  "key": "first_graphene__puregraph_aqua",
+  "company": "First Graphene",
+  "product": "PureGraph AQUA",
+  "form": "paste",
+  "synthesis": "Exfoliation",
+  "applications_text": "Paints, Inks, Latex, Polymer composite, cement composite",
+  "application_tags": [
+   "conductive_inks",
+   "polymer_composites",
+   "coatings_paints",
+   "concrete_cement",
+   "aqueous_dispersions"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 5.0,
+    "high": 50.0,
+    "text": "5-50"
+   },
+   "layers": {
+    "low": 15.0,
+    "high": null,
+    "text": ">15"
+   },
+   "density_g_ml": {
+    "low": 0.14,
+    "high": 0.14,
+    "text": "0.14"
+   },
+   "loading_wt_pct": {
+    "low": 20.0,
+    "high": 20.0,
+    "text": "20"
+   }
+  },
+  "solvent": "Water",
+  "datasheet_url": "https://firstgraphene.net/",
+  "datasheet_file": "PureGRAPH-AQUA-datasheet_v1-02.pdf",
+  "datasheet_text": "Technical Data Sheet\nPureGRAPH® AQUA\nThe highest performing range of graphene\nadditives available in tonnage quantities.\nPotential Features and Benefits:\n• Easy to use and mix in water and solvent based dispersions\nincluding paints, latex and cement-based composites.\n• Easy to handle paste with high bulk density.\n• Excellent dispersion of graphene nanoplatelets for improved\nmechanical performance, abrasion resistance, anti-corrosion,\nfire-retardancy and thermal & electrical conductivity.\nPre-dispersed graphene additives\nFunction PureGRAPH® AQUA is designed for inclusion in dispersions,\nemulsions, latex formulations, coatings and construction materials\nto provide performance enhancements.\nDescription PureGRAPH® AQUA is a few-layer graphene additive that is pre-\ndispersed in water and supplied as a paste for easy formulation\ninto water and polar solvent based formulations.\nAvailable in lateral sizes1 ranging from 5 microns to 50 microns\nproviding flexible solutions for customer formulations.\nTypical Applications Paints, inks, latex, polymer composites and cement composites\nSEM Analysis\nScanning Electron Microscopy (SEM) imaging2 confirms improved dispersion of the PureGRAPH® AQUA\nplatelets in a latex polymer.\n30% w/w graphene powder dispersed\nin latex\n30% w/w PureGRAPH® AQUA graphene\ndispersed in latex\nIndependent testing at the National Physical Laboratory 3, UK confirms that improved dispersion of\ngraphene nanoplatelets is achieved with PureGRAPH® AQUA.\nLIMITED WARRANTY INFORMATION:\nThe information contained herein is offered in good faith and is believed to be accurate at the time of printing.\nThis information should not be used as a substitute for your own quality control and/or testing procedures to\nensure that our products are safe, effective and fully satisfactory for the intended end use. Suggestions of use\nshall not be taken as inducements to infringe any patent.\nAvailability & Packaging\nStorage\nHandling Information\nVersion: 1/02. Jun 2021 Contact us for further information:\nPhone:\nAustralia and Pacific +61 1300 660 448\nEurope and Rest of the World +44 (0)161 826 2350\nEmail:\ninfo@firstgraphene.net\nWebsite:\nfirstgraphene.net\nTypical Product Parameters\nPureGRAPH® AQUA 5-20 10-20 50-20 20-20\nGraphene particle size (D50) 5 µm 10 µm 50 µm 20 µm\nComposition % w/w 20% 20% 20% 20%\nSamples: 50g - 500g supplied in screw cap containers\nBulk volume: Sealed foil bags\nExample of Use: Improved\nStrength in Cement\nComposites\nPureGRAPH® AQUA is dispersed into the admixture or water prior\nto mixing with the cement, sand and aggregates, similar to any\ntypical reagent or additive. A good level of dispersion is required\nto maximise performance.\nDosage:\nPlease consult material safety data sheet (MSDS) for additional\nhandling information.\n% graphene solids loading subject to formulation typically:\n• 0.02% w/w of total mortar wet mix\n• 0.01% w/w of total concrete mix, including aggregates\nIt is advised that products are kept sealed and stored in cool\nconditions.\nFor further information and guidance please refer to our technical article, Graphene Enhanced\nConcrete.\n1 D50 volumetric average, measure by a laser diffraction technique.\n2 SEM analysis performed in the First Graphene laboratories at the GEIC, The University of Manchester.\n3 Analysis carried out in collaboration with the NPL under M4R programme September 2020.",
+  "corrections": [
+   {
+    "field": "lateral_size_um",
+    "value": "5-50",
+    "reason": "Datasheet: grades with D50 of 5, 10, 20 and 50 um"
+   },
+   {
+    "field": "loading_wt_pct",
+    "value": "20",
+    "reason": "Datasheet: 20% w/w graphene in water"
+   }
+  ],
+  "source_row": 5
+ },
+ {
+  "key": "first_graphene__puregraph_mb_ldpe",
+  "company": "First Graphene",
+  "product": "PureGraph MB-LDPE",
+  "form": "pellet",
+  "synthesis": "Exfoliation",
+  "applications_text": "Polyethylene, polypropylene, polyamide, acetal polymer composites",
+  "application_tags": [
+   "polymer_composites"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 5.0,
+    "high": 50.0,
+    "text": "5-50"
+   },
+   "layers": {
+    "low": 15.0,
+    "high": null,
+    "text": ">15"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.14,
+    "high": 0.14,
+    "text": "0.14"
+   },
+   "loading_wt_pct": {
+    "low": 30.0,
+    "high": 30.0,
+    "text": "30"
+   }
+  },
+  "additives": "Polyethylene",
+  "datasheet_url": "https://firstgraphene.net/",
+  "datasheet_file": "PureGRAPH-MB-LDPE-datasheet_v2-01.pdf",
+  "datasheet_text": "Technical Data Sheet\nPureGRAPH® MB-LDPE\nThe highest performing range of graphene\nadditives available in tonnage quantities.\nPotential Features and Benefits:\n• Easy to use and incorporate into a range of plastics using\nstandard processing techniques.\n• Easy to handle masterbatch in plastic chip/pellet format.\n• Low inherent water content due to hydrophobic polyolefin\ncarrier.\nGraphene enhanced LDPE\nmasterbatch\nFunction PureGRAPH® MB-LDPE is a graphene carrier masterbatch, designed\nfor blending with a number of thermoplastic materials.\nDescription PureGRAPH® MB-LDPE is a graphene enhanced polyethylene\nmasterbatch, which utilises First Graphene’s few-layer, high-\nperforming graphene additives.\nTypical Applications This is a graphene masterbatch, designed for use in polyolefin\nsystems including polyethylene and polypropylene. May also be\nused in polyamide and acetal polymers. Addition rate is subject to\ncustomer trial and approval.\nTypical Applications\nLIMITED WARRANTY INFORMATION:\nThe information contained herein is offered in good faith and is believed to be accurate at the time of printing.\nThis information should not be used as a substitute for your own quality control and/or testing procedures to\nensure that our products are safe, effective and fully satisfactory for the intended end use. Suggestions of use\nshall not be taken as inducements to infringe any patent.\nAvailability & Packaging\nStorage\nHandling Information\nVersion: 2/01. Jul 2021 Contact us for further information:\nPhone:\nAustralia and Pacific +61 1300 660 448\nEurope and Rest of the World +44 (0)161 826 2350\nEmail:\ninfo@firstgraphene.net\nWebsite:\nfirstgraphene.net\nTypical Product Parameters\nPureGRAPH® MB-LDPE 5-30 10-30 20-30 50-30\nGraphene particle size (DV501) 5 µm 10 µm 20 µm 50 µm\nComposition % w/w\n(Graphene solids in PE) 30\nCarrier resin Polyethylene\nCarrier resin MFI (g/10 min) 20 to 50 (nominal)\nMasterbatch\nSpecific gravity 0.97 (nominal)\nRecommended LDR (%) 2.0\nMoisture content at packing (%) <0.2\nHeat stability (°C) 260-280\nLight fastness (Blue wool scale 1-8) >7\nSamples: 50g - 500g supplied in screw cap containers\nBulk volume: Sealed foil bags\nPlease consult material safety data sheet (MSDS) for additional\nhandling information.\nIt is advised that products are kept sealed and stored in cool, dry\nconditions.\n1 DV50 volumetric average, measure by a laser diffraction technique.",
+  "corrections": [
+   {
+    "field": "lateral_size_um",
+    "value": "5-50",
+    "reason": "Datasheet: grades with DV50 of 5, 10, 20 and 50 um"
+   }
+  ],
+  "source_row": 6
+ },
+ {
+  "key": "first_graphene__puregraph_mb_eva",
+  "company": "First Graphene",
+  "product": "PureGraph MB-EVA",
+  "form": "pellet",
+  "synthesis": "Exfoliation",
+  "applications_text": "Rubber, plastic, thermoplastic composite",
+  "application_tags": [
+   "polymer_composites",
+   "elastomers_rubber_tyre"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 5.0,
+    "high": 50.0,
+    "text": "5-50"
+   },
+   "layers": {
+    "low": 15.0,
+    "high": null,
+    "text": ">15"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.14,
+    "high": 0.14,
+    "text": "0.14"
+   },
+   "loading_wt_pct": {
+    "low": 30.0,
+    "high": 30.0,
+    "text": "30"
+   }
+  },
+  "additives": "Ethylene-Vinyl Acetate",
+  "datasheet_url": "https://firstgraphene.net/",
+  "datasheet_file": "PureGRAPH-MB-EVA-datasheet_v1-02.pdf",
+  "datasheet_text": "Technical Data Sheet\nPureGRAPH® MB-EVA\nThe highest performing range of graphene\nadditives available in tonnage quantities.\nFeatures and Benefits:\n• Easy to incorporate into a range of rubbers and plastics\nusing standard processing techniques.\n• Supplied in pellet form as a masterbatch for ease of\nhandling.\nGraphene enhanced EVA\nmasterbatch\nFunction PureGRAPH® MB-EVA is a graphene-loaded carrier masterbatch,\ndesigned for blending into elastomer and thermoplastic systems.\nDescription PureGRAPH® MB-EVA is a graphene enhanced Ethylene-Vinyl\nAcetate (VA) copolymer masterbatch, which utilises First\nGraphene’s few-layer, high-performing graphene additives.\nTypical Applications This masterbatch is intended for use with elastomers, such as\nrubber systems and plastics, as well as with thermoplastics. The\nhigh Vinyl Acetate content of the base polymer brings softness,\nflexibility and polarity. The Masterbatch could potentially be\ncompatible with other systems, including resins, waxes,\nadhesives, oil and bitumen. The addition rate is subject to\ncustomer trial and approval.\nFor more detailed information and recommendations regarding\nspecific application, please contact your First Graphene technical\nrepresentative.\nTypical Applications\nProcessing\nThe masterbatch can be processed in standard equipment.\nTemperatures above 230°C should be avoided.\nLIMITED WARRANTY INFORMATION:\nThe information contained herein is offered in good faith and is believed to be accurate at the time of printing.\nThis information should not be used as a substitute for your own quality control and/or testing procedures to\nensure that our products are safe, effective and fully satisfactory for the intended end use. Suggestions of use\nshall not be taken as inducements to infringe any patent.\nAvailability & Packaging\nShelf Life & Storage\nHandling Information\nVersion: 1/01. Jul 2021 Contact us for further information:\nPhone:\nAustralia and Pacific +61 1300 660 448\nEurope and Rest of the World +44 (0)161 826 2350\nEmail:\ninfo@firstgraphene.net\nWebsite:\nfirstgraphene.net\nTypical Product Parameters\nPureGRAPH® MB-EVA 5-30 10-30 20-30 50-30\nGraphene particle size (DV501) 5 µm 10 µm 20 µm 50 µm\nComposition % w/w\n(Graphene solids in EVA) 30\nCarrier resin Ethylene-Vinyl Acetate\nMasterbatch\nVinyl Acetate content (% Wt) 19-21\nMelt Index 190°C / 2.16 kg\n(g/10min) 17-23\nMelting point (°C) 83\nSamples: 50g - 500g supplied in screw cap containers\nBulk volume: Sealed foil bags\nPlease consult material safety data sheet (MSDS) for additional\nhandling information.\nIt is advised that products are kept sealed and stored in cool, dry\nconditions.\nIt is recommended the Masterbatch is dried before use.\n1 DV50 volumetric average, measure by a laser diffraction technique.",
+  "corrections": [
+   {
+    "field": "lateral_size_um",
+    "value": "5-50",
+    "reason": "Datasheet: grades with DV50 of 5, 10, 20 and 50 um"
+   },
+   {
+    "field": "layers",
+    "value": ">15",
+    "reason": "Sheet said >16; kept consistent with the sibling PureGRAPH grades"
+   }
+  ],
+  "source_row": 7
+ },
+ {
+  "key": "dycotec_material__dm_gra_9001",
+  "company": "Dycotec Material",
+  "product": "DM-GRA-9001",
+  "form": "dispersion",
+  "synthesis": null,
+  "applications_text": "Conductive Ink",
+  "application_tags": [
+   "conductive_inks"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "layers": {
+    "low": 9.0,
+    "high": 9.0,
+    "text": "9"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 20000.0,
+    "high": 20000.0,
+    "text": "20000"
+   },
+   "loading_wt_pct": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "density_g_ml": {
+    "low": 0.933,
+    "high": 0.933,
+    "text": "0.933"
+   },
+   "viscosity_cps": {
+    "low": 10.0,
+    "high": 12.0,
+    "text": "10-12"
+   }
+  },
+  "datasheet_url": "https://www.dycotecmaterials.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 8
+ },
+ {
+  "key": "hydrograph__fga_1",
+  "company": "Hydrograph",
+  "product": "FGA-1",
+  "form": "powder",
+  "synthesis": "Explosion Synthesis",
+  "applications_text": "Composites and Resins, Thermoplastics, Corrosion resistance coating, Gloss Retention Coating",
+  "application_tags": [
+   "polymer_composites",
+   "coatings_paints",
+   "anticorrosion"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.02,
+    "high": 0.05,
+    "text": "0.02-0.05"
+   },
+   "layers": {
+    "low": 3.0,
+    "high": 10.0,
+    "text": "3-10"
+   },
+   "bet_m2_g": {
+    "low": 130.0,
+    "high": 180.0,
+    "text": "130-180"
+   },
+   "carbon_purity_pct": {
+    "low": 99.8,
+    "high": 99.8,
+    "text": "99.8"
+   },
+   "oxygen_pct": {
+    "low": 0.2,
+    "high": 0.2,
+    "text": "O 0.2"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.07,
+    "high": 0.1,
+    "text": "0.07-0.1"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 100.0,
+    "high": 300.0,
+    "text": "100-300"
+   },
+   "id_ig": {
+    "low": 0.68,
+    "high": 0.68,
+    "text": "0.68"
+   }
+  },
+  "surface_chemistry": "None",
+  "datasheet_url": "https://hydrograph.com/",
+  "datasheet_file": "FGA-1_Hydrograph_01072026.pdf",
+  "datasheet_text": "F-28 20250911 Version 4 1\nFGA-1 Fractal Graphene Aggregate\nTechnical Datasheet\nHydroGraph\n2101 East St Elmo Rd, Ste 150\nAustin, TX 78744\n+1- (785) 380-4205\nProduct Number: FGA-1 Product: Fractal Graphene Aggregate\nProduct Description\nA few layer, non-functionalized, turbostratic graphene in a powdered form of aggregated\nnanoplatelets from carbon-rich gas explosion synthesis\nProduct Information\nProduction Method Explosion Synthesis\nRaw Material Carbon Bearing Gas\nForms of Materials PWD – Dry Powder\nCharacteristic Test Method Value\nSP2 Bonded Carbon RAMAN, XPS Yes (G peak),\n100% sp2 (D parameter)\nStructural Defects RAMAN D/G = 0.68\nG width = 39 cm-1\nNumber of Layers X-Ray Diffraction 6-layer average\nZ-Axis Dimensions X-Ray Diffraction 3±0.5nm\nPrimary Particle Shape TEM, Light Scattering Platelets (aggregated)\nLateral Dimensions TEM 20-50nm\nAspect Ratio TEM 1:15\nBulk Density Manual Tapping 70-100 mg/mL*\nChemical/Elemental Analysis Chemical Analysis C 99.8%\nOxygen Content % Chemical Analysis 0.2%\nImpurities % Chemical Analysis None\nFunctionalization Chemical Analysis Not Detected\nSurface Particle Charge Zeta Potential ~+13mV (pH ~6.7 in DI\nWater)\nGraphene Orientation RAMAN, XRD Turbostratic\nSpecific Surface Area (SSA) BET 130-180 m2/g\nCrystallinity Electron Diffraction, X-Ray Diffraction Crystalline\n*Density may vary\nF-28 20250911 Version 4 2\nParameters\nAppearance Black fluffy powder\nNumber of Layers ≤ 10 layers\nLateral Size Nano-platelets 20 to 50nm. Aggregates radius of gyration ~150nm\nShape and Form Fractal aggregate of nano-platelets\nElemental Analysis Atomic %: 99.8% Carbon, 0.2% Oxygen, No PAHs\nDispersants/Surfactants None\nConcentration 100%\nSolid Content 100%\nSolvent content N/A\nSubstrate Material N/A\nSheet Resistance Not applicable\nColor Light absorbing. Black L*=2.6, a*=-0.12, b*=-0.79\n(100 observer/D65 Illuminant)\nOdor None\nSolubility in Water Hydrophobic\nElectrical Conductivity Function of powder compression. 100-300 S/m\nThermal Stability\nThermo-gravimetric analysis (TGA) shows:\nIn nitrogen - No volatiles up to 700°C\nIn air - Stable up to 544°C, Tmax=725.5°C (at dT/dt=100C/min)\nScanning Electron Micrographs\nF-28 20250911 Version 4 3\nTransmission Electron Micrographs\nF-28 20250911 Version 4 4\nRaman Spectrum (532 nm) X-Ray Diffractogram\nNotes on Analysis:\n• The turbostratic nature is indicated by the asymmetric (100) peak in the X-Ray\nDiffractogram and the symmetric Lorentzian 2D peak in the Raman Spectrum.\n• AFM - The aggregate nature of our fractal graphene is not amenable to AFM analysis.\n• Raman - The nanoscale lateral dimensions of our monomer platelets lead to a high\nfraction of defect edge sites which enhance the intensity of the Raman D bands.\nDisclaimer: The technical information and other statements contained in this document are\nbased upon tests Hydrograph believes are reliable, but the accuracy or completeness of such\ninformation is not guaranteed. Given the variety of factors that can affect the use and\nperformance of this product, user is solely responsible for evaluating the Hydrograph product\nand determining whether it is fit for a particular purpose and suitable for user’s method of\napplication.",
+  "corrections": [
+   {
+    "field": "bulk_density_g_cm3",
+    "value": "0.07-0.1",
+    "reason": "Datasheet: 70-100 mg/mL manual tapping"
+   },
+   {
+    "field": "electrical_conductivity_s_m",
+    "value": "100-300",
+    "reason": "Datasheet: 100-300 S/m, function of powder compression"
+   },
+   {
+    "field": "layers",
+    "value": "3-10",
+    "reason": "Datasheet: 6-layer average, <=10 layers"
+   }
+  ],
+  "source_row": 9
+ },
+ {
+  "key": "hydrograph__fga_2",
+  "company": "Hydrograph",
+  "product": "FGA-2",
+  "form": "powder",
+  "synthesis": "Explosion Synthesis",
+  "applications_text": "Concrete and Cement, Lubricants",
+  "application_tags": [
+   "concrete_cement",
+   "lubricants"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.075,
+    "high": 0.2,
+    "text": "0.075-0.2"
+   },
+   "layers": {
+    "low": 32.0,
+    "high": 32.0,
+    "text": "32"
+   },
+   "bet_m2_g": {
+    "low": 25.0,
+    "high": 25.0,
+    "text": "25"
+   },
+   "carbon_purity_pct": {
+    "low": 98.6,
+    "high": 98.6,
+    "text": "98.6"
+   },
+   "oxygen_pct": {
+    "low": 1.35,
+    "high": 1.35,
+    "text": "O 1.35, other 0.1%"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.07,
+    "high": 0.1,
+    "text": "0.07-0.1"
+   },
+   "id_ig": {
+    "low": 0.3,
+    "high": 0.3,
+    "text": "0.3"
+   }
+  },
+  "surface_chemistry": "None",
+  "datasheet_url": "https://hydrograph.com/",
+  "datasheet_file": "FGA-2_Hydrograph_01072026.pdf",
+  "datasheet_text": "F-28 20250911 Version 4 1\nFGA-2 Fractal Graphene Aggregate\nTechnical Datasheet\nHydroGraph\n2101 East St Elmo Rd, Ste 150\nAustin, TX 78744\n+1- (785) 380-4205\nProduct Number: FGA-2 Product: Fractal Graphene Aggregate\nProduct Description\nA few layer, non-functionalized, turbostratic graphene in a powdered form of aggregated\nnanoplatelets from carbon-rich gas explosion synthesis\nProduct Information\nProduction Method Explosion Synthesis\nRaw Material Carbon Bearing Gas\nForms of Materials PWD – Dry Powder\nCharacteristic Test Method Value\nSP2 Bonded Carbon RAMAN, XPS Yes (G peak),\n80% sp2 (D parameter)\nStructural Defects RAMAN D/G = 0.3\nG width = 50 cm-1\nNumber of Layers RAMAN, X-Ray Diffraction 32-layer average\nZ-Axis Dimensions RAMAN, X-Ray Diffraction ~ 10 nm\nPrimary Particle Shape TEM, Light Scattering Platelets (aggregated)\nLateral Dimensions TEM 75-200 nm\nAspect Ratio TEM 1:7.5 to 1:20\nBulk Density Manual Tapping 70-100 mg/mL*\nChemical/Elemental Analysis Chemical Analysis C 98.6%\nOxygen Content % Chemical Analysis 1.35%\nImpurities % Chemical Analysis 0.1%\nFunctionalization Chemical Analysis Not Detected\nSurface Particle Charge Zeta Potential 33 mV\nGraphene Orientation RAMAN, XRD Turbostratic\nSpecific Surface Area (SSA) BET 25 m2/g\nCrystallinity Electron Diffraction, X-Ray Diffraction Crystalline\n*Density may vary\nF-28 20250911 Version 4 2\nParameters\nAppearance Black fluffy powder\nNumber of Layers ~ 32 layers\nLateral Size Nano-platelets 75 to 200nm.\nShape and Form Fractal aggregate of nano-platelets\nElemental Analysis Atomic %: 98.6% Carbon, 1.35% Oxygen, 0.05% Hydrogen,\nNo PAHs\nDispersants/Surfactants None\nConcentration 100%\nSolid Content 100%\nSolvent content N/A\nSubstrate Material N/A\nSheet Resistance Not applicable\nColor Black\nOdor None\nSolubility in Water Hydrophobic\nElectrical Conductivity Function of powder compression.\nScanning Electron Micrographs\nF-28 20250911 Version 4 3\nTransmission Electron Micrographs\nNotes on Analysis\n• The turbostratic nature is indicated by peaks at position 1885cm-1 and 2035cm-1 in the\nRaman spectrum and the asymmetric (100) peak in the X-Ray Diffractogram.\n• AFM- The aggregate nature of our fractal graphene is not amenable to AFM analysis.\n• Raman- The nanoscale lateral dimensions of our monomer platelets leads to a high\nfraction of defect edge sites which enhance the intensity of the Raman D bands.\nDisclaimer: The technical information and other statements contained in this document are\nbased upon tests Hydrograph believes are reliable, but the accuracy or completeness of such\ninformation is not guaranteed. Given the variety of factors that can affect the use and\nperformance of this product, user is solely responsible for evaluating the Hydrograph product\nand determining whether it is fit for a particular purpose and suitable for user’s method of\napplication.\nRaman Spectrum (514 nm) X-Ray Diffractogram",
+  "corrections": [
+   {
+    "field": "bulk_density_g_cm3",
+    "value": "0.07-0.1",
+    "reason": "Datasheet: 70-100 mg/mL manual tapping"
+   }
+  ],
+  "source_row": 10
+ },
+ {
+  "key": "hydrograph__rga_cooh_1",
+  "company": "Hydrograph",
+  "product": "RGA-COOH-1",
+  "form": "powder",
+  "synthesis": "Controlled Oxidation in Batch Reactor",
+  "applications_text": "coatings",
+  "application_tags": [
+   "coatings_paints"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.02,
+    "high": 0.05,
+    "text": "0.02-0.05"
+   },
+   "layers": {
+    "low": 3.0,
+    "high": 9.0,
+    "text": "3-9"
+   },
+   "bet_m2_g": {
+    "low": 130.0,
+    "high": 180.0,
+    "text": "130-180"
+   },
+   "carbon_purity_pct": {
+    "low": 96.3,
+    "high": 96.3,
+    "text": "96.3"
+   },
+   "oxygen_pct": {
+    "low": 2.1,
+    "high": 2.1,
+    "text": "O 2.1%, others 1.6%"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.2,
+    "high": 0.27,
+    "text": "0.2-0.27"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 250.0,
+    "high": 250.0,
+    "text": "250"
+   },
+   "id_ig": {
+    "low": 0.66,
+    "high": 0.66,
+    "text": "0.66"
+   }
+  },
+  "surface_chemistry": "-COOH",
+  "datasheet_url": "https://hydrograph.com/",
+  "datasheet_file": "RGA-COOH-1_Hydrograph_01072026.pdf",
+  "datasheet_text": "F-28 20250911 Version 4 1\nRGA-COOH-1 Reactive Graphene\nAggregate Carboxylic Acid Type\nTechnical Datasheet\nHydroGraph\n2101 East St Elmo Rd, Ste 150\nAustin, TX 78744\n+1- (785) 380-4205\nProduct Number: RGA-COOH-1 Product: Reactive Graphene Aggregate Carboxylic Acid Type\nProduct Description\nA few layer, functionalized, turbostratic graphene in a powdered form of aggregated nano-\nplatelets from carbon-rich gas explosion synthesis\nProduct Information\nProduction Method Controlled Oxidation in Batch Reactor\nRaw Material Fractal Graphene Aggregate\nForms of Materials PWD – Dry Powder\nCharacteristic Test Method Value\nSP2 Bonded Carbon RAMAN, XPS Yes (G peak),\n100% sp2 (D parameter)\nStructural Defects RAMAN D/G = 0.66\nG width = 39 cm-1\nNumber of Layers X-Ray Diffraction 6-layer average\nZ-Axis Dimensions X-Ray Diffraction 3±0.5nm\nPrimary Particle Shape TEM, Light Scattering Platelets (aggregated)\nLateral Dimensions TEM 20-50nm\nAspect Ratio TEM 1:15\nTapped Bulk Density 200-270 mg/mL*\nChemical/Elemental Analysis XPS C 96.3%\nOxygen Content % XPS 2.1%\nImpurities % XPS 1.6%\nFunctionalization FTIR -COOH\nSurface Particle Charge Zeta Potential -25mV\nGraphene Orientation RAMAN, XRD Turbostratic\nSpecific Surface Area (SSA) BET 130-180 m2/g\nCrystallinity Electron Diffraction, X-Ray Diffraction Crystalline\n*Density may vary\nF-28 20250911 Version 4 2\nParameters\nAppearance Black powder\nNumber of Layers 3-9 layers\nLateral Size Nano-platelets 20 to 50nm. Aggregates radius of gyration ~150nm\nShape and Form Fractal aggregate of nano-platelets\nElemental Analysis Atomic %: 96.3% Carbon, 2.1% Oxygen, 1.6% Hydrogen, No PAHs\nDispersants/Surfactants None\nConcentration 100%\nSolid Content 100%\nSolvent content N/A\nSubstrate Material N/A\nSheet Resistance Not applicable\nColor Light absorbing. Black L*=3.5, a*=-0.06, b*=-0.68\n(100 observer/D65 Illuminant)\nOdor None\nSolubility in Water Hydrophilic\nElectrical Conductivity Function of powder compression. 100-250 S/m\nThermal Stability\nThermo-gravimetric analysis (TGA) shows:\nIn nitrogen - No volatiles up to 600°C\nIn air - Stable up to 439°C, Tmax=638.3°C (at dT/dt=100C/min)\nScanning Electron Micrographs\nF-28 20250911 Version 4 3\nTransmission Electron Micrographs\nF-28 20250911 Version 4 4\nRaman Spectrum (532 nm) X-Ray Diffractogram\nNotes on Analysis:\n• The turbostratic nature is indicated by the asymmetric (100) peak in the X-Ray\nDiffractogram and the symmetric Lorentzian 2D peak in the Raman Spectrum.\n• AFM - The aggregate nature of our fractal graphene is not amenable to AFM analysis.\n• Raman - The nanoscale lateral dimensions of our monomer platelets lead to a high fraction of\ndefect edge sites which enhance the intensity of the Raman D bands.\nDisclaimer: The technical information and other statements contained in this document are based upon tests\nHydrograph believes are reliable, but the accuracy or completeness of such information is not guaranteed. Given the\nvariety of factors that can affect the use and performance of this product, user is solely responsible for evaluating\nthe Hydrograph product and determining whether it is fit for a particular purpose and suitable for user’s method of\napplication.",
+  "corrections": [
+   {
+    "field": "lateral_size_um",
+    "value": "0.02-0.05",
+    "reason": "Datasheet: lateral dimensions 20-50 nm by TEM; sheet said 20-50 um"
+   },
+   {
+    "field": "bulk_density_g_cm3",
+    "value": "0.2-0.27",
+    "reason": "Datasheet: tapped bulk density 200-270 mg/mL"
+   },
+   {
+    "field": "layers",
+    "value": "3-9",
+    "reason": "Datasheet: 6-layer average, 3-9 layers"
+   }
+  ],
+  "source_row": 11
+ },
+ {
+  "key": "hydrograph__fgp_2000_aq_1",
+  "company": "Hydrograph",
+  "product": "FGP-2000-AQ-1",
+  "form": "dispersion",
+  "synthesis": "Explosion Synthesis",
+  "applications_text": "Water-based systems, such as   concrete, aqueous coatings & polymer emulsions/dispersions",
+  "application_tags": [
+   "polymer_composites",
+   "coatings_paints",
+   "concrete_cement",
+   "aqueous_dispersions"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.02,
+    "high": 0.05,
+    "text": "0.02-0.05"
+   },
+   "layers": {
+    "low": 3.0,
+    "high": 9.0,
+    "text": "3-9"
+   },
+   "bet_m2_g": {
+    "low": 130.0,
+    "high": 180.0,
+    "text": "130-180"
+   },
+   "carbon_purity_pct": {
+    "low": 99.8,
+    "high": 99.8,
+    "text": "99.8"
+   },
+   "oxygen_pct": {
+    "low": 0.2,
+    "high": 0.2,
+    "text": "O 0.2"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.1,
+    "high": 0.1,
+    "text": "0.1"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 300.0,
+    "high": 300.0,
+    "text": "300"
+   },
+   "id_ig": {
+    "low": 0.68,
+    "high": 0.68,
+    "text": "0.68"
+   },
+   "loading_wt_pct": {
+    "low": 20.0,
+    "high": 20.0,
+    "text": "20"
+   },
+   "density_g_ml": {
+    "low": 1.11,
+    "high": 1.11,
+    "text": "1.11"
+   },
+   "viscosity_cps": {
+    "low": 14.0,
+    "high": 51.0,
+    "text": "14-51"
+   }
+  },
+  "surface_chemistry": "None",
+  "solvent": "Deionized water",
+  "additives": "Anionic Dispersant",
+  "notes": "-45 mV zeta pot.",
+  "datasheet_url": "https://hydrograph.com/",
+  "datasheet_file": "Fractal-Graphene-Paste-V6_Hydrograph_30062026.pdf",
+  "datasheet_text": "1\nFGP-2000-AQ-1 Fractal Graphene PasteTM\nTechnical Datasheet\nHydroGraph\n2101 East St Elmo Rd, Ste 150\nAustin, TX 78744\n+1- (785) 380-4205\nFGP-2000-AQ-1 Product: Fractal Graphene PasteTM\nProduct Description: An aqueous dispersion of few-layer turbostratic graphene aggregates\nproduced from carbon-rich gas explosion synthesis\nBenefits:\n• Pre-dispersed and stabilized graphene, remains evenly distributed, preventing\nagglomeration\n• Improves mechanical properties such as strength, durability, and functional\ncharacteristics of the end product\n• Uniform dispersion and controlled purity deliver reproducible results, reducing variability\nin production\n• Due to fine particle size, it integrates uniformly throughout the host material for optimal\nreinforcement\nProduct Information\nRaw Material Fractal Graphene Aggregate\nForms of Materials Liquid dispersion\nGraphene Type FGA-1\nFunctional Groups None\nSSA (BET) 130-180 m²/g\nLateral Size (primary, TEM) 20-50 nm\nThickness 3-9 layers\nAspect Ratio 15:1\n2\nDispersion Properties\nAppearance Flowable black liquid\nSolvent Deionized water\nDispersant Anionic\nZeta Potential -45 mV\nS.G. 1.11 @ 20 wt.% FGA-1\nGraphene Solids 20 wt.% FGA-1\nTotal Solids 24 wt.%\npH 8-9\nParticle Size D90 <500 nm, D50 =35 nm, D10 = 15 nm\nViscosity at 25°C 0.051 Pa.s at 100 s-1\n0.014 Pa.s at 1000 s-1\nCompatibility Water-based systems, such as concrete, aqueous coatings &\npolymer emulsions/dispersions.\nShelf life/storage 24 months from date of manufacture when stored unopened at\n10-30°C,\nRheology Curve\n3\nScanning Electron Micrographs\nDisclaimer: The technical information and other statements contained in this document are\nbased upon tests Hydrograph believes are reliable, but the accuracy or completeness of such\ninformation is not guaranteed. Given the variety of factors that can affect the use and\nperformance of this product, user is solely responsible for evaluating the Hydrograph product\nand determining whether it is fit for a particular purpose and suitable for user’s method of\napplication.",
+  "corrections": [
+   {
+    "field": "lateral_size_um",
+    "value": "0.02-0.05",
+    "reason": "Datasheet: primary lateral size 20-50 nm (TEM), D50 35 nm"
+   },
+   {
+    "field": "layers",
+    "value": "3-9",
+    "reason": "Datasheet: thickness 3-9 layers"
+   },
+   {
+    "field": "loading_wt_pct",
+    "value": "20",
+    "reason": "Datasheet: 20 wt% FGA-1 graphene solids; sheet gave the fraction 0.2"
+   },
+   {
+    "field": "viscosity_cps",
+    "value": "14-51",
+    "reason": "Datasheet: 0.051 Pa.s at 100 1/s, 0.014 Pa.s at 1000 1/s"
+   }
+  ],
+  "source_row": 12
+ },
+ {
+  "key": "the_sixth_element_inc__electrical_conduction_type_graphene",
+  "company": "The Sixth Element Inc.",
+  "product": "Electrical Conduction Type Graphene",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Batteries, Coatings, Inks, Plastics, Ruber, Thermal adhesives, LED heat dissipation",
+  "application_tags": [
+   "conductive_inks",
+   "polymer_composites",
+   "elastomers_rubber_tyre",
+   "coatings_paints",
+   "batteries",
+   "thermal_management"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 5.0,
+    "high": 50.0,
+    "text": "5-50"
+   },
+   "bet_m2_g": {
+    "low": 180.0,
+    "high": 700.0,
+    "text": "180-700"
+   },
+   "carbon_purity_pct": {
+    "low": 97.0,
+    "high": null,
+    "text": ">97"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.05,
+    "high": 1.0,
+    "text": "0.05-1"
+   }
+  },
+  "datasheet_url": "https://www.c6th.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 13
+ },
+ {
+  "key": "the_sixth_element_inc__enhancement_type_graphene",
+  "company": "The Sixth Element Inc.",
+  "product": "Enhancement Type Graphene",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Polymer composite",
+  "application_tags": [
+   "polymer_composites"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": 180.0,
+    "high": 280.0,
+    "text": "180-280"
+   },
+   "carbon_purity_pct": {
+    "low": 75.0,
+    "high": 85.0,
+    "text": "75-85"
+   },
+   "bulk_density_g_cm3": {
+    "low": null,
+    "high": 0.1,
+    "text": "<0.1"
+   }
+  },
+  "datasheet_url": "https://www.c6th.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 14
+ },
+ {
+  "key": "the_sixth_element_inc__anti_corrosion_type_graphene",
+  "company": "The Sixth Element Inc.",
+  "product": "Anti-Corrosion Type Graphene",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Anti-corrosion coatings, such as zinc rich epoxy primer, (chromium free) Dacromet coating, etc.",
+  "application_tags": [
+   "coatings_paints",
+   "anticorrosion"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "bet_m2_g": {
+    "low": 180.0,
+    "high": 350.0,
+    "text": "180-350"
+   },
+   "carbon_purity_pct": {
+    "low": 93.0,
+    "high": null,
+    "text": ">93"
+   },
+   "bulk_density_g_cm3": {
+    "low": null,
+    "high": 0.1,
+    "text": "<0.1"
+   }
+  },
+  "datasheet_url": "https://www.c6th.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 15
+ },
+ {
+  "key": "the_sixth_element_inc__thermal_conduction_type_graphene",
+  "company": "The Sixth Element Inc.",
+  "product": "Thermal Conduction Type Graphene",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Thermal conductive adhesives, LED heat dissipation",
+  "application_tags": [
+   "thermal_management"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 3.0,
+    "high": 8.0,
+    "text": "3-8"
+   },
+   "bet_m2_g": {
+    "low": 10.0,
+    "high": 20.0,
+    "text": "10-20"
+   },
+   "carbon_purity_pct": {
+    "low": 97.0,
+    "high": null,
+    "text": ">97"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.1,
+    "high": 0.5,
+    "text": "0.1-0.5"
+   }
+  },
+  "datasheet_url": "https://www.c6th.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 16
+ },
+ {
+  "key": "graphenera__graphene_powder",
+  "company": "GraphenEra",
+  "product": "Graphene Powder",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "-",
+  "application_tags": [],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.02,
+    "high": 0.2,
+    "text": "0.02-0.2"
+   },
+   "layers": {
+    "low": null,
+    "high": 3.0,
+    "text": "<3"
+   },
+   "bet_m2_g": {
+    "low": 250.0,
+    "high": null,
+    "text": ">250"
+   },
+   "carbon_purity_pct": {
+    "low": 99.0,
+    "high": null,
+    "text": ">99"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 1.0,
+    "text": "<1"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 10000.0,
+    "high": null,
+    "text": ">10000"
+   },
+   "thermal_conductivity_w_mk": {
+    "low": 3000.0,
+    "high": null,
+    "text": ">3000"
+   }
+  },
+  "notes": ">-35 mV zeta",
+  "datasheet_url": "https://graphenera.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 17
+ },
+ {
+  "key": "graphenera__graphene_thermal_interface_material",
+  "company": "GraphenEra",
+  "product": "Graphene Thermal Interface Material",
+  "form": "paste",
+  "synthesis": null,
+  "applications_text": "thermal conductive adhesives, LED heat dissipation",
+  "application_tags": [
+   "thermal_management"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.02,
+    "high": 0.2,
+    "text": "0.02-0.2"
+   },
+   "thermal_conductivity_w_mk": {
+    "low": 20.0,
+    "high": null,
+    "text": ">20"
+   }
+  },
+  "datasheet_url": "https://graphenera.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 18
+ },
+ {
+  "key": "graphenera__graphene_conductive_ink",
+  "company": "GraphenEra",
+  "product": "Graphene Conductive Ink",
+  "form": "dispersion",
+  "synthesis": null,
+  "applications_text": "Conductive Ink",
+  "application_tags": [
+   "conductive_inks"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.02,
+    "high": 0.2,
+    "text": "0.02-0.2"
+   },
+   "sheet_resistance_ohm_sq": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   }
+  },
+  "datasheet_url": "https://graphenera.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 19
+ },
+ {
+  "key": "nanoxplore__grapheneblack_3x",
+  "company": "NanoXplore",
+  "product": "GrapheneBlack 3X",
+  "form": "powder",
+  "synthesis": "Liquid Exfoliation",
+  "applications_text": "Thermoplastics, thermosets, inks, coatings, and rubbers.",
+  "application_tags": [
+   "conductive_inks",
+   "polymer_composites",
+   "coatings_paints"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 1.0,
+    "high": 2.0,
+    "text": "1-2"
+   },
+   "layers": {
+    "low": 6.0,
+    "high": 10.0,
+    "text": "6-10"
+   },
+   "carbon_purity_pct": {
+    "low": 91.0,
+    "high": null,
+    "text": ">91"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 7.0,
+    "text": "O <7"
+   },
+   "impurities_pct": {
+    "low": null,
+    "high": 2.0,
+    "text": "<2"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.18,
+    "high": 0.18,
+    "text": "0.18"
+   }
+  },
+  "surface_chemistry": "Hydroxy and carbonyl modified graphene",
+  "datasheet_url": "https://nanoxplore.ca/",
+  "datasheet_file": "GrapheneBlack 3X - NanoXplore - Polymer Additives.pdf",
+  "datasheet_text": "",
+  "corrections": [],
+  "source_row": 20
+ },
+ {
+  "key": "nanoxplore__grapheneblac_0x",
+  "company": "NanoXplore",
+  "product": "GrapheneBlac 0X",
+  "form": "powder",
+  "synthesis": "Liquid Exfoliation",
+  "applications_text": "Thermoplastics, thermosets, inks, coatings, and rubbers.",
+  "application_tags": [
+   "conductive_inks",
+   "polymer_composites",
+   "coatings_paints"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 1.0,
+    "text": "0.5-1"
+   },
+   "layers": {
+    "low": 6.0,
+    "high": 10.0,
+    "text": "6-10"
+   },
+   "carbon_purity_pct": {
+    "low": 95.0,
+    "high": null,
+    "text": ">95"
+   },
+   "oxygen_pct": {
+    "low": 3.5,
+    "high": 3.5,
+    "text": "3.5"
+   },
+   "impurities_pct": {
+    "low": null,
+    "high": 1.0,
+    "text": "<1"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.14,
+    "high": 0.14,
+    "text": "0.14"
+   }
+  },
+  "surface_chemistry": "Hydroxy and carbonyl modified graphene",
+  "datasheet_url": "https://nanoxplore.ca/",
+  "datasheet_file": "GrapheneBlack 0X - NanoXplore - Polymer Additives.pdf",
+  "datasheet_text": "",
+  "corrections": [],
+  "source_row": 21
+ },
+ {
+  "key": "nanoxplore__xgnp_graphene_nanoplatelets_grade_h",
+  "company": "NanoXplore",
+  "product": "xGnP Graphene Nanoplatelets - Grade H",
+  "form": "powder",
+  "synthesis": "Liquid Exfoliation",
+  "applications_text": "Barrier application, conductive applications, electrical conductivity and improved mechanical properties,  electronic enclosures, aerospace, appliances, EMI or RFI shielding",
+  "application_tags": [
+   "anticorrosion",
+   "emi_shielding"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 5.0,
+    "high": 25.0,
+    "text": "5-25"
+   },
+   "layers": {
+    "low": 45.0,
+    "high": 45.0,
+    "text": "45"
+   },
+   "bet_m2_g": {
+    "low": 50.0,
+    "high": 80.0,
+    "text": "50-80"
+   },
+   "carbon_purity_pct": {
+    "low": 99.5,
+    "high": null,
+    "text": ">99.5"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 100.0,
+    "high": 10000000.0,
+    "text": "100-10000000"
+   },
+   "thermal_conductivity_w_mk": {
+    "low": 6.0,
+    "high": 3000.0,
+    "text": "6-3000"
+   }
+  },
+  "datasheet_url": "https://nanoxplore.ca/",
+  "datasheet_file": "xGnP Graphene Nanoplatelets - Grade H NanoXplore - polymer-additives.pdf",
+  "datasheet_text": "",
+  "corrections": [
+   {
+    "field": "thermal_conductivity_w_mk",
+    "value": "6-3000",
+    "reason": "Sheet cell was date-corrupted: 3000 W/mK in-plane, 6 W/mK through-plane"
+   }
+  ],
+  "source_row": 22
+ },
+ {
+  "key": "levidian__g3ht",
+  "company": "Levidian",
+  "product": "G3HT",
+  "form": "powder",
+  "synthesis": "Plasma",
+  "applications_text": "Batteries, Polymer composites, Concrete, Rubber/Tyre, Paints/ Coatings, Lubricants, Plastics, Smart Textiles",
+  "application_tags": [
+   "polymer_composites",
+   "elastomers_rubber_tyre",
+   "coatings_paints",
+   "concrete_cement",
+   "batteries",
+   "lubricants",
+   "textiles"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.2,
+    "high": 0.2,
+    "text": "0.2"
+   },
+   "bet_m2_g": {
+    "low": 130.0,
+    "high": 130.0,
+    "text": "130"
+   },
+   "carbon_purity_pct": {
+    "low": 98.96,
+    "high": 98.96,
+    "text": "98.96"
+   },
+   "oxygen_pct": {
+    "low": 0.63,
+    "high": 0.63,
+    "text": "O 0.63, Fe 0.02"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.06,
+    "high": 0.06,
+    "text": "0.06"
+   },
+   "id_ig": {
+    "low": 0.43,
+    "high": 0.43,
+    "text": "0.43"
+   }
+  },
+  "notes": "30% in H2O, 20% in Xylene",
+  "datasheet_url": "https://levidian.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [
+   {
+    "field": "bulk_density_g_cm3",
+    "value": "0.06",
+    "reason": "Sheet value 60 is only physical as mg/mL (0.06 g/cm3)"
+   }
+  ],
+  "source_row": 23
+ },
+ {
+  "key": "levidian__g1ht",
+  "company": "Levidian",
+  "product": "G1HT",
+  "form": "powder",
+  "synthesis": "Plasma",
+  "applications_text": null,
+  "application_tags": [
+   "polymer_composites",
+   "concrete_cement",
+   "coatings_paints",
+   "batteries"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.2,
+    "high": 0.2,
+    "text": "0.2"
+   },
+   "bet_m2_g": {
+    "low": 320.0,
+    "high": 320.0,
+    "text": "320"
+   },
+   "carbon_purity_pct": {
+    "low": 97.79,
+    "high": 97.79,
+    "text": "97.79"
+   },
+   "oxygen_pct": {
+    "low": 1.13,
+    "high": 1.13,
+    "text": "O 1.13, Fe 0.06"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.03,
+    "high": 0.03,
+    "text": "0.03"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 500.0,
+    "high": 550.0,
+    "text": "500-550"
+   },
+   "id_ig": {
+    "low": 0.34,
+    "high": 0.34,
+    "text": "0.34"
+   }
+  },
+  "datasheet_url": "https://levidian.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [
+   {
+    "field": "bulk_density_g_cm3",
+    "value": "0.03",
+    "reason": "Sheet value 30 is only physical as mg/mL (0.03 g/cm3)"
+   }
+  ],
+  "source_row": 24
+ },
+ {
+  "key": "grapheneup__gup",
+  "company": "GrapheneUP",
+  "product": "GUP",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Screen printing conductive ink for textiles provide superior thermal regulation.",
+  "application_tags": [
+   "conductive_inks",
+   "thermal_management",
+   "textiles"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 20.0,
+    "high": 50.0,
+    "text": "20-50"
+   },
+   "layers": {
+    "low": 2.0,
+    "high": 5.0,
+    "text": "2-5"
+   },
+   "bet_m2_g": {
+    "low": 420.0,
+    "high": 580.0,
+    "text": "420-580"
+   },
+   "carbon_purity_pct": {
+    "low": 98.7,
+    "high": 99.6,
+    "text": "98.7-99.6"
+   },
+   "oxygen_pct": {
+    "low": 0.3,
+    "high": 1.2,
+    "text": "O 0.3-1.2"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.0015,
+    "high": 0.0018,
+    "text": "0.0015-0.0018"
+   },
+   "id_ig": {
+    "low": 0.12,
+    "high": 0.12,
+    "text": "0.12"
+   }
+  },
+  "datasheet_url": "https://grapheneup.com/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 25
+ },
+ {
+  "key": "adnano_technologies_pvt_ltd__adg_a",
+  "company": "AdNano Technologies Pvt. Ltd.",
+  "product": "ADG-A+",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Batteries & Supercapacitors",
+  "application_tags": [
+   "batteries",
+   "supercapacitors",
+   "sensors_electronics"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": null,
+    "high": 1.0,
+    "text": "<1"
+   },
+   "layers": {
+    "low": 3.0,
+    "high": 5.0,
+    "text": "3-5"
+   },
+   "bet_m2_g": {
+    "low": 400.0,
+    "high": 600.0,
+    "text": "400-600"
+   },
+   "carbon_purity_pct": {
+    "low": 99.0,
+    "high": null,
+    "text": ">99"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.014,
+    "high": 0.014,
+    "text": "0.014"
+   }
+  },
+  "datasheet_url": "https://www.ad-nanotech.com/",
+  "datasheet_file": "ADG-A_AdNano Technologies Pvt. Ltd..pdf",
+  "datasheet_text": "ADG-A+\nGraphene -A+\nBattery Grade\nHigh surface area graphene with\nexcellent electrical and thermal\nconductivity, many particles\nthickness go down to single-layer\ngraphene. It is easily dispersible\nin various battery solvents such\nas NMP.\nTHICK: ~0.8-1.6 nm\n+91 82967 34214/15\nwww.ad-nanotech.com\ninfo@ad-nanotech.com\nAdNano Technologies Pvt. Ltd.,\n#31L, 2nd Cross, KIADB Machanahalli Industrial Area,\nShivamogga - 577 222, Karnataka, INDIA\n~1 Gram\nPRODUCT\nFEATURES\n4 It has exceptional electrical conductivity, allowing for eﬃcient\nelectron transport within the battery system.\n4 Easily dispersible in many solvents.\n4 The increased surface area provides more active sites for\nelectrochemical reactions, facilitating higher energy and power\ndensities.\n4 Its high surface-to-volume ratio and ability to accommodate ions on\nits surface make it an ideal material for enhancing the capacity of\nbatteries, leading to long-lasting power sources.\n4 It can withstand repeated charge and discharge cycles without\nsigniﬁcant performance degradation, resulting in a longer battery\nlifespan.\n4 It can offer faster charging capabilities due to its high electrical\nconductivity and eﬃcient ion diffusion.\nApplications\nAdvantages\nPurity: >99%\nZinc-Ion Batteries (Zn-Ion)\nLead Acid Batteries\nLithium-ion Batteries\n(Li-ion)\nSuper Capacitor\nAluminium-ion Batteries\n(Al-Ion)\nElectronics and Electrical\nSodium-ion Batteries\n(Na-ion)\nGraphene A+\n(Battery Grade)\nNet Weight\nEmail: info@ad-nanotech.com Tele: +91 8296734214 www.ad-nanotech.com\nDISCLAIMER\nThe values are typical and are for very general guidance and must not be used as a basis for specifications as concrete. Information contained in\nthis publication, and otherwise supplied to users, is based on our general experience and is given in good fai th, but we are unable to accept\nresponsibility in respect of factors which are outside our knowledge or control. No warranty, either expressed or implied, is hereby made. The\nrecommended industrial hygiene and safe handling procedures are believed to be ge nerally applicable. Please refer to MSDS of respective\nproduct for safe use.\nG A + D E S C R I P T I O N\nP U R I TY > 9 9 %\nP R I M AR Y L AT E R AL\nD I M E N S I O N < 1 µ\nP AR TI C L E S I Z E D 5 0: < 30µ\nT H I C K N E S S 0.8 – 1.6 nm\nB U L K D E N S I TY 0.014 g / cm 3\nP H Y S I C AL F O R M P L U F F Y P O WD E R\nC O L O U R B L AC K\nS U R F AC E AR E A 400 - 600 m 2 /g\nC AS N O . 1 0 3 4 3 4 3- 98 - 0\nTECHNICAL\nDATA SHEET\nSPECIFICATIO\nN",
+  "corrections": [
+   {
+    "field": "bulk_density_g_cm3",
+    "value": "0.014",
+    "reason": "Datasheet: 0.014 g/cm3 (fluffy powder); sheet said 0.14"
+   }
+  ],
+  "source_row": 26
+ },
+ {
+  "key": "adnano_technologies_pvt_ltd__adg_p",
+  "company": "AdNano Technologies Pvt. Ltd.",
+  "product": "ADG-P",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Paints& Coatings",
+  "application_tags": [
+   "coatings_paints"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": null,
+    "high": 10.0,
+    "text": "<10"
+   },
+   "layers": {
+    "low": 3.0,
+    "high": 15.0,
+    "text": "3-15"
+   },
+   "bet_m2_g": {
+    "low": 300.0,
+    "high": 300.0,
+    "text": "300"
+   },
+   "carbon_purity_pct": {
+    "low": 99.0,
+    "high": null,
+    "text": ">99"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.05,
+    "high": 0.05,
+    "text": "0.05"
+   }
+  },
+  "datasheet_url": "https://www.ad-nanotech.com/",
+  "datasheet_file": "ADG-P_AdNano Technologies Pvt. Ltd..pdf",
+  "datasheet_text": "ADG-P\nGraphene -P\nPaints and Coating Grade\nWhen this grade is incorporated into\nthe primer with less zinc content, it\nforms a dense and impermeable\nbarrier layer that prevents moisture,\noxygen, and corrosive agents from\nreaching the substrate. This barrier\nprotection signiﬁcantly reduces the\nrisk of corrosion and extends the\nlife span of the coated surface and\nenvironmental friendly coating.\nTHICK: ~1-5 nm\n+91 82967 34214/15\nwww.ad-nanotech.com\ninfo@ad-nanotech.com\nAdNano Technologies Pvt. Ltd.,\n#31L, 2nd Cross, KIADB Machanahalli Industrial Area,\nShivamogga - 577 222, Karnataka, INDIA\n~1 Gram\nPRODUCT\nFEATURES\n4 Its excellent impermeability to gases, liquids, and corrosive\nsubstances makes it an ideal candidate for enhancing the barrier\nproperties of anti-corrosion coatings\n4 It helps in providing superior protection against corrosion, extending\nthe lifespan of ships, offshore platforms, buoys, and other marine\nstructures.\n4 Graphene's strong bonding properties enable improved adhesion\nbetween the coating and the substrate, ensuring better protection\nagainst corrosion.\n4 Graphene can enhance the interfacial adhesion strength and reduce\nthe risk of delamination or detachment of the coating, which can be\na common cause of corrosion initiation.\n4 It can facilitate the ﬂow of electrons and enhance the eﬃciency of\ncathodic protection, thereby minimizing the corrosion rate on metal\nsurfaces.\nApplications\nAdvantages\nPurity: >99%\nAerospace and Aviation\nInfrastructure Protection\nAutomotive Industry\nIndustrial Equipment\nOil and Gas Industry\nMarine and Offshore\nGraphene P\n(Paints & Coatings Grade)\nNet Weight\nEmail: info@ad-nanotech.com Tele: +91 8296734214 www.ad-nanotech.com\nDISCLAIMER\nThe values are typical and are for very general guidance and must not be used as a basis for specifications as concrete. Information contained in\nthis publication, and otherwise supplied to users, is based on our general experience and is given in good fai th, but we are unable to accept\nresponsibility in respect of factors which are outside our knowledge or control. No warranty, either expressed or implied, is hereby made. The\nrecommended industrial hygiene and safe handling procedures are believed to be ge nerally applicable. Please refer to MSDS of respective\nproduct for safe use.\nG R A P H E N E P D E S C R I P T I O N\nP U R I TY > 9 9 %\nP AR TI C L E S I Z E D 5 0: < 1 0µ\nT H I C K N E S S 1 - 5 nm\nB U L K D E N S I TY 0. 05 g / c m3\nP H Y S I C AL F O R M P O WD E R\nC O L O U R B L AC K\nS U R F AC E AR E A ~ 3 00 m 2 /g\nC AS N O . 1 0 3 4 3 4 3- 98 - 0\nTECHNICAL\nDATA SHEET\nSPECIFICATIO\nN",
+  "corrections": [],
+  "source_row": 27
+ },
+ {
+  "key": "adnano_technologies_pvt_ltd__adg_x",
+  "company": "AdNano Technologies Pvt. Ltd.",
+  "product": "ADG-X",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Composites",
+  "application_tags": [
+   "polymer_composites",
+   "elastomers_rubber_tyre",
+   "sensors_electronics"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": null,
+    "high": 20.0,
+    "text": "<20"
+   },
+   "layers": {
+    "low": 15.0,
+    "high": 30.0,
+    "text": "15-30"
+   },
+   "bet_m2_g": {
+    "low": 70.0,
+    "high": 120.0,
+    "text": "70-120"
+   },
+   "carbon_purity_pct": {
+    "low": 99.0,
+    "high": null,
+    "text": ">99"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.11,
+    "high": 0.11,
+    "text": "0.11"
+   }
+  },
+  "datasheet_url": "https://www.ad-nanotech.com/",
+  "datasheet_file": "ADG-X_AdNano Technologies Pvt. Ltd..pdf",
+  "datasheet_text": "ADG-X\nGraphene -X\nComposite Grade\nThis few layers Graphene used as\na reinforcing ﬁller in composite\nmaterials due to its exceptional\nmechanical, electrical, thermal\nand barrier properties. It enhances\nthe performance of composite\nat a very low cost on matrix.\nTHICK: ~5-10 nm\n+91 82967 34214/15\nwww.ad-nanotech.com\ninfo@ad-nanotech.com\nAdNano Technologies Pvt. Ltd.,\n#31L, 2nd Cross, KIADB Machanahalli Industrial Area,\nShivamogga - 577 222, Karnataka, INDIA\n~1 Gram\nPRODUCT\nFEATURES\n4 When incorporated into a composite material, this few layer graphene\ncan signiﬁcantly increase its tensile strength, toughness, and\nstiffness, leading to enhanced structural performance.\n4 Its high electrical conductivity allows it to act as a conductive ﬁller in\ncomposites, improving their electrical properties.\n4 It can facilitate the eﬃcient transfer of heat, resulting in enhanced\nthermal conductivity and heat dissipation capabilities.\n4 When incorporated into composites, it can enhance their barrier\nproperties, preventing the diffusion or permeation of substances.\n4 It can integrated into composites using various manufacturing\ntechniques, such as solution mixing, roll mixing and melt blending\nApplications\nAdvantages\nPurity: >99%\nThermoplatics ElastromersThermosets\nGraphene X\n(Composite Grade)\nNet Weight\nUsed to improve\nthe properties of\nAutomobile components\nElectronics and Electrical\nAs an additive for\nComposites\nEmail: info@ad-nanotech.com Tele: +91 8296734214 www.ad-nanotech.com\nDISCLAIMER\nThe values are typical and are for very general guidance and must not be used as a basis for specifications as concrete. Info rmation\ncontained in this publication, and otherwise supplied to users, is based on our general experience and is given in good fai th, but we are\nunable to accept responsibility in respect of factors which are outside our knowledge or control. No warranty, either expressed or implied,\nis hereby made. The recommended industrial hygiene and safe handling procedures are believed to be generally applicable. Please refer to\nMSDS of respective product for safe use.\nADG - X DESCRIPTION\nP U RI T Y >9 9 %\nP A R T I C L E S I Z E D 5 0: < 2 0µ\nT H I C K N E S S 5 - 10 nm\nB U L K D E N S I T Y ~ 0 . 11 g / c m3\nP H Y S I C A L F O RM P O W D E R\nC O L O U R B L A C K\nS U R F A C E A RE A ~ 70 - 120 m 2 /g\nC A S N O . 1 0 3 4 3 4 3- 98 - 0\nTECHNICAL\nDATA SHEET\nSPECIFICATION",
+  "corrections": [],
+  "source_row": 28
+ },
+ {
+  "key": "adnano_technologies_pvt_ltd__adg_d",
+  "company": "AdNano Technologies Pvt. Ltd.",
+  "product": "ADG-D",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Composites, Cement, Paints and Coating, Conductive Ink, Tyre, Anti-corrosion",
+  "application_tags": [
+   "conductive_inks",
+   "polymer_composites",
+   "elastomers_rubber_tyre",
+   "coatings_paints",
+   "anticorrosion",
+   "concrete_cement",
+   "sensors_electronics"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 1.0,
+    "high": 2.0,
+    "text": "1-2"
+   },
+   "layers": {
+    "low": 15.0,
+    "high": 30.0,
+    "text": "15-30"
+   },
+   "bet_m2_g": {
+    "low": 110.0,
+    "high": 110.0,
+    "text": "110"
+   },
+   "carbon_purity_pct": {
+    "low": 99.0,
+    "high": null,
+    "text": ">99"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.166,
+    "high": 0.166,
+    "text": "0.166"
+   }
+  },
+  "datasheet_url": "https://www.ad-nanotech.com/",
+  "datasheet_file": "ADG-D_AdNano Technologies Pvt. Ltd..pdf",
+  "datasheet_text": "ADG-D\nGraphene - D\nIndustrial Grade\nWe Produce industrial grade\nGraphene (ADG-D)nanoplatelets\nin bulk quantity by chemical\nexfoliation methods and further\ntreat it for puriﬁcation with multiple\nquality checks.\nTHICK: ~5-10 nm\n+91 82967 34214/15\nwww.ad-nanotech.com\ninfo@ad-nanotech.com\nAdNano Technologies Pvt. Ltd.,\n#31L, 2nd Cross, KIADB Machanahalli Industrial Area,\nShivamogga - 577 222, Karnataka, INDIA\n~1 Gram\nPRODUCT\nFEATURES\n4 Improves Electrical, Thermal conductivity and Mechanical stability\n4 Used to improve the properties of Polymer\n4 Used to improve the properties of Paints and Coatings\n4 Good Mechanical, Electrical, and Thermal properties\n4 Small addition will improve the properties of Matrix\nApplications\nAdvantages\nPurity: >99%ADG-D\nUsed to improve\nthe properties of\npolymers composite\nThermoplastics\nUsed to\nimprove the\nproperties of Tyres\nmake\nAdvance concrete\nAutomobile components\nAnti-corrosion\nUsed in\nPaints &\nCoatings\ndispersions\nand inks\nSolar panels\nGraphene D\n(Industrial Grade)\nNet Weight\nEmail: info@ad-nanotech.com Tele: +91 8296734214 www.ad-nanotech.com\nDISCLAIMER\nThe values are typical and are for very general guidance and must not be used as a basis for specifications as concrete. Info rmation\ncontained in this publication, and otherwise supplied to users, is based on our general experience and is given in good fai th, but we are\nunable to accept responsibility in respect of factors which are outside our knowledge or control. No warranty, either expressed or implied,\nis hereby made. The recommended industrial hygiene and safe handling procedures are believed to be generally applicable. Please refer to\nMSDS of respective product for safe use.\nADG - D DESCRIPTION\nP U R I T Y > 99%\nP A R T I C L E S I Z E D 5 0 : < 1 - 2 µ m\nT H I C K N E S S 5 - 10 nm\nB U L K D E N S I T Y 0. 166 g / cm 3\nP H Y S I C A L F O R M P O W D E R\nC O L O U R G R E Y I S H B L A C K\nS U R F A C E A R E A ~ 11 0 m 2 /g\nC A S N O . 1 0 3 4 3 4 3- 98 - 0\nTECHNICAL\nDATA SHEET\nSPECIFICATION",
+  "corrections": [],
+  "source_row": 29
+ },
+ {
+  "key": "cheap_tubes_inc__industrial_grade_graphene_nanoplatelets",
+  "company": "Cheap Tubes Inc.",
+  "product": "Industrial Grade Graphene Nanoplatelets",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "electrically conductive and thermally conductive polymer composites, protective and barrier coatings, concrete and cementitious composites, and thermal management formulations",
+  "application_tags": [
+   "polymer_composites",
+   "coatings_paints",
+   "anticorrosion",
+   "concrete_cement",
+   "thermal_management",
+   "emi_shielding"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 1.0,
+    "text": "0.5-1"
+   },
+   "layers": {
+    "low": 6.0,
+    "high": 10.0,
+    "text": "6-10"
+   },
+   "carbon_purity_pct": {
+    "low": 97.0,
+    "high": null,
+    "text": ">97"
+   },
+   "oxygen_pct": {
+    "low": null,
+    "high": 1.0,
+    "text": "<1"
+   },
+   "impurities_pct": {
+    "low": null,
+    "high": 3.0,
+    "text": "<3"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.2,
+    "high": 0.3,
+    "text": "0.2-0.3"
+   }
+  },
+  "datasheet_url": "https://www.cheaptubes.com/product/industrial-grade-graphene-nanoplatelets-6-10-layer-0-5-1um/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [
+   {
+    "field": "lateral_size_um",
+    "value": "0.5-1",
+    "reason": "Product page title: 6-10 layer, 0.5-1 um; the sheet had the two columns swapped"
+   },
+   {
+    "field": "layers",
+    "value": "6-10",
+    "reason": "Product page title: 6-10 layer, 0.5-1 um; the sheet had the two columns swapped"
+   }
+  ],
+  "source_row": 30
+ },
+ {
+  "key": "cheap_tubes_inc__graphene_nanoparticles_conductive_additive",
+  "company": "Cheap Tubes Inc.",
+  "product": "Graphene Nanoparticles Conductive Additive",
+  "form": "powder",
+  "synthesis": "Exfoliation",
+  "applications_text": "conductive inks, polymers, concrete, batteries, sensors, fuel cells",
+  "application_tags": [
+   "conductive_inks",
+   "concrete_cement",
+   "batteries",
+   "sensors_electronics"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.05,
+    "high": 0.1,
+    "text": "0.05-0.1"
+   },
+   "layers": {
+    "low": 10.0,
+    "high": 30.0,
+    "text": "10-30"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98"
+   }
+  },
+  "datasheet_url": "https://www.cheaptubes.com/product/graphene-nanoparticles-conductive-additive/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 31
+ },
+ {
+  "key": "nanografi__ng01gnp0109",
+  "company": "NanoGrafi",
+  "product": "NG01GNP0109",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Composites, Anti-corrosion coatings, Cement, Paints and Coating, Conductive Ink",
+  "application_tags": [
+   "conductive_inks",
+   "polymer_composites",
+   "coatings_paints",
+   "anticorrosion",
+   "concrete_cement"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 1.5,
+    "high": 1.5,
+    "text": "1.5"
+   },
+   "layers": {
+    "low": 9.0,
+    "high": 9.0,
+    "text": "9"
+   },
+   "bet_m2_g": {
+    "low": 800.0,
+    "high": 800.0,
+    "text": "800"
+   },
+   "carbon_purity_pct": {
+    "low": 99.9,
+    "high": 99.9,
+    "text": "99.9"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 1500.0,
+    "high": 1980.0,
+    "text": "1500-1980"
+   },
+   "id_ig": {
+    "low": 0.18,
+    "high": 0.18,
+    "text": "0.18"
+   }
+  },
+  "datasheet_url": "https://shop.nanografi.com/graphene/graphene-nanoplatelet-purity-99-9-size-3-nm-s-a-800-m2-g-dia-1-5-m/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 32
+ },
+ {
+  "key": "nanografi__ng01gnp0101_3",
+  "company": "NanoGrafi",
+  "product": "NG01GNP0101 - 3",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Composites, Anti-corrosion coatings, Cement, Paints and Coating, Conductive Ink",
+  "application_tags": [
+   "conductive_inks",
+   "polymer_composites",
+   "coatings_paints",
+   "anticorrosion",
+   "concrete_cement"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 7.0,
+    "high": 30.0,
+    "text": "7-30"
+   },
+   "layers": {
+    "low": 15.0,
+    "high": 15.0,
+    "text": "15"
+   },
+   "bet_m2_g": {
+    "low": 135.0,
+    "high": 135.0,
+    "text": "135"
+   },
+   "carbon_purity_pct": {
+    "low": 99.9,
+    "high": null,
+    "text": ">99.9"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 1100.0,
+    "high": 1600.0,
+    "text": "1100-1600"
+   },
+   "id_ig": {
+    "low": 0.18,
+    "high": 0.18,
+    "text": "0.18"
+   }
+  },
+  "datasheet_url": "https://shop.nanografi.com/graphene/graphene-nanoplatelet-purity-99-9-size-5-nm-s-a-135-m2-g-dia-30-m/",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 33
+ },
+ {
+  "key": "matexcel__gra_357",
+  "company": "Matexcel",
+  "product": "GRA-357",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Supercapacitor",
+  "application_tags": [
+   "supercapacitors"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.5,
+    "high": 10.0,
+    "text": "0.5-10"
+   },
+   "layers": {
+    "low": 12.0,
+    "high": 12.0,
+    "text": "12"
+   },
+   "bet_m2_g": {
+    "low": 470.0,
+    "high": 470.0,
+    "text": "470"
+   },
+   "carbon_purity_pct": {
+    "low": 77.0,
+    "high": 77.0,
+    "text": "77"
+   },
+   "oxygen_pct": {
+    "low": 20.0,
+    "high": 20.0,
+    "text": "20"
+   },
+   "impurities_pct": {
+    "low": null,
+    "high": 3.0,
+    "text": "<3"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 300.0,
+    "high": 300.0,
+    "text": "300"
+   }
+  },
+  "datasheet_url": "https://www.matexcel.com/capacitance-type-graphene-item-673.html",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [
+   {
+    "field": "bulk_density_g_cm3",
+    "value": null,
+    "reason": "Sheet value 7.7 g/cm3 exceeds graphite density (2.26); dropped as unphysical"
+   }
+  ],
+  "source_row": 34
+ },
+ {
+  "key": "matexcel__gra_350",
+  "company": "Matexcel",
+  "product": "GRA-350",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Composite",
+  "application_tags": [
+   "polymer_composites"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.1,
+    "high": 0.8,
+    "text": "0.1-0.8"
+   },
+   "layers": {
+    "low": 30.0,
+    "high": 30.0,
+    "text": "30"
+   },
+   "bet_m2_g": {
+    "low": 100.0,
+    "high": 100.0,
+    "text": "100"
+   },
+   "carbon_purity_pct": {
+    "low": 95.0,
+    "high": 95.0,
+    "text": "95"
+   },
+   "oxygen_pct": {
+    "low": 3.0,
+    "high": 3.0,
+    "text": "3"
+   },
+   "impurities_pct": {
+    "low": null,
+    "high": 2.0,
+    "text": "<2"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 15000.0,
+    "high": null,
+    "text": ">15000"
+   }
+  },
+  "datasheet_url": "https://www.matexcel.com/composite-type-graphene-item-666.html",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [
+   {
+    "field": "lateral_size_um",
+    "value": "0.1-0.8",
+    "reason": "Sheet typo '01-0.8'"
+   }
+  ],
+  "source_row": 35
+ },
+ {
+  "key": "matexcel__gra_xt002",
+  "company": "Matexcel",
+  "product": "GRA-XT002",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Conductive ink, Heat dissipation paint, EMI shielding",
+  "application_tags": [
+   "conductive_inks",
+   "coatings_paints",
+   "thermal_management",
+   "emi_shielding"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": null,
+    "high": 1.0,
+    "text": "<1"
+   },
+   "layers": {
+    "low": 5.0,
+    "high": 6.0,
+    "text": "5-6"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98"
+   },
+   "impurities_pct": {
+    "low": null,
+    "high": 2.0,
+    "text": "<2"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 200.0,
+    "high": null,
+    "text": ">200"
+   }
+  },
+  "datasheet_url": "https://www.matexcel.com/small-size-high-conductivitythermal-graphene-powder-item-1507.html",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 36
+ },
+ {
+  "key": "matexcel__gra_xt001",
+  "company": "Matexcel",
+  "product": "GRA-XT001",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Conductive ink, Heat dissipation paint, EMI shielding",
+  "application_tags": [
+   "conductive_inks",
+   "coatings_paints",
+   "thermal_management",
+   "emi_shielding"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 5.0,
+    "high": 15.0,
+    "text": "5-15"
+   },
+   "layers": {
+    "low": 5.0,
+    "high": 6.0,
+    "text": "5-6"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98"
+   },
+   "impurities_pct": {
+    "low": null,
+    "high": 2.0,
+    "text": "<2"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 600.0,
+    "high": null,
+    "text": ">600"
+   }
+  },
+  "datasheet_url": "https://www.matexcel.com/highly-conductivethermal-graphene-powder-item-1506.html",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 37
+ },
+ {
+  "key": "matexcel__gra_415",
+  "company": "Matexcel",
+  "product": "GRA-415",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Composite",
+  "application_tags": [
+   "polymer_composites"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 5.0,
+    "high": 50.0,
+    "text": "5-50"
+   },
+   "layers": {
+    "low": 20.0,
+    "high": 20.0,
+    "text": "20"
+   },
+   "bet_m2_g": {
+    "low": 100.0,
+    "high": 300.0,
+    "text": "100-300"
+   },
+   "carbon_purity_pct": {
+    "low": 98.0,
+    "high": null,
+    "text": ">98"
+   },
+   "oxygen_pct": {
+    "low": 0.5,
+    "high": 0.5,
+    "text": "0.5"
+   },
+   "impurities_pct": {
+    "low": null,
+    "high": 1.5,
+    "text": "<1.5"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 100000.0,
+    "high": 100000.0,
+    "text": "100000"
+   }
+  },
+  "datasheet_url": "https://www.matexcel.com/multilayer-graphene-powder-item-879.html",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 38
+ },
+ {
+  "key": "matexcel__gra_270",
+  "company": "Matexcel",
+  "product": "GRA-270",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Highly Conductive Graphene",
+  "application_tags": [
+   "conductive_inks"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 5.0,
+    "high": 45.0,
+    "text": "5-45"
+   },
+   "layers": {
+    "low": 15.0,
+    "high": 15.0,
+    "text": "15"
+   },
+   "bet_m2_g": {
+    "low": 24.0,
+    "high": 24.0,
+    "text": "24"
+   },
+   "carbon_purity_pct": {
+    "low": 95.0,
+    "high": 95.0,
+    "text": "95"
+   },
+   "oxygen_pct": {
+    "low": 3.0,
+    "high": 3.0,
+    "text": "3"
+   },
+   "impurities_pct": {
+    "low": null,
+    "high": 2.0,
+    "text": "<2"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 100000.0,
+    "high": null,
+    "text": ">100000"
+   }
+  },
+  "datasheet_url": "https://www.matexcel.com/highly-conductive-graphene-item-665.html",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 39
+ },
+ {
+  "key": "matexcel__gra_319",
+  "company": "Matexcel",
+  "product": "GRA-319",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Composite, electrical conductivity, lubricity, corrosion resistance , and thermostability",
+  "application_tags": [
+   "polymer_composites",
+   "anticorrosion",
+   "emi_shielding",
+   "lubricants"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 5.0,
+    "high": 10.0,
+    "text": "5-10"
+   },
+   "layers": {
+    "low": 60.0,
+    "high": 60.0,
+    "text": "60"
+   },
+   "carbon_purity_pct": {
+    "low": 99.5,
+    "high": null,
+    "text": ">99.5"
+   },
+   "impurities_pct": {
+    "low": null,
+    "high": 0.5,
+    "text": "<0.5"
+   },
+   "bulk_density_g_cm3": {
+    "low": 0.6,
+    "high": 0.6,
+    "text": "0.6"
+   }
+  },
+  "datasheet_url": "https://www.matexcel.com/graphene-nanoplatelet-item-635.html",
+  "datasheet_file": null,
+  "datasheet_text": null,
+  "corrections": [],
+  "source_row": 40
+ },
+ {
+  "key": "gtechplasma__graphene_nanosheets",
+  "company": "GTechPlasma",
+  "product": "Graphene Nanosheets",
+  "form": "powder",
+  "synthesis": null,
+  "applications_text": "Energy storage (batteries, supercapacitors), electronics, electromagnetic shielding, sensors, catalysis, advanced composite materials",
+  "application_tags": [
+   "polymer_composites",
+   "batteries",
+   "supercapacitors",
+   "emi_shielding",
+   "sensors_electronics"
+  ],
+  "specs": {
+   "lateral_size_um": {
+    "low": 0.45,
+    "high": 0.45,
+    "text": "0.45"
+   },
+   "layers": {
+    "low": null,
+    "high": 3.0,
+    "text": "<3"
+   },
+   "bet_m2_g": {
+    "low": 400.0,
+    "high": null,
+    "text": ">400"
+   },
+   "carbon_purity_pct": {
+    "low": 99.0,
+    "high": null,
+    "text": ">99"
+   },
+   "oxygen_pct": {
+    "low": 1.0,
+    "high": 1.0,
+    "text": "1"
+   },
+   "electrical_conductivity_s_m": {
+    "low": 3500.0,
+    "high": null,
+    "text": ">3500"
+   },
+   "id_ig": {
+    "low": 0.9,
+    "high": 0.9,
+    "text": "0.9"
+   }
+  },
+  "datasheet_url": "https://gtechplasma.com/",
+  "datasheet_file": "GTechPlasma_Graphene Nanosheets_TDS.pdf",
+  "datasheet_text": "Graphene\nNanosheets\nTechnical Data Sheet\nUnlocking Graphene’s\nFull Potential\ngtechplasma.com\nSupply Form - Powder\n*1 gr graphene powder\nOur proprietary microwave plasma technology enables the continuous, one-step\nsynthesis of high-quality graphene.\nThe technology offers unprecedented control over the material structure and\ncomposition, producing graphene with an oxygen content below 1%, a high sp²/sp³\ncarbon ratio, and nearly 40% single-layer graphene sheets with lateral dimensions of\naround 0.5 μm.\nThe synthesized materials exhibit a high specific surface area and excellent\nelectrical conductivity exceeding 3000 S m ⁻ ¹, making them ideally suited for\ndemanding applications in energy storage, electronics, electromagnetic shielding,\nsensors, catalysis, and advanced composite materials.\nThickness [nm]\nAverage size [nm]\nOxygen [%]\nsp carbons [%]3\nConductivity [S/m]\nSpecific Surface area [m2/g]\nMonolayer sheets [%]\n≤ 1\n~450\n~ 1\n< 10\n> 3500\n> 400\n> 40\nValueGraphene Nanosheets Characterization\nUnlocking Graphene’s Full Potential\nGraphene Characterization\n& Techniques\nLabRAM HR Visible (Horiba Jobin-Yvon) Raman spectrometer\nat 633 nm, with 5 cm-1 spectral resolution and a laser spot-size\nof 2mm.\nMeasurements were performed with a laser power\nP = 0.054 mW to avoid overheating.\nRaman spectra are collected from different locations of the\nsample under analysis.\nRaman Spectroscopy\nDynamic light scattering (DLS)\nSEM characterization of the\nsamples has been performed\nby a JEOL, JSM-7001F field\nemission gun scanning\nelectron microscope operating\nin secondary electron imaging\nmode (SEI) using 15kV\naccelerating voltage.\nScanning Electron Microscopy (SEM)\nSecondary electron images with different magnification of\ngraphene nanosheets as synthesized.\nSize distribution of the sheets as\nobtained by Zetasizer Nano\nPercentage of number of atomic\nmonolayers per nanosheets\nThe nanosheets were characterized by a HRTEM JEOL JEM-2010F, operating at\n200 kV accelerating voltage.\nX-ray photoelectron spectra of graphene were obtained with a KRATOS XSAM800\nX-ray spectrometer with a double anode (Mg/Al), operating in Fixed Analyzer\nTransmission mode, with a pass energy of 20 eV and non-monochromatic Mg Kα\nX-radiation (1253.6 eV), produced with a power of 120 W (12 kV x 10 mA).\nHigh Resolution Transmission Electron Microscopy (HRTEM)\nX-ray Photoelectron Spectroscopy (XPS)\nContact us:\n(+351) 96 29 61 061\nLisbon, Portugal\ninfo@gtechplasma.com\nwww.gtechplasma.com\nLinkedIn@gtechplasma\nAbout GTechPlasma\nWe produce customized high-quality\ngraphene-based materials with enhanced\nproperties using an innovative, versatile,\ncost-effective and environmentally\nfriendly plasma technology.\nThe technology behind GTechPlasma has\nbeen published in a peer-reviewed\nscientific journal:\nGraphene scientific publication\n(Reference: Graph_GTP01):\n\"Plasma-enabled multifunctional platform\nfor gram-scale production of graphene\nand derivatives\"\nApplied Materials Today, Vol. 36 (2024),\nArticle 102056\nDOI: 10.1016/j.apmt.2024.102056",
+  "corrections": [
+   {
+    "field": "lateral_size_um",
+    "value": "0.45",
+    "reason": "Datasheet: average size ~450 nm (DLS)"
+   },
+   {
+    "field": "oxygen_pct",
+    "value": "1",
+    "reason": "Datasheet: oxygen ~1%"
+   }
+  ],
+  "source_row": 41
+ }
+]

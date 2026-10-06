@@ -8,7 +8,7 @@ from fastapi.staticfiles import StaticFiles
 
 from app import db as db_module
 from app.config import get_settings
-from app.routers import analysis, auth, reference, samples, spectra
+from app.routers import analysis, auth, reference, samples, spectra, tds
 
 
 @asynccontextmanager
@@ -46,6 +46,7 @@ app.include_router(samples.router)
 app.include_router(spectra.router)
 app.include_router(analysis.router)
 app.include_router(reference.router)
+app.include_router(tds.router)
 
 
 @app.get("/api/health", tags=["health"])

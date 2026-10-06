@@ -21,6 +21,32 @@ from app.config import get_settings
 from app.db import DatabaseUnavailable, connect, disconnect
 
 DATA_DIR = Path(__file__).parent / "data"
+TDS_PDF_DIR = DATA_DIR / "tds_pdfs"
+
+# The application database is compiled from the market survey workbook and
+# the vendor datasheets by scripts/build_application_database.py.
+APPLICATION_DB_PROVENANCE = {
+    "source": "Graphene Application Database (vendor survey, Sept 2026) cross-read against vendor TDS PDFs",
+    "doi": None,
+    "url": None,
+    "version": "2026.09",
+    "licence": "Public vendor technical literature, quoted for comparison",
+    "retrieved": "2026-09-29",
+    "note": (
+        "Nominal grade values as quoted by each vendor; where the datasheet and "
+        "the survey sheet disagreed the datasheet was used and the override is "
+        "recorded on the product under `corrections`."
+    ),
+}
+MARKET_PROVENANCE = {
+    "source": "Supplementary Tables S1/S2 of 'From production to market: challenges and opportunities of graphene-related materials'",
+    "doi": None,
+    "url": None,
+    "version": "2026.04",
+    "licence": "Open-access supplementary data, quoted for comparison",
+    "retrieved": "2026-09-29",
+    "note": "Best-effort numeric extraction; cells with garbled units were dropped.",
+}
 
 # Producer specs are compiled by hand from public datasheets. They are nominal
 # grade values, not batch certificates, and vendors revise them without notice.
@@ -130,6 +156,20 @@ async def seed(db: AsyncIOMotorDatabase) -> dict[str, tuple[int, int]]:
     summary["commercial_products"] = await _upsert_all(db, "commercial_products", products)
 
     summary["applications"] = await _upsert_all(db, "applications", _load("applications.json"))
+
+    summary["application_taxonomy"] = await _upsert_all(
+        db, "application_taxonomy", _load("application_taxonomy.json")
+    )
+    application_products = _load("application_products.json")
+    for record in application_products:
+        record.setdefault("provenance", APPLICATION_DB_PROVENANCE)
+    summary["application_products"] = await _upsert_all(
+        db, "application_products", application_products
+    )
+    market = _load("market_reference.json")
+    for record in market:
+        record.setdefault("provenance", MARKET_PROVENANCE)
+    summary["market_reference"] = await _upsert_all(db, "market_reference", market)
     return summary
 
 
